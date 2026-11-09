@@ -1,0 +1,22 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>节奏与小节验收 · LOW END LAB</title>
+<style>body{background:#111715;color:#edf3e9;font:15px/1.8 "Microsoft YaHei",sans-serif;max-width:1100px;margin:40px auto;padding:0 20px}a{color:#d5f58b}h1{font-size:26px}h2{font-size:20px}p{color:#b9c6b8}.table{overflow:auto}table{border-collapse:collapse;min-width:800px;width:100%}th,td{padding:12px;text-align:left;border-bottom:1px solid #35433a}th{color:#d5f58b}.notice{background:#25301f;padding:16px;border-left:3px solid #d5f58b}</style>
+<a href="/#analysis">← 回到工作台</a> · <a href="index.html">BTC 原评测</a>
+<h1>长音频节奏、小节与按拍和弦 · v0.6</h1>
+<p class="notice">这里是可复现的合成回归测试，不是真实歌曲准确率。Beat This! 与 BTC 权重没有改变。每小节拍数由生成谱提供；人工指定首拍的结果单列，不计作自动识别。</p>
+<h2>3–4 分钟实际神经网络推理</h2><div class="table"><table><thead><tr><th>素材</th><th>时长</th><th>拍点 F1（±70ms）</th><th>95% 时间误差</th><th>自动分组强拍 F1</th><th>指定首拍后强拍 F1</th><th>拍序错位</th></tr></thead><tbody id="rhythm"></tbody></table></div>
+<p>三拍 swing 的自动首拍相位错误，时间稳定仍不代表小节起点正确。请回听第一拍，再锁定节奏。每段均出现一个参考范围外的尾部拍点，F1 未达到 100%。</p>
+<h2>固定速度拟合与变速保护</h2><ul id="fit"></ul>
+<h2>按拍和弦对照</h2><p>24 秒独立生成谱，已知 120 BPM 与 4 拍分组作为输入，包含半拍提前换和弦、跨小节延续及静音。此项隔离评估和弦聚合，不是完整自动识别流程。</p>
+<div class="table"><table><thead><tr><th>方式</th><th>时长标签正确率</th><th>换和弦边界精确率</th><th>换和弦边界召回率</th></tr></thead><tbody id="harmony"></tbody></table></div>
+<p>边界容差为 ±0.2 秒。按拍聚合存在收益与漏检的取舍，因此只作为可撤销候选；半拍网格不能覆盖全部三连音、swing 和自由速度变化，原始时间轴保留。</p>
+<p>浏览器已验证：实际 240 秒 WAV 在 1× / 0.5× 下跳转到 1、60、120、180、238 秒，媒体时钟与小节拍位一致；保存、撤销、过期版本拒绝与移动端布局通过。该检查不等于完整连续播放四分钟的设备延迟测量。</p>
+<p><a href="rhythm-long-report.json">长音频原始报告</a> · <a href="harmony-grid-report.json">和弦聚合原始报告</a></p><p id="error"></p>
+<script>
+const pct=x=>x===null?'—':(x*100).toFixed(2)+'%';
+function row(id,values){const tr=document.createElement('tr');for(const value of values){const td=document.createElement('td');td.textContent=value;tr.append(td);}document.getElementById(id).append(tr);}
+(async()=>{const r=await(await fetch('rhythm-long-report.json')).json(),h=await(await fetch('harmony-grid-report.json')).json();
+const names={steady:'固定速度 / 4 拍',variable:'渐变速度 / 4 拍',triple_swing:'swing / 3 拍'};
+for(const x of r.rows){row('rhythm',[names[x.kind],x.durationSec+' 秒',pct(x.repaired.f1At70ms),x.repaired.p95AbsoluteErrorMs.toFixed(2)+' ms',pct(x.groupedDownbeats.f1At70ms),pct(x.assistedFirstBeatGiven.f1At70ms),x.repaired.matchedBeatIndexErrors]);const li=document.createElement('li');li.textContent=names[x.kind]+'：'+(x.fit?'拟合 '+x.fit.bpm.toFixed(4)+' BPM，95% 时间误差 '+x.steadyFit.p95AbsoluteErrorMs.toFixed(2)+' ms。':x.steadyFitRejected);document.getElementById('fit').append(li);}
+for(const [name,x] of [['原始 BTC v2',h.baseline],['按拍聚合候选',h.beatCells]])row('harmony',[name,pct(x.weightedAccuracy),pct(x.boundaryPrecision),pct(x.boundaryRecall)]);
+})().catch(()=>document.getElementById('error').textContent='报告加载失败，请从本机服务打开。');
+</script></html>

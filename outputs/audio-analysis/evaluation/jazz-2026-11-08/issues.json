@@ -1,0 +1,12 @@
+{
+  "baseline": "v0.6.2",
+  "scope": "evaluation only; no production algorithm changes",
+  "issues": [
+    {"id":"JAZZ-001","priority":"P0","title":"局部解码无可行路径导致整首稳定候选失败","track":"Elevator Ride","timeRangeSec":[12.04,14.04],"evidence":"decoder-failure.json","cause":"持续未知屏障之后只剩半拍，中等分数的 G7 未达到短分段阈值；实现没有强制 X 回退路径，动态规划最终状态不可达。","acceptanceForFix":"该片段必须返回覆盖完整、可解释的候选或 X；任意单小节无法解码不应中断其他小节。"},
+    {"id":"JAZZ-002","priority":"P0","title":"少数局部拍点异常阻断全曲学习建议","tracks":["Snap Along","Fireside Date","Fancy Party"],"cause":"全局异常列表非空即拒绝整首稳定解码。Fireside Date 的异常集中在 135.82 秒之后，但前面超过两分钟也没有学习卡。","acceptanceForFix":"按可信区间降级，保留正常区间学习建议；异常区间标明节奏暂不确定且不猜音高。"},
+    {"id":"JAZZ-003","priority":"P1","title":"头部静音仍输出拍点和小节","track":"Elevator Ride","timeRangeSec":[0,2],"evidence":"真实样本近静音头部有 4 个拍点；精确静音控制样本同样产生 3/4 个拍点。","acceptanceForFix":"使用音频活动范围约束拍点，不把无音乐的静音误编为音乐小节；区分真正弱起、休止与自由尾音。"},
+    {"id":"JAZZ-004","priority":"P1","title":"拍层/强拍判断不稳定，当前异常修复可能追随错误拍层","tracks":["Snap Along","Fancy Party","Big Band"],"cause":"不同拍间距和强拍分组竞争；Snap Along 有 27 处异常和 34 个强拍冲突，Fancy Party 有 16 处异常和 28 个冲突。Big Band 拍数未确定。","acceptanceForFix":"在独立标注爵士素材上评估 beat/downbeat、半速倍速与持续拍层一致性，不能只用异常数量降低证明改进。"},
+    {"id":"JAZZ-005","priority":"P1","title":"变拍号时间轴未实现","evidence":"API/前端只存一个全曲 beatsPerBar，4→3 控制素材无转换输出。","acceptanceForFix":"支持分段拍号/拍单位及首拍锚点，在已知转换时刻素材上验证前后小节编号。"},
+    {"id":"JAZZ-006","priority":"P1","title":"持续爵士和声与 walking bass 的识别不稳定","evidence":"harmony-control.json","cause":"32 秒恒定 Cmaj7 合成和声下，原始音乐区间正确率 22.64%，结构化 44.53%，多数小节仍有 X；真实样本尚无人工和弦真值。","acceptanceForFix":"独立标注固定和声、扩展和弦与经过低音素材，分别评估根音、和弦性质、覆盖率与误报；避免只靠平滑输出变得稳定但错误的结果。"}
+  ]
+}

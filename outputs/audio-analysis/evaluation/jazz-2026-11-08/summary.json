@@ -1,0 +1,28 @@
+{
+  "baseline": "0.6.2",
+  "overall": "FAIL",
+  "tracks": 5,
+  "decodedDurationSec": 610.38334,
+  "rawRuns": 10,
+  "rawInferenceCompleted": 5,
+  "repeatExactlyMatched": 5,
+  "stableDecoderCompleted": 0,
+  "browserLearningCards": 0,
+  "frozenCodeUnchanged": true,
+  "originalProjectUnchanged": true,
+  "cloudCalls": 0,
+  "referenceRealTracks": 0,
+  "independentAnnotationWindowsPrepared": 25,
+  "knownControlFixtures": 3,
+  "verdicts": {
+    "raw_execution": "PASS",
+    "repeatability": "PASS",
+    "raw_interval_coverage": "PASS",
+    "complete_learning_pipeline": "FAIL",
+    "silence_no_hallucinated_beats": "FAIL",
+    "meter_change": "FAIL_NOT_IMPLEMENTED",
+    "true_jazz_beat_accuracy": "UNVERIFIED",
+    "true_jazz_chord_accuracy": "UNVERIFIED",
+    "constant_harmony_control": "FAIL"
+  }
+}

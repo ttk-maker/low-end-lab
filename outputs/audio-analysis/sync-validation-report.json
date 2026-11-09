@@ -1,0 +1,302 @@
+{
+  "version": "0.3.2",
+  "analysisEngineVersion": "0.3.1",
+  "date": "2026-11-08",
+  "status": "passed",
+  "onsetDiagnostic": {
+    "method": "nearest positive spectral flux peak within 140 ms, 1024 FFT / 128 hop; acoustic diagnostic, not beat ground truth",
+    "bpmBeatMs": 460.0,
+    "matched": 37,
+    "medianLateMs": 7.1,
+    "pairs": [
+      {
+        "beat": 0.02,
+        "nearestTransient": 0.0232,
+        "lateMs": -3.2
+      },
+      {
+        "beat": 0.5,
+        "nearestTransient": 0.4963,
+        "lateMs": 3.7
+      },
+      {
+        "beat": 0.96,
+        "nearestTransient": 0.9491,
+        "lateMs": 10.9
+      },
+      {
+        "beat": 1.42,
+        "nearestTransient": 1.4135,
+        "lateMs": 6.5
+      },
+      {
+        "beat": 1.88,
+        "nearestTransient": 1.8692,
+        "lateMs": 10.8
+      },
+      {
+        "beat": 2.34,
+        "nearestTransient": 2.3597,
+        "lateMs": -19.7
+      },
+      {
+        "beat": 2.8,
+        "nearestTransient": 2.7951,
+        "lateMs": 4.9
+      },
+      {
+        "beat": 3.28,
+        "nearestTransient": 3.2856,
+        "lateMs": -5.6
+      },
+      {
+        "beat": 3.72,
+        "nearestTransient": 3.7181,
+        "lateMs": 1.9
+      },
+      {
+        "beat": 4.2,
+        "nearestTransient": 4.1883,
+        "lateMs": 11.7
+      },
+      {
+        "beat": 4.66,
+        "nearestTransient": 4.6411,
+        "lateMs": 18.9
+      },
+      {
+        "beat": 5.12,
+        "nearestTransient": 5.0997,
+        "lateMs": 20.3
+      },
+      {
+        "beat": 5.58,
+        "nearestTransient": 5.5641,
+        "lateMs": 15.9
+      },
+      {
+        "beat": 6.04,
+        "nearestTransient": 6.0546,
+        "lateMs": -14.6
+      },
+      {
+        "beat": 6.5,
+        "nearestTransient": 6.4871,
+        "lateMs": 12.9
+      },
+      {
+        "beat": 6.96,
+        "nearestTransient": 6.9573,
+        "lateMs": 2.7
+      },
+      {
+        "beat": 7.42,
+        "nearestTransient": 7.4101,
+        "lateMs": 9.9
+      },
+      {
+        "beat": 7.9,
+        "nearestTransient": 7.8803,
+        "lateMs": 19.7
+      },
+      {
+        "beat": 8.34,
+        "nearestTransient": 8.3331,
+        "lateMs": 6.9
+      },
+      {
+        "beat": 8.82,
+        "nearestTransient": 8.8033,
+        "lateMs": 16.7
+      },
+      {
+        "beat": 9.26,
+        "nearestTransient": 9.2561,
+        "lateMs": 3.9
+      },
+      {
+        "beat": 9.74,
+        "nearestTransient": 9.7437,
+        "lateMs": -3.7
+      },
+      {
+        "beat": 10.2,
+        "nearestTransient": 10.179,
+        "lateMs": 21.0
+      },
+      {
+        "beat": 10.66,
+        "nearestTransient": 10.6696,
+        "lateMs": -9.6
+      },
+      {
+        "beat": 11.12,
+        "nearestTransient": 11.102,
+        "lateMs": 18.0
+      },
+      {
+        "beat": 11.58,
+        "nearestTransient": 11.5722,
+        "lateMs": 7.8
+      },
+      {
+        "beat": 12.04,
+        "nearestTransient": 12.025,
+        "lateMs": 15.0
+      },
+      {
+        "beat": 12.5,
+        "nearestTransient": 12.4865,
+        "lateMs": 13.5
+      },
+      {
+        "beat": 12.96,
+        "nearestTransient": 12.948,
+        "lateMs": 12.0
+      },
+      {
+        "beat": 13.42,
+        "nearestTransient": 13.4153,
+        "lateMs": 4.7
+      },
+      {
+        "beat": 13.88,
+        "nearestTransient": 13.871,
+        "lateMs": 9.0
+      },
+      {
+        "beat": 14.34,
+        "nearestTransient": 14.3586,
+        "lateMs": -18.6
+      },
+      {
+        "beat": 14.82,
+        "nearestTransient": 14.794,
+        "lateMs": 26.0
+      },
+      {
+        "beat": 15.28,
+        "nearestTransient": 15.2729,
+        "lateMs": 7.1
+      },
+      {
+        "beat": 15.74,
+        "nearestTransient": 15.8331,
+        "lateMs": -93.1
+      },
+      {
+        "beat": 16.2,
+        "nearestTransient": 16.1959,
+        "lateMs": 4.1
+      },
+      {
+        "beat": 16.66,
+        "nearestTransient": 16.6574,
+        "lateMs": 2.6
+      }
+    ]
+  },
+  "browserChecks": {
+    "status": "passed",
+    "checks": [
+      "clicks queued before deadlines at normal and half speed",
+      "pause cancels queue",
+      "seek and rate change rebuild queue",
+      "no clicks over undetected tail",
+      "display offset survives reload and resets",
+      "waveform is cached rather than resized each frame",
+      "desktop/mobile no overflow"
+    ],
+    "normalLeadMs": [
+      145.89600000000002,
+      128.0469999999999,
+      138.32500000000005,
+      148.34099999999984
+    ],
+    "halfSpeedLeadMs": [
+      139.91000000000042,
+      148.35800000000177
+    ],
+    "canvasResizesDuringPlayback": 0,
+    "pageErrors": []
+  },
+  "audioGraphCapture": {
+    "rawOnsets": [
+      0.5066666666666667,
+      1.016,
+      1.5066666666666666,
+      2.016,
+      2.506666666666667,
+      3.016,
+      3.517333333333333,
+      4.016,
+      4.506666666666667
+    ],
+    "clickOnsets": [
+      0.5173333333333333,
+      1.0053333333333334,
+      1.5066666666666666,
+      2.016,
+      2.506666666666667,
+      3.005333333333333,
+      3.517333333333333,
+      4.016,
+      4.517333333333333
+    ],
+    "deltasMs": [
+      10.666666666666602,
+      -10.666666666666602,
+      0,
+      0,
+      0,
+      -10.666666666666824,
+      0,
+      0,
+      10.66666666666638
+    ],
+    "schedules": [
+      {
+        "media": 0.350435,
+        "leadMs": 149.56500000000005
+      },
+      {
+        "media": 0.876553,
+        "leadMs": 123.44699999999997
+      },
+      {
+        "media": 1.35424,
+        "leadMs": 145.75999999999988
+      },
+      {
+        "media": 1.852981,
+        "leadMs": 147.019
+      },
+      {
+        "media": 2.37424,
+        "leadMs": 125.76000000000009
+      },
+      {
+        "media": 2.85373,
+        "leadMs": 146.2699999999999
+      },
+      {
+        "media": 3.351882,
+        "leadMs": 148.1180000000002
+      },
+      {
+        "media": 3.850759,
+        "leadMs": 149.24099999999996
+      },
+      {
+        "media": 4.350203,
+        "leadMs": 149.7970000000004
+      }
+    ]
+  },
+  "limits": [
+    "Nearest-transient matching is not beat ground truth.",
+    "No physical speaker/headphone/monitor latency measurement.",
+    "Full one-beat delay was not reproduced in headless Edge.",
+    "Audio graph recording uses 256-sample blocks and threshold onset detection, not sample-accurate verification."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "description": "真实曲目入口。未审核的标签不会计分；不得把模型候选复制为参考真值。",
+  "items": [
+    {
+      "id": "in-space-user-regression",
+      "audio": "../data/167ac00e7ef0cc0669cb/audio.mp3",
+      "split": "test",
+      "reviewed": false,
+      "reviewer": null,
+      "rights": "用户提供本地分析；不代表获得公开再分发许可",
+      "reference": [],
+      "note": "用户确认节拍已准确、约16秒后无可听音乐；没有人工和弦真值，不进入和弦准确率计算。"
+    }
+  ]
+}

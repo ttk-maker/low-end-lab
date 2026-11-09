@@ -1,0 +1,136 @@
+{
+  "version": "0.4",
+  "date": "2026-11-08",
+  "developmentOrder": [
+    "1: real BTC chord timeline validated",
+    "2: correction and fretboard validated",
+    "3: deterministic theory validated",
+    "4: user chose unconfigured question entry"
+  ],
+  "step1": {
+    "status": "passed",
+    "actualAudio": {
+      "events": 25,
+      "frames": 256,
+      "seconds": 18.91
+    },
+    "syntheticEvents": [
+      {
+        "id": "chord-1",
+        "startSec": 0.0,
+        "endSec": 3.99383,
+        "label": "C:maj",
+        "bassNote": null,
+        "status": "candidate",
+        "source": "BTC-ISMIR19",
+        "reason": "model",
+        "confidence": null
+      },
+      {
+        "id": "chord-2",
+        "startSec": 3.99383,
+        "endSec": 8.0,
+        "label": "D:min",
+        "bassNote": null,
+        "status": "candidate",
+        "source": "BTC-ISMIR19",
+        "reason": "model",
+        "confidence": null
+      }
+    ],
+    "silenceAbstains": true,
+    "cancellation": true,
+    "originalProjectUnchanged": true,
+    "validationRejectsGap": true
+  },
+  "step2": {
+    "status": "passed",
+    "checks": [
+      "current chord follows media time",
+      "unconfirmed chord gates fretboard",
+      "G/B separates root and bass",
+      "88 positions, correct G B D tones",
+      "boundary edit revokes confirmation",
+      "split merge undo",
+      "loop original audio",
+      "save reload independent revision",
+      "unsaved chord blocks project switch",
+      "409 conflict",
+      "responsive layouts"
+    ],
+    "pageErrors": []
+  },
+  "step3": {
+    "theoryCombinations": 168,
+    "status": "passed",
+    "browser": {
+      "status": "passed",
+      "checks": [
+        "Am7 interval explanation",
+        "G/B root-bass distinction",
+        "unconfirmed events abstain",
+        "dirty evidence export blocked",
+        "saved evidence export includes interval and sources",
+        "music model entry explicitly unconfigured"
+      ]
+    }
+  },
+  "priorAudioUIRegression": {
+    "status": "passed",
+    "checks": [
+      "supplied audio metadata and original source playback",
+      "real audio clock and beat highlight",
+      "selected range loop wraps",
+      "tail abstention displayed",
+      "new WAV uploaded and genuinely inferred",
+      "half/double beat grids and undo",
+      "split, rename, and move section boundary",
+      "annotation persisted without rewriting raw result",
+      "reload recovery",
+      "manual tempo grid and undo",
+      "stale revision conflict 409",
+      "cross-origin mutation rejected",
+      "MP3 byte-range seeking",
+      "1440/834/390 responsive layouts",
+      "existing 21-fret workspace retained"
+    ],
+    "testProjectId": "6c16a3da7abce1fff780",
+    "pageErrors": []
+  },
+  "playbackSyncRegression": {
+    "status": "passed",
+    "checks": [
+      "clicks queued before deadlines at normal and half speed",
+      "pause cancels queue",
+      "seek and rate change rebuild queue",
+      "no clicks over undetected tail",
+      "display offset survives reload and resets",
+      "waveform is cached rather than resized each frame",
+      "desktop/mobile no overflow"
+    ],
+    "normalLeadMs": [
+      137.24900000000002,
+      147.62699999999995,
+      137.09799999999996,
+      147.21099999999998
+    ],
+    "halfSpeedLeadMs": [
+      136.69399999999854,
+      146.59200000000183
+    ],
+    "canvasResizesDuringPlayback": 0,
+    "pageErrors": []
+  },
+  "fretboardAssertions": 100,
+  "pipCheck": "No broken requirements found.",
+  "preservation": {
+    "originalProjectSha256": "24e03388cb676164f326fe63690af60411bf05a69bca9f93afd35ab84b6c0f2f",
+    "originalProjectByteIdentical": true,
+    "separateChordFile": true,
+    "separateRevision": true
+  },
+  "musicLanguageModel": {
+    "connected": false,
+    "reason": "User chose local delivery and an unconfigured entry; no external credentials or audio upload."
+  }
+}

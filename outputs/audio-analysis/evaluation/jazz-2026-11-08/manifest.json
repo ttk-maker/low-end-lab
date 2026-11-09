@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-08",
+  "sourceUrl": "https://www.fesliyanstudios.com/zh/royalty-free-music/downloads-c/jazz-music/20",
+  "sourcePageFetch": "HTTP error; license terms not independently retrieved",
+  "codeSha256": {
+    "engine.py": "b20b477f1b17787e5c5f2cb3b522f54500027805197271fa542b024191c489fe",
+    "chords.py": "730547398fa007871dfb7d800a0f1c2d047b88bf5db67da49d75c5995e3bed2b",
+    "rhythm.py": "4fa675f92c56d81da5e88b1c456dbfefbfdb42e3bcfa20c54fa3156e1de4eabb",
+    "rhythm-grid.js": "7301534f4a839c34194deb476804ab8f5ad5500588a4a134a75c8e99dbd9139b",
+    "harmony-structure.js": "8acccc92f3c2e9ced7825c16cf2d2f00f70085aac6fb76c3515d5a616d4e1b63",
+    "qwen_coach.py": "2758bf84e9361a7ea2283b38d1bdf9ef9159a28d17d9b23bc52551a8ff9b6d57",
+    "server.py": "525155d8b2023b34929b30776998ddfb2af02ffcf075153612942e2f8dfe0411"
+  },
+  "audio": [
+    {
+      "file": "2019-05-03_-_Elevator_Ride_-_www.fesliyanstudios.com.mp3",
+      "durationSec": 136.1154375,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "4c8bbedc01d2f6b933cfd053e5fb8cf93f7bac6a965906c65933746b88cb331e"
+    },
+    {
+      "file": "2019-05-03_-_Snap_Along_-_David_Fesliyan.mp3",
+      "durationSec": 117.11616666666667,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "842a8d072a059d9d9e1280282e9ea24eda04b92c6fe2146f367e6b000ef01d81"
+    },
+    {
+      "file": "2019-05-10_-_Fireside_Date_-_www.fesliyanstudios.com.mp3",
+      "durationSec": 150.97264583333333,
+      "sampleRate": 48000,
+      "channels": 2,
+      "sha256": "2c6b0eafa85b83613259af076ee861fdc0b4f9bd574bbc82296d2067f49cec75"
+    },
+    {
+      "file": "2019-06-05_-_Big_Band_-_www.fesliyanstudios.com_-_David_Renda.mp3",
+      "durationSec": 118.01956916099773,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sha256": "e49b1e0b55775a672200f0ebf029f828cae0382e6899a7a4951424b057480fee"
+    },
+    {
+      "file": "2020-04-24_-_Fancy_Party_-_FesliyanStudios.com_-_Steve_Oaks.mp3",
+      "durationSec": 88.64,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sha256": "a3c2c10cea58ee46c75a9c4bed1bb707866ee981f9513d80aa4987dc11c3ca5d"
+    }
+  ]
+}

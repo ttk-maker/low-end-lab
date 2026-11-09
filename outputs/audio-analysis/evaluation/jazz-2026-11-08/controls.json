@@ -1,0 +1,220 @@
+{
+  "kind": "known-score synthetic controls, separate from real jazz",
+  "rows": [
+    {
+      "name": "swing_4",
+      "durationSec": 69.0,
+      "referenceMeterSequence": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "referenceChangeSec": null,
+      "beatMetrics": {
+        "count": 131,
+        "truthCount": 128,
+        "f1At70ms": 0.9884169884169884,
+        "p95AbsoluteErrorMs": 20.000000000003126,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 116,
+            "medianSignedErrorMs": 20.0
+          },
+          {
+            "startSec": 60,
+            "matched": 12,
+            "medianSignedErrorMs": 20.0
+          },
+          {
+            "startSec": 120,
+            "matched": 0,
+            "medianSignedErrorMs": null
+          },
+          {
+            "startSec": 180,
+            "matched": 0,
+            "medianSignedErrorMs": null
+          }
+        ],
+        "oneToOneMatching": true,
+        "matchedBeatIndexErrors": 128
+      },
+      "downbeatMetrics": {
+        "count": 48,
+        "truthCount": 32,
+        "f1At70ms": 0.625,
+        "p95AbsoluteErrorMs": 20.000000000003126,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 22,
+            "medianSignedErrorMs": 20.0
+          },
+          {
+            "startSec": 60,
+            "matched": 3,
+            "medianSignedErrorMs": 20.0
+          },
+          {
+            "startSec": 120,
+            "matched": 0,
+            "medianSignedErrorMs": null
+          },
+          {
+            "startSec": 180,
+            "matched": 0,
+            "medianSignedErrorMs": null
+          }
+        ],
+        "oneToOneMatching": true,
+        "matchedBeatIndexErrors": 15
+      },
+      "globalMeterOutput": null,
+      "hasMeterChangeTimeline": false,
+      "beatsInExactSilence": [
+        0.46,
+        0.98,
+        1.5
+      ],
+      "nonNSecondsInExactSilence": 0
+    },
+    {
+      "name": "meter_4_to_3",
+      "durationSec": 61.0,
+      "referenceMeterSequence": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "referenceChangeSec": 34,
+      "beatMetrics": {
+        "count": 116,
+        "truthCount": 112,
+        "f1At70ms": 0.9824561403508771,
+        "p95AbsoluteErrorMs": 20.000000000003126,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 112,
+            "medianSignedErrorMs": 20.0
+          },
+          {
+            "startSec": 60,
+            "matched": 0,
+            "medianSignedErrorMs": null
+          },
+          {
+            "startSec": 120,
+            "matched": 0,
+            "medianSignedErrorMs": null
+          },
+          {
+            "startSec": 180,
+            "matched": 0,
+            "medianSignedErrorMs": null
+          }
+        ],
+        "oneToOneMatching": true,
+        "matchedBeatIndexErrors": 112
+      },
+      "downbeatMetrics": {
+        "count": 69,
+        "truthCount": 32,
+        "f1At70ms": 0.6336633663366337,
+        "p95AbsoluteErrorMs": 20.000000000003126,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 32,
+            "medianSignedErrorMs": 20.0
+          },
+          {
+            "startSec": 60,
+            "matched": 0,
+            "medianSignedErrorMs": null
+          },
+          {
+            "startSec": 120,
+            "matched": 0,
+            "medianSignedErrorMs": null
+          },
+          {
+            "startSec": 180,
+            "matched": 0,
+            "medianSignedErrorMs": null
+          }
+        ],
+        "oneToOneMatching": true,
+        "matchedBeatIndexErrors": 32
+      },
+      "globalMeterOutput": null,
+      "hasMeterChangeTimeline": false,
+      "beatsInExactSilence": [
+        0.0,
+        0.52,
+        1.0,
+        1.5
+      ],
+      "nonNSecondsInExactSilence": 0
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+.chord-workspace{margin:12px 0;border:1px solid var(--line);border-radius:12px;padding:20px;background:#152019}.ch-actions,.ch-edit-grid{display:flex;flex-wrap:wrap;align-items:end;gap:10px;margin:14px 0}.ch-actions label{font-size:12px;color:var(--muted)}.ch-edit-grid label{display:flex;flex-direction:column;gap:6px;font-size:11px;color:var(--muted)}.ch-edit-grid select{max-width:130px}.ch-edit-grid input{width:110px}.chord-workspace button{font-size:12px}.chord-workspace .error{color:#ffc1a9}#ch-status{font-size:12px;line-height:1.8;color:var(--muted)}.ch-now{display:flex;gap:12px;flex-wrap:wrap;align-items:center;font-size:13px;margin:16px 0}.ch-now strong{color:var(--lime)}#ch-state{font-size:11px;color:var(--muted)}.ch-timeline{display:flex;flex-wrap:wrap;gap:7px;max-height:200px;overflow:auto;padding:4px}.ch-chip{font-variant-numeric:tabular-nums;text-align:left}.ch-chip.selected{outline:2px solid var(--lime);outline-offset:1px}.ch-chip.confirmed{border-color:#8eae64}.ch-detail{font-size:12px;color:#bdcbb9;line-height:1.9;margin:12px 0}.ch-board-scroll{overflow-x:auto;max-width:100%}.ch-board{display:grid;grid-template-columns:30px repeat(22,minmax(38px,1fr));gap:4px;min-width:950px}.ch-board:empty{min-width:0}.ch-board button{height:32px;padding:2px;border-color:#334139}.ch-board .tone{background:#adc9dc;color:#142018;font-weight:700}.ch-board .root{background:#d5f58b;color:#142018}.ch-board .bass{outline:2px solid #f4c28e;outline-offset:-3px}.ch-board button:disabled{opacity:.35}.ch-theory-card{padding:15px;background:#202c22;border-radius:8px;font-size:13px;line-height:1.9}.ch-theory-card p{margin:6px 0}.ch-theory-card a{color:var(--lime)}@media(max-width:650px){.chord-workspace{padding:12px}.chord-workspace .section-header{flex-wrap:wrap;gap:8px}.ch-timeline{max-height:165px}}
+
+.ch-model-entry{margin-top:12px}.ch-model-entry button{margin:5px 5px 0 0}
+
+.ch-fret-label{font-size:11px;text-align:center;align-self:center;color:var(--muted)}
+
+.coach-panel{padding:20px;border:1px solid var(--line);border-radius:12px}.coach-panel textarea{display:block;width:100%;box-sizing:border-box;background:#202b23;color:var(--text);border:1px solid var(--line);padding:12px;border-radius:8px;resize:vertical;font:inherit}.coach-panel a{color:var(--lime);font-size:12px}#qa-answer{overflow-wrap:anywhere}#qa-status{font-size:12px;line-height:1.8;color:var(--muted)}
+/* Bar cards share the measured beat timeline. The strip remains scrollable on mobile. */
+.ch-bars{display:flex;position:relative;gap:10px;overflow-x:auto;max-width:100%;padding:8px 2px 16px;margin-bottom:14px;scroll-snap-type:x proximity}
+.ch-bar{flex:0 0 230px;min-width:0;border:1px solid var(--line);border-radius:10px;padding:10px;scroll-snap-align:start;background:#19251c}
+.ch-bar.current{border-color:var(--lime);background:#293b22}
+.ch-bar-title{display:block;width:100%;text-align:left;margin-bottom:8px;font-size:12px;color:var(--lime)}
+.ch-bar-chords{display:flex;gap:4px;flex-wrap:wrap}
+.ch-bar-chord{flex-basis:0;min-width:44px;padding:7px 4px;font-size:12px;overflow-wrap:anywhere}
+.ch-bar-chord.selected{outline:2px solid var(--lime)}
+.ch-bar-chord.confirmed{background:#344d26}
+.chord-workspace details{margin:12px 0}.chord-workspace summary{cursor:pointer;color:var(--muted);font-size:12px}
+
+.ch-learning{font-size:12px;line-height:1.8}.ch-learning strong{color:var(--lime);font-size:15px}.ch-learning p{margin:8px 0}.ch-learning .ch-detail{font-size:11px;color:var(--muted)}

@@ -1,0 +1,157 @@
+{
+  "version": "0.6",
+  "neuralWeightsChanged": false,
+  "originalProjectHashesUnchanged": true,
+  "pythonUnitTestsPassed": 18,
+  "gridTests": "520 absolute positions, missing downbeat, pickup, 3-beat meter, missing-beat diagnostics, half-beat changes, unknown tail, exact acoustic silence, immutable raw candidates",
+  "ui": {
+    "status": "passed",
+    "checks": [
+      "bar count from beat index",
+      "fit preview adopt undo",
+      "lock saved rhythm",
+      "half-beat chord proposal save",
+      "stale rhythm rejected 409",
+      "rebase preserves labels and resets confirmations",
+      "reload persistence",
+      "390px no page overflow"
+    ],
+    "pageErrors": []
+  },
+  "longPlayback": {
+    "status": "passed",
+    "durationSec": 240,
+    "checks": [
+      {
+        "rate": "1",
+        "time": 1,
+        "expectedBar": 1,
+        "expectedBeat": 2,
+        "text": "候选 · 第 1 小节 · 2 拍"
+      },
+      {
+        "rate": "1",
+        "time": 60.208222,
+        "expectedBar": 31,
+        "expectedBeat": 4,
+        "text": "候选 · 第 31 小节 · 4 拍"
+      },
+      {
+        "rate": "1",
+        "time": 120.214785,
+        "expectedBar": 62,
+        "expectedBeat": 3,
+        "text": "候选 · 第 62 小节 · 3 拍"
+      },
+      {
+        "rate": "1",
+        "time": 180.214785,
+        "expectedBar": 93,
+        "expectedBeat": 3,
+        "text": "候选 · 第 93 小节 · 3 拍"
+      },
+      {
+        "rate": "1",
+        "time": 238.219458,
+        "expectedBar": 123,
+        "expectedBeat": 2,
+        "text": "候选 · 第 123 小节 · 2 拍"
+      },
+      {
+        "rate": "0.5",
+        "time": 1.080272,
+        "expectedBar": 1,
+        "expectedBeat": 2,
+        "text": "候选 · 第 1 小节 · 2 拍"
+      },
+      {
+        "rate": "0.5",
+        "time": 60.076066,
+        "expectedBar": 31,
+        "expectedBeat": 3,
+        "text": "候选 · 第 31 小节 · 3 拍"
+      },
+      {
+        "rate": "0.5",
+        "time": 120.080272,
+        "expectedBar": 62,
+        "expectedBeat": 3,
+        "text": "候选 · 第 62 小节 · 3 拍"
+      },
+      {
+        "rate": "0.5",
+        "time": 180.080272,
+        "expectedBar": 93,
+        "expectedBeat": 2,
+        "text": "候选 · 第 93 小节 · 2 拍"
+      },
+      {
+        "rate": "0.5",
+        "time": 238.086413,
+        "expectedBar": 123,
+        "expectedBeat": 2,
+        "text": "候选 · 第 123 小节 · 2 拍"
+      }
+    ],
+    "pageErrors": []
+  },
+  "playbackSync": {
+    "status": "passed",
+    "checks": [
+      "clicks queued before deadlines at normal and half speed",
+      "pause cancels queue",
+      "seek and rate change rebuild queue",
+      "no clicks over undetected tail",
+      "display offset survives reload and resets",
+      "waveform is cached rather than resized each frame",
+      "desktop/mobile no overflow"
+    ],
+    "normalLeadMs": [
+      137.188,
+      147.30199999999994,
+      126.43133333333334,
+      144.54433333333316
+    ],
+    "halfSpeedLeadMs": [
+      145.20399999999967,
+      129.93200000000016
+    ],
+    "canvasResizesDuringPlayback": 0,
+    "pageErrors": []
+  },
+  "existingAudioRegression": {
+    "status": "passed",
+    "checks": [
+      "supplied audio metadata and original source playback",
+      "real audio clock and beat highlight",
+      "selected range loop wraps",
+      "tail abstention displayed",
+      "new WAV uploaded and genuinely inferred",
+      "half/double beat grids and undo",
+      "split, rename, and move section boundary",
+      "annotation persisted without rewriting raw result",
+      "reload recovery",
+      "manual tempo grid and undo",
+      "stale revision conflict 409",
+      "cross-origin mutation rejected",
+      "MP3 byte-range seeking",
+      "1440/834/390 responsive layouts",
+      "existing 21-fret workspace retained"
+    ],
+    "testProjectId": "6c16a3da7abce1fff780",
+    "pageErrors": []
+  },
+  "longNeuralEvaluation": "evaluation/rhythm-long-report.json",
+  "harmonyEvaluation": "evaluation/harmony-grid-report.json",
+  "cloudCallsThisDevelopment": false,
+  "realLongSongValidation": "pending independent 3–4 minute real music and annotations",
+  "productionSmoke": {
+    "appVersion": "0.6",
+    "originalProjectOnly": true,
+    "beats": 37,
+    "barsIncludingPartial": 10,
+    "qwenStillConfigured": true,
+    "reportPageRendered": true,
+    "pageErrors": []
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "accessedAt": "2026-11-08",
+  "sources": [
+    {
+      "id": "beat_readme",
+      "url": "https://raw.githubusercontent.com/CPJKU/beat_this/main/README.md",
+      "status": "read",
+      "bytes": 17037,
+      "sha256": "be7b51a9b6ff2041fdde81061d079c29451583f2c06c9733bece9282cc7afab0"
+    },
+    {
+      "id": "beat_train",
+      "url": "https://api.github.com/repos/CPJKU/beat_this/git/trees/main?recursive=1",
+      "status": "read",
+      "bytes": 8548,
+      "sha256": "27ab6962ab579751fedc60b4843d27f86fdd29ad75b2c20fe455e11825170f3f"
+    },
+    {
+      "id": "btc_train",
+      "url": "https://raw.githubusercontent.com/jayg996/BTC-ISMIR19/master/train.py",
+      "status": "read",
+      "bytes": 13719,
+      "sha256": "e2f13d93f33301a7a15160a60cf9830b9c782af9628d67ed4d4f78da3dc76ca5"
+    },
+    {
+      "id": "chordmini",
+      "url": "https://raw.githubusercontent.com/ptnghia-j/ChordMini/main/README.md",
+      "status": "read",
+      "bytes": 14096,
+      "sha256": "81bac02b2d31eba7c9f92340b8af121286c075adf8f8b12d158d7b69d7680747"
+    },
+    {
+      "id": "qwen_api",
+      "url": "https://help.aliyun.com/zh/model-studio/qwen-omni",
+      "status": "read",
+      "bytes": 428932,
+      "sha256": "5e18377c3c47b01b1a924645eda097a9e1de26fab53b2f05633802cbd8eeca5f"
+    },
+    {
+      "id": "pricing",
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "status": "read",
+      "bytes": 1540294,
+      "sha256": "1eaae284800cfc0472877e51a9e82e7f784306361488ec2501b08b0ca2f253d0"
+    },
+    {
+      "id": "mf_card",
+      "url": "https://huggingface.co/nvidia/music-flamingo-2601-hf/raw/main/README.md",
+      "status": "read",
+      "bytes": 19160,
+      "sha256": "7ff56e521d62322b75168165e1d1d3817a9cc3b6513895311417e8ff7266e670"
+    },
+    {
+      "id": "qwen_card",
+      "url": "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct/raw/main/README.md",
+      "status": "read",
+      "bytes": 90295,
+      "sha256": "0e44065c4c4a27071f7239afd5b5a33af5bc2e437dd7ea9950e51aafabfde3df"
+    },
+    {
+      "id": "allinone",
+      "url": "https://raw.githubusercontent.com/mir-aidj/all-in-one/main/README.md",
+      "status": "read",
+      "bytes": 14983,
+      "sha256": "d7a0e2926f26d33ee5f9e4a7fadd7bcfe69ee1b6f4ee191d6ed8d107c66cbdb5"
+    },
+    {
+      "id": "beat_train_code",
+      "url": "https://raw.githubusercontent.com/CPJKU/beat_this/main/launch_scripts/train.py",
+      "status": "read",
+      "sha256": "6ffe1778c505342145242f6285a53681a6a6d3481ea529d4439c398cde3e4407"
+    },
+    {
+      "id": "beat_augment",
+      "url": "https://raw.githubusercontent.com/CPJKU/beat_this/main/beat_this/dataset/augment.py",
+      "status": "read",
+      "sha256": "2daa46ec5a6671c3d31271d417f1215112e0bac8abde2e78111452bcbc221031"
+    }
+  ],
+  "inferencePerformedThisReview": false,
+  "applicationChanged": false
+}

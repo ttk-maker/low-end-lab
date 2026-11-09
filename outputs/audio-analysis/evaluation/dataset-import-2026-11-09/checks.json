@@ -1,0 +1,26 @@
+[
+  {
+    "command": [
+      "C:\\Users\\jj183\\Documents\\Codex\\2026-11-07\\astra-agent-agent-agent-jam-1\\work\\audio-env\\Scripts\\python.exe",
+      "outputs/audio-analysis/evaluation/test_dataset_adapters.py"
+    ],
+    "exitCode": 0,
+    "output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.010s\n\nOK\n"
+  },
+  {
+    "command": [
+      "node",
+      "outputs/audio-analysis/tests/rhythm-grid.test.cjs"
+    ],
+    "exitCode": 0,
+    "output": "PASS: 520 absolute timestamps, missing downbeat, pickup, 3-beat grouping, missing-beat diagnostic.\nPASS: half-beat change, cross-bar sustain, uncertain score, unknown tail, exact silence and immutable raw candidates.\nPASS: piecewise 4-to-3 counting, segment signature, acoustic tail cap.\n"
+  },
+  {
+    "command": [
+      "node",
+      "outputs/audio-analysis/tests/harmony-structure.test.cjs"
+    ],
+    "exitCode": 0,
+    "output": "PASS: brief X bridge, bar-edge bleed, two/four chords per bar, strong anticipation, sustained unknown, ambiguity, seventh preservation, exact silence, outside-grid preservation, no input mutation.\nPASS: beginner root-only evidence, conflicting roots, unknown mass, strong chord, multiple roots, rest.\nPASS: DP fallback path, local-only degradation, tonal agreement and ambiguous-root refusal.\n"
+  }
+]

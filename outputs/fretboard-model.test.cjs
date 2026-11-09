@@ -1,0 +1,25 @@
+const assert=require('node:assert/strict');
+const m=require('./fretboard-model.js');
+let checks=0;
+function check(fn){fn();checks++;}
+check(()=>assert.equal(m.position(0,5).midi,33));
+check(()=>assert.equal(m.position(0,21).midi,49));
+check(()=>assert.equal(m.position(3,21).midi,64));
+check(()=>assert.equal(m.position(0,5).frequency,55));
+check(()=>assert.equal(m.position(0,5).midi,m.position(1,0).midi));
+check(()=>assert.equal(m.position(3,2).midi,m.position(0,5).midi+12));
+for(let s=0;s<4;s++)for(let f=0;f<=8;f++)check(()=>assert(Math.abs(m.position(s,f+12).frequency-2*m.position(s,f).frequency)<1e-9));
+check(()=>assert.deepEqual(m.chord('A','minor7').map(t=>t.name),['A','C','E','G']));
+check(()=>assert.deepEqual(m.chord('C','dim7').map(t=>t.name),['C','Eb','Gb','Bbb']));
+check(()=>assert.deepEqual(m.chord('F#','major7').map(t=>t.name),['F#','A#','C#','E#']));
+check(()=>assert.equal(m.spelledOctave(35,'Cb'),2));
+check(()=>assert.equal(m.spelledOctave(36,'B#'),1));
+check(()=>assert.deepEqual(m.query({window:[0,7]}).map(p=>`${p.string}:${p.fret}`),['0:0','0:3','0:5','1:0','1:3','1:7','2:2','2:5','2:7','3:0','3:2','3:5']));
+check(()=>assert.equal(m.position(0,0,[26,33,38,43]).name,'D'));
+check(()=>assert.equal(m.position(1,0,[26,33,38,43]).midi-m.position(0,0,[26,33,38,43]).midi,7));
+for(const args of [[-1,0],[4,0],[0,-1],[0,22],[0,1.5]])check(()=>assert.throws(()=>m.position(...args),RangeError));
+check(()=>assert.throws(()=>m.query({window:[7,0]}),RangeError));
+check(()=>assert.throws(()=>m.chord('H','minor'),RangeError));
+check(()=>assert(m.fretDistance(1,4)>m.fretDistance(12,15)));
+for(const quality of Object.keys(m.types))for(const root of ['C','F#','Bb'])check(()=>assert(m.query({root,quality}).every(p=>m.chord(root,quality).some(t=>t.pc===p.pc))));
+console.log(JSON.stringify({status:'passed',checks,distancesMm:[m.fretDistance(1,4),m.fretDistance(12,15)]},null,2));

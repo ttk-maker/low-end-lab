@@ -1,0 +1,48 @@
+# Local environments, private credentials, downloaded corpora and scratch work.
+/work/
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+**/private/
+**/qwen.json
+*.pem
+*.key
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# User recordings and generated project state.
+/outputs/audio-analysis/data/
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.au
+*.mid
+*.sf2
+*.zip
+*.tar.gz
+*.ckpt
+*.pt
+*.pth
+
+# Bulk evaluation evidence and dataset annotations are regenerated locally.
+/outputs/audio-analysis/evaluation/jazz-fixes-2026-11-08/
+/outputs/audio-analysis/evaluation/jazz-audit-2026-11-08/
+/outputs/audio-analysis/evaluation/jazz-2026-11-08/tracks/
+/outputs/audio-analysis/evaluation/jazz-2026-11-08/decoder-*.json
+/outputs/audio-analysis/evaluation/dataset-import-2026-11-09/*-manifest.json
+/outputs/*In-Space*.json
+/outputs/preview-*.png
+
+# Keep the initial portable product screens; do not publish local browser screenshots.
+*.png
+!/outputs/01-workspace.png
+!/outputs/02-songs.png
+!/outputs/03-fretboard.png
+!/outputs/04-learning.png

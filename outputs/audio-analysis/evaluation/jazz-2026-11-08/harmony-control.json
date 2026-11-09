@@ -1,0 +1,192 @@
+{
+  "kind": "synthetic composed constant Cmaj7, swing subdivisions, walking chord tones and quiet passing note; not real-song accuracy",
+  "reference": [
+    {
+      "startSec": 0,
+      "endSec": 2,
+      "label": "N"
+    },
+    {
+      "startSec": 2,
+      "endSec": 34,
+      "label": "C:maj7"
+    },
+    {
+      "startSec": 34,
+      "endSec": 36,
+      "label": "N"
+    }
+  ],
+  "raw": {
+    "durationSec": 36,
+    "correctSeconds": 11.244629999999997,
+    "weightedAccuracy": 0.31235083333333324,
+    "coverage": 0.9277602777777777,
+    "selectiveAccuracy": 0.33667191926075246,
+    "musicSeconds": 32,
+    "musicCorrectSeconds": 7.244629999999997,
+    "silenceSeconds": 4,
+    "silenceCorrectSeconds": 4.0,
+    "segments": 20,
+    "boundaryToleranceSec": 0.2,
+    "boundaryPrecision": 0.0,
+    "boundaryRecall": 0.0
+  },
+  "rawRoot": {
+    "durationSec": 36,
+    "correctSeconds": 11.244629999999997,
+    "weightedAccuracy": 0.31235083333333324,
+    "coverage": 0.9277602777777777,
+    "selectiveAccuracy": 0.33667191926075246,
+    "musicSeconds": 32,
+    "musicCorrectSeconds": 7.244629999999997,
+    "silenceSeconds": 4,
+    "silenceCorrectSeconds": 4.0,
+    "segments": 20,
+    "boundaryToleranceSec": 0.2,
+    "boundaryPrecision": 0.0,
+    "boundaryRecall": 0.0
+  },
+  "stable": {
+    "durationSec": 36,
+    "correctSeconds": 18.25,
+    "weightedAccuracy": 0.5069444444444444,
+    "coverage": 0.5071108333333333,
+    "selectiveAccuracy": 0.9996718885144001,
+    "musicSeconds": 32,
+    "musicCorrectSeconds": 14.25,
+    "silenceSeconds": 4,
+    "silenceCorrectSeconds": 4,
+    "segments": 23,
+    "boundaryToleranceSec": 0.2,
+    "boundaryPrecision": 0.09090909090909091,
+    "boundaryRecall": 1.0
+  },
+  "stableRoot": {
+    "durationSec": 36,
+    "correctSeconds": 18.25,
+    "weightedAccuracy": 0.5069444444444444,
+    "coverage": 0.5071108333333333,
+    "selectiveAccuracy": 0.9996718885144001,
+    "musicSeconds": 32,
+    "musicCorrectSeconds": 14.25,
+    "silenceSeconds": 4,
+    "silenceCorrectSeconds": 4,
+    "segments": 23,
+    "boundaryToleranceSec": 0.2,
+    "boundaryPrecision": 0.09090909090909091,
+    "boundaryRecall": 1.0
+  },
+  "barLabels": [
+    {
+      "bar": 1,
+      "labels": [
+        "X",
+        "X"
+      ]
+    },
+    {
+      "bar": 2,
+      "labels": [
+        "C:maj7",
+        "X"
+      ]
+    },
+    {
+      "bar": 3,
+      "labels": [
+        "C:maj7",
+        "X"
+      ]
+    },
+    {
+      "bar": 4,
+      "labels": [
+        "X",
+        "X"
+      ]
+    },
+    {
+      "bar": 5,
+      "labels": [
+        "C:maj7",
+        "X"
+      ]
+    },
+    {
+      "bar": 6,
+      "labels": [
+        "C:maj7",
+        "X"
+      ]
+    },
+    {
+      "bar": 7,
+      "labels": [
+        "C:maj7",
+        "X"
+      ]
+    },
+    {
+      "bar": 8,
+      "labels": [
+        "C:maj7",
+        "X"
+      ]
+    },
+    {
+      "bar": 9,
+      "labels": [
+        "X",
+        "X"
+      ]
+    },
+    {
+      "bar": 10,
+      "labels": [
+        "C:maj7",
+        "X"
+      ]
+    },
+    {
+      "bar": 11,
+      "labels": [
+        "C:maj7",
+        "X"
+      ]
+    },
+    {
+      "bar": 12,
+      "labels": [
+        "C:maj7",
+        "X"
+      ]
+    },
+    {
+      "bar": 13,
+      "labels": [
+        "C:maj7"
+      ]
+    },
+    {
+      "bar": 14,
+      "labels": [
+        "C:maj7"
+      ]
+    },
+    {
+      "bar": 15,
+      "labels": [
+        "C:maj7"
+      ]
+    },
+    {
+      "bar": 16,
+      "labels": [
+        "C:maj7",
+        "X",
+        "N"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "sources": [
+    {
+      "id": "R01",
+      "title": "Qwen-Omni API",
+      "url": "https://help.aliyun.com/zh/model-studio/qwen-omni",
+      "accessedDate": "2026-11-08",
+      "status": "official_page_read",
+      "contentSha256": "5600d2f61fe5549e7a712d2f4f26b2cd7af729d7ca9289585ca2c4cb56b12c64",
+      "inferenceTested": false
+    },
+    {
+      "id": "R02",
+      "title": "Qwen3-Omni",
+      "url": "https://github.com/QwenLM/Qwen3-Omni",
+      "accessedDate": "2026-11-08",
+      "status": "official_page_read",
+      "contentSha256": "0a878274124bcc98335155dad6edfa1a0f17ffc7a05a5d5ee808104d54935d48",
+      "inferenceTested": false
+    },
+    {
+      "id": "R03",
+      "title": "Music Flamingo",
+      "url": "https://github.com/NVIDIA/audio-flamingo/tree/music_flamingo",
+      "accessedDate": "2026-11-08",
+      "status": "official_page_read",
+      "contentSha256": "a5b74a2ac87defd053c00a53396b78fb52676ee4e5d4d29c0bb6d3e62bbfbd88",
+      "inferenceTested": false
+    },
+    {
+      "id": "R04",
+      "title": "MU-LLaMA",
+      "url": "https://github.com/crypto-code/Mu-LLaMA",
+      "accessedDate": "2026-11-08",
+      "status": "official_page_read",
+      "contentSha256": "0162905dedde2fd1c1d5857bed7369ac3c4f53d58c5dafc239386fa284adaf09",
+      "inferenceTested": false
+    },
+    {
+      "id": "R05",
+      "title": "LLark",
+      "url": "https://github.com/spotify-research/llark",
+      "accessedDate": "2026-11-08",
+      "status": "official_page_read",
+      "contentSha256": "62911cd4ef8f19ae1ac8c822abb11925294f8deea6858e7895d493e1b28c8239",
+      "inferenceTested": false
+    },
+    {
+      "id": "R06",
+      "title": "Beat This!",
+      "url": "https://github.com/CPJKU/beat_this",
+      "accessedDate": "2026-11-08",
+      "status": "official_page_read",
+      "contentSha256": "9f90d8a7adc474e772dd2fdc7b0c5650c7f00e68cfc94f9c575d4732fb86f1c3",
+      "inferenceTested": false
+    },
+    {
+      "id": "R07",
+      "title": "All-in-one",
+      "url": "https://github.com/mir-aidj/all-in-one",
+      "accessedDate": "2026-11-08",
+      "status": "official_page_read",
+      "contentSha256": "63fd5202c4004122cc9b558ae10b664cb8d5a6f728e7234babc7cd72325515c1",
+      "inferenceTested": false
+    },
+    {
+      "id": "R08",
+      "title": "Demucs",
+      "url": "https://github.com/facebookresearch/demucs",
+      "accessedDate": "2026-11-08",
+      "status": "official_page_read",
+      "contentSha256": "ee59bcd541fff5dc67e0ba02ea79de6f6dbdfb3d8e660f01483e05f487a618b0",
+      "inferenceTested": false
+    },
+    {
+      "id": "R09",
+      "title": "Chordino",
+      "url": "https://github.com/c4dm/nnls-chroma",
+      "accessedDate": "2026-11-08",
+      "status": "official_page_read",
+      "contentSha256": "8c46374f0357ff6da932dc5f84aa148f9217660b71822c4fc3a8e331dd5edecf",
+      "inferenceTested": false
+    },
+    {
+      "id": "R10",
+      "title": "Basic Pitch",
+      "url": "https://github.com/spotify/basic-pitch",
+      "accessedDate": "2026-11-08",
+      "status": "official_page_read",
+      "contentSha256": "2e29de30ac847c12bfb6fbd0f0522ecf58cabc233d8afd5752d457cea7a25518",
+      "inferenceTested": false
+    }
+  ],
+  "scope": "Documentation review only; no inference benchmarks or paid API calls."
+}

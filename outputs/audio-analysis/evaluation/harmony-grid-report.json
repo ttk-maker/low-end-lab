@@ -1,0 +1,135 @@
+{
+  "kind": "synthetic musical score; known beat grid supplied, not end-to-end song accuracy",
+  "reference": [
+    {
+      "startSec": 0,
+      "endSec": 4,
+      "label": "C:maj"
+    },
+    {
+      "startSec": 4,
+      "endSec": 7.75,
+      "label": "A:min7"
+    },
+    {
+      "startSec": 7.75,
+      "endSec": 12,
+      "label": "F:maj"
+    },
+    {
+      "startSec": 12,
+      "endSec": 14.5,
+      "label": "G:7"
+    },
+    {
+      "startSec": 14.5,
+      "endSec": 20,
+      "label": "C:maj"
+    },
+    {
+      "startSec": 20,
+      "endSec": 24,
+      "label": "N"
+    }
+  ],
+  "baseline": {
+    "durationSec": 24.0,
+    "correctSeconds": 19.76649,
+    "weightedAccuracy": 0.8236037500000001,
+    "coverage": 0.9806500000000001,
+    "selectiveAccuracy": 0.8398549431499516,
+    "musicSeconds": 20.0,
+    "musicCorrectSeconds": 15.766490000000001,
+    "silenceSeconds": 4,
+    "silenceCorrectSeconds": 4.0,
+    "segments": 11,
+    "boundaryToleranceSec": 0.2,
+    "boundaryPrecision": 0.5555555555555556,
+    "boundaryRecall": 1.0
+  },
+  "beatCells": {
+    "durationSec": 24.0,
+    "correctSeconds": 20.18796,
+    "weightedAccuracy": 0.841165,
+    "coverage": 0.997415,
+    "selectiveAccuracy": 0.8433450469463564,
+    "musicSeconds": 20.0,
+    "musicCorrectSeconds": 16.25,
+    "silenceSeconds": 4,
+    "silenceCorrectSeconds": 3.9379600000000003,
+    "segments": 7,
+    "boundaryToleranceSec": 0.2,
+    "boundaryPrecision": 0.6666666666666666,
+    "boundaryRecall": 0.8
+  },
+  "candidateEvents": [
+    {
+      "id": "beat-chord-1",
+      "startSec": 0,
+      "endSec": 4.25,
+      "label": "C:maj",
+      "bassNote": null,
+      "status": "candidate",
+      "source": "beat-half-cell-v1"
+    },
+    {
+      "id": "beat-chord-2",
+      "startSec": 4.25,
+      "endSec": 7.75,
+      "label": "N",
+      "bassNote": null,
+      "status": "candidate",
+      "source": "beat-half-cell-v1"
+    },
+    {
+      "id": "beat-chord-3",
+      "startSec": 7.75,
+      "endSec": 12,
+      "label": "F:maj",
+      "bassNote": null,
+      "status": "candidate",
+      "source": "beat-half-cell-v1"
+    },
+    {
+      "id": "beat-chord-4",
+      "startSec": 12,
+      "endSec": 14.5,
+      "label": "G:7",
+      "bassNote": null,
+      "status": "candidate",
+      "source": "beat-half-cell-v1"
+    },
+    {
+      "id": "beat-chord-5",
+      "startSec": 14.5,
+      "endSec": 20,
+      "label": "C:maj",
+      "bassNote": null,
+      "status": "candidate",
+      "source": "beat-half-cell-v1"
+    },
+    {
+      "id": "beat-chord-6",
+      "startSec": 20,
+      "endSec": 20.06204,
+      "label": "X",
+      "bassNote": null,
+      "status": "candidate",
+      "source": "beat-half-cell-v1"
+    },
+    {
+      "id": "beat-chord-7",
+      "startSec": 20.06204,
+      "endSec": 24,
+      "label": "N",
+      "bassNote": null,
+      "status": "candidate",
+      "source": "beat-half-cell-v1"
+    }
+  ],
+  "limitations": [
+    "Half-beat cells cannot represent all triplets, swing or free-time changes.",
+    "No model weights changed."
+  ],
+  "developmentNote": "Only sustained-low-energy N intervals pin exact silence boundaries; model N is not treated as acoustic ground truth. This is a development regression, not untouched holdout."
+}

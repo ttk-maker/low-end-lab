@@ -1,0 +1,20 @@
+{
+  "cpu": "Intel Core i7-1260P",
+  "logicalCPUs": 16,
+  "systemMemoryGiB": 15.7178,
+  "gpu": "Intel Iris Xe integrated",
+  "torch": "2.14.1+cpu",
+  "cudaAvailable": false,
+  "models": {
+    "beatThisSmall0": {
+      "parameters": 2099960,
+      "trainableParameters": 2099944
+    },
+    "btc170": {
+      "parameters": 3036842,
+      "trainableParameters": 3036842
+    }
+  },
+  "trainingPerformed": false,
+  "gpuMemoryMeasured": false
+}

@@ -1,0 +1,209 @@
+{
+  "accessedAt": "2026-11-08",
+  "method": "direct HTTP of official cards, author repositories and source code; GitHub/HuggingFace search APIs for discovery",
+  "inferencePerformed": false,
+  "sources": [
+    {
+      "id": "flamingo",
+      "url": "https://raw.githubusercontent.com/NVIDIA/audio-flamingo/music_flamingo/README.md",
+      "bytes": 15523,
+      "sha256": "b59fa0ad229c8b3bb202eed87d5889dab774d11a5609f07707d03a1d3737dd41",
+      "status": "read"
+    },
+    {
+      "id": "flamingo_card",
+      "url": "https://huggingface.co/nvidia/music-flamingo-hf/raw/main/README.md",
+      "bytes": 15782,
+      "sha256": "0e297b318a483bb7ff222add622485a4e73629a841b739cca304db87c5612d73",
+      "status": "read"
+    },
+    {
+      "id": "qwen",
+      "url": "https://raw.githubusercontent.com/QwenLM/Qwen3-Omni/main/README.md",
+      "bytes": 101283,
+      "sha256": "013dbbd14768e7767a05d6a5da8dffecd0b8f36938eedaa6a5000c26484f4603",
+      "status": "read"
+    },
+    {
+      "id": "btc",
+      "url": "https://raw.githubusercontent.com/jayg996/BTC-ISMIR19/master/README.md",
+      "bytes": 2655,
+      "sha256": "8f162f50645ad17f59aa18061a12d38837232a8195908627e2f489050839b603",
+      "status": "read"
+    },
+    {
+      "id": "allinone",
+      "url": "https://raw.githubusercontent.com/mir-aidj/all-in-one/main/README.md",
+      "bytes": 14983,
+      "sha256": "d7a0e2926f26d33ee5f9e4a7fadd7bcfe69ee1b6f4ee191d6ed8d107c66cbdb5",
+      "status": "read"
+    },
+    {
+      "id": "basicpitch",
+      "url": "https://raw.githubusercontent.com/spotify/basic-pitch/main/README.md",
+      "bytes": 10297,
+      "sha256": "308eca019d334104487822197d8fdc81574e9f07a80436d860e044248f26f520",
+      "status": "read"
+    },
+    {
+      "id": "llark",
+      "url": "https://raw.githubusercontent.com/spotify-research/llark/main/README.md",
+      "bytes": 5959,
+      "sha256": "c293200c9f41c972db018b9367d1989daae8a228b5ceb4870f9b748d085ed53e",
+      "status": "read"
+    },
+    {
+      "id": "chord_search",
+      "url": "https://api.github.com/search/repositories?q=chord+recognition+pretrained&sort=updated&per_page=8",
+      "bytes": 5939,
+      "sha256": "f2f8a312afca8d34a2b658b724f7e2b5b02de1790f65dafc1d1a782797890dea",
+      "status": "read"
+    },
+    {
+      "id": "flamingo_models",
+      "url": "https://huggingface.co/api/models?author=nvidia&search=music-flamingo",
+      "bytes": 1668,
+      "sha256": "449a7dee2c68d45ef47a06edb6b10c76b09ceb16f144b3ede71574c44b61a9bd",
+      "status": "read"
+    },
+    {
+      "id": "flamingo2601",
+      "url": "https://huggingface.co/nvidia/music-flamingo-2601-hf/raw/main/README.md",
+      "bytes": 19160,
+      "sha256": "7ff56e521d62322b75168165e1d1d3817a9cc3b6513895311417e8ff7266e670",
+      "status": "read"
+    },
+    {
+      "id": "flamingothink",
+      "url": "https://huggingface.co/nvidia/music-flamingo-think-2601-hf/raw/main/README.md",
+      "bytes": 19670,
+      "sha256": "5c9da41231581603df4276788cf8488504661b64697b5a762f05a474ea7382a4",
+      "status": "read"
+    },
+    {
+      "id": "btc_tree",
+      "url": "https://api.github.com/repos/jayg996/BTC-ISMIR19/git/trees/master?recursive=1",
+      "bytes": 7975,
+      "sha256": "77325722767d8a07702d3767bd3d0fd73fdc3219d1b7e605c5a178f0274a8f37",
+      "status": "read"
+    },
+    {
+      "id": "chordformer_search",
+      "url": "https://api.github.com/search/repositories?q=ChordFormer&per_page=5",
+      "bytes": 16111,
+      "sha256": "8ccef477acf677070ab9bc2a7030fc0a9823fb9a9757d484cc9f46bf298ad6af",
+      "status": "read"
+    },
+    {
+      "id": "chord_search2",
+      "url": "https://api.github.com/search/repositories?q=automatic+chord+recognition&sort=stars&per_page=8",
+      "bytes": 44476,
+      "sha256": "93d24686464160eabb640fc43a3bbb257328be248f5f8271d13b869c8b21931f",
+      "status": "read"
+    },
+    {
+      "id": "qwen_music",
+      "url": "https://raw.githubusercontent.com/QwenLM/Qwen3-Omni/main/cookbooks/music_analysis.ipynb",
+      "bytes": 21011185,
+      "sha256": "0c5dcf466f4f3213abd403b7470cdeab755927550d52c79d4a69bddf7de2cd51",
+      "status": "read"
+    },
+    {
+      "id": "pesto",
+      "url": "https://raw.githubusercontent.com/SonyCSLParis/pesto/main/README.md",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "madmom",
+      "url": "https://raw.githubusercontent.com/CPJKU/madmom/main/README.rst",
+      "bytes": 13720,
+      "sha256": "41a9e3985968659fc22bf483eb09ac7b9d00bf45c9e19b264ee0026d46660cc0",
+      "status": "read"
+    },
+    {
+      "id": "chordmini",
+      "url": "https://raw.githubusercontent.com/ptnghia-j/ChordMini/main/README.md",
+      "status": "read",
+      "sha256": "81bac02b2d31eba7c9f92340b8af121286c075adf8f8b12d158d7b69d7680747"
+    },
+    {
+      "id": "chordmini_tree",
+      "url": "https://api.github.com/repos/ptnghia-j/ChordMini/git/trees/main?recursive=1",
+      "status": "read",
+      "sha256": "4931d994ae23c6513bdda70520a169bca2589504a19588d7576e07ddef8166e9"
+    },
+    {
+      "id": "btc_test",
+      "url": "https://raw.githubusercontent.com/jayg996/BTC-ISMIR19/master/test.py",
+      "status": "read",
+      "sha256": "12f88667d51e39f30333bdcc23d79014a69fce7e576901b687088eceb3266a13"
+    },
+    {
+      "id": "btc_chords",
+      "url": "https://raw.githubusercontent.com/jayg996/BTC-ISMIR19/master/utils/chords.py",
+      "status": "read",
+      "sha256": "c8bc54c36913073cf8fa55256a3e37fe291f8988828220d0ba0121250ca394fc"
+    },
+    {
+      "id": "btc_license",
+      "url": "https://raw.githubusercontent.com/jayg996/BTC-ISMIR19/master/LICENSE",
+      "status": "read",
+      "sha256": "7439cc22ff2efee600131dc5d800ab1204d8076a1a815d842a0319782520fc85"
+    },
+    {
+      "id": "madmom_key",
+      "url": "https://raw.githubusercontent.com/CPJKU/madmom/main/madmom/features/key.py",
+      "status": "read",
+      "sha256": "1c9f2225e7242f3b601726dd96fb2417986a60bdfbb576d486b0ad61946de6ca"
+    },
+    {
+      "id": "pesto_search",
+      "url": "https://api.github.com/search/repositories?q=PESTO+pitch&per_page=3",
+      "status": "read",
+      "sha256": "861e105f854f427d191d9b672b94ee484a6b432ea278d169abfe60e429a7e8dd"
+    },
+    {
+      "id": "flamingo_config",
+      "url": "https://huggingface.co/nvidia/music-flamingo-2601-hf/raw/main/config.json",
+      "status": "read",
+      "sha256": "defa38315e9ce8571a720b5ff783747a819877d35d254616dc643032fb71d915"
+    },
+    {
+      "id": "chordmini_license",
+      "url": "https://raw.githubusercontent.com/ptnghia-j/ChordMini/main/LICENSE",
+      "status": "read",
+      "sha256": "685a58dfd4258f5f5e00652d93694456865381c0312d80a3b20e7d0b71bcb3ef"
+    },
+    {
+      "id": "chordmini_config",
+      "url": "https://raw.githubusercontent.com/ptnghia-j/ChordMini/main/config/ChordMini.yaml",
+      "status": "read",
+      "sha256": "79fe67e764e6e8ddb1dc7bf88efecff0363d8ab25c4ad25e0b4ed429a9ad2535"
+    },
+    {
+      "id": "btc_vocab",
+      "url": "https://raw.githubusercontent.com/jayg996/BTC-ISMIR19/master/utils/mir_eval_modules.py",
+      "status": "read",
+      "sha256": "d685d92597045737b233653c6568acdb565fceff9dc30355475bbb54e251f48e"
+    },
+    {
+      "id": "pesto",
+      "url": "https://raw.githubusercontent.com/SonyCSLParis/pesto/master/README.md",
+      "status": "read",
+      "sha256": "25153b5ce9eacb924bc5c57c11eb6c5737a11fda6fa48fa7662b2c9bb66e8fe9"
+    },
+    {
+      "id": "madmom_license",
+      "url": "https://raw.githubusercontent.com/CPJKU/madmom/main/LICENSE",
+      "status": "read",
+      "sha256": "dbcc5a4d6c0dbc5ecb3d41ef98a5432b356073ee11d97c9c4eef507238ffb56a"
+    },
+    {
+      "id": "mf_transformers",
+      "url": "https://raw.githubusercontent.com/huggingface/transformers/main/src/transformers/models/musicflamingo/modeling_musicflamingo.py",
+      "status": "read",
+      "sha256": "c241c421626cab1c79a36f3a138d4408cd5dfd8015e9422d5523c5201a83d1c7"
+    }
+  ]
+}

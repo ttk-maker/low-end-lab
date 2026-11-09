@@ -1,0 +1,152 @@
+{
+  "isolatedServer": 8768,
+  "cloudCalls": false,
+  "rows": [
+    {
+      "file": "2019-05-03_-_Elevator_Ride_-_www.fesliyanstudios.com.mp3",
+      "loaded": true,
+      "loadAndCheckMs": 1823,
+      "structureNote": "小节候选无法解码，请保留原始时间轴。",
+      "bars": 65,
+      "learningCards": 0,
+      "noOverflow": true,
+      "checkpoints": [
+        {
+          "mediaTime": 3.12,
+          "playing": true,
+          "beat": "候选 · 第 2 小节 · 3 拍",
+          "chord": "Dm7 · 候选"
+        },
+        {
+          "mediaTime": 68.345829,
+          "playing": true,
+          "beat": "候选 · 第 35 小节 · 1 拍",
+          "chord": "G7 · 候选"
+        },
+        {
+          "mediaTime": 135.368,
+          "playing": true,
+          "beat": "尾段未检出拍点",
+          "chord": "N · 无和弦 · 候选"
+        }
+      ]
+    },
+    {
+      "file": "2019-05-03_-_Snap_Along_-_David_Fesliyan.mp3",
+      "loaded": true,
+      "loadAndCheckMs": 1638,
+      "structureNote": "先校正疑似漏拍/多拍，再生成小节稳定候选。",
+      "bars": 104,
+      "learningCards": 0,
+      "noOverflow": true,
+      "checkpoints": [
+        {
+          "mediaTime": 3.312,
+          "playing": true,
+          "beat": "候选 · 第 2 小节 · 4 拍（待校正）",
+          "chord": "N · 无和弦 · 候选"
+        },
+        {
+          "mediaTime": 58.833333,
+          "playing": true,
+          "beat": "候选 · 第 51 小节 · 4 拍",
+          "chord": "A#7 · 候选"
+        },
+        {
+          "mediaTime": 116.365733,
+          "playing": true,
+          "beat": "尾段未检出拍点",
+          "chord": "N · 无和弦 · 候选"
+        }
+      ]
+    },
+    {
+      "file": "2019-05-10_-_Fireside_Date_-_www.fesliyanstudios.com.mp3",
+      "loaded": true,
+      "loadAndCheckMs": 1731,
+      "structureNote": "先校正疑似漏拍/多拍，再生成小节稳定候选。",
+      "bars": 41,
+      "learningCards": 0,
+      "noOverflow": true,
+      "checkpoints": [
+        {
+          "mediaTime": 3.312,
+          "playing": true,
+          "beat": "候选 · 弱起/前置 · 4 拍",
+          "chord": "A# · 候选"
+        },
+        {
+          "mediaTime": 75.774623,
+          "playing": true,
+          "beat": "候选 · 第 21 小节 · 4 拍",
+          "chord": "X · 未知 · 候选"
+        },
+        {
+          "mediaTime": 150.221333,
+          "playing": true,
+          "beat": "尾段未检出拍点",
+          "chord": "N · 无和弦 · 候选"
+        }
+      ]
+    },
+    {
+      "file": "2019-06-05_-_Big_Band_-_www.fesliyanstudios.com_-_David_Renda.mp3",
+      "loaded": true,
+      "loadAndCheckMs": 1607,
+      "structureNote": "节奏尚未建立，先使用上方拍点提示练习闷音；暂不指定音高。",
+      "bars": 0,
+      "learningCards": 0,
+      "noOverflow": true,
+      "checkpoints": [
+        {
+          "mediaTime": 3.313469,
+          "playing": true,
+          "beat": "候选 · 拍点 2",
+          "chord": "C · 候选"
+        },
+        {
+          "mediaTime": 59.252969,
+          "playing": true,
+          "beat": "候选 · 拍点 105",
+          "chord": "D7 · 候选"
+        },
+        {
+          "mediaTime": 117.201177,
+          "playing": true,
+          "beat": "尾段未检出拍点",
+          "chord": "N · 无和弦 · 候选"
+        }
+      ]
+    },
+    {
+      "file": "2020-04-24_-_Fancy_Party_-_FesliyanStudios.com_-_Steve_Oaks.mp3",
+      "loaded": true,
+      "loadAndCheckMs": 1521,
+      "structureNote": "先校正疑似漏拍/多拍，再生成小节稳定候选。",
+      "bars": 61,
+      "learningCards": 0,
+      "noOverflow": true,
+      "checkpoints": [
+        {
+          "mediaTime": 3.313469,
+          "playing": true,
+          "beat": "候选 · 第 3 小节 · 1 拍",
+          "chord": "Em · 候选"
+        },
+        {
+          "mediaTime": 44.548932,
+          "playing": true,
+          "beat": "候选 · 第 29 小节 · 2 拍",
+          "chord": "Em · 候选"
+        },
+        {
+          "mediaTime": 87.787297,
+          "playing": true,
+          "beat": "尾段未检出拍点",
+          "chord": "D · 候选"
+        }
+      ]
+    }
+  ],
+  "pageErrors": []
+}

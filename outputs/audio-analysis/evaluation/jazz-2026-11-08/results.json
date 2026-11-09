@@ -1,0 +1,942 @@
+{
+  "baseline": "v0.6.2",
+  "referenceAnnotations": false,
+  "rows": [
+    {
+      "file": "2019-05-03_-_Elevator_Ride_-_www.fesliyanstudios.com.mp3",
+      "sha256": "4c8bbedc01d2f6b933cfd053e5fb8cf93f7bac6a965906c65933746b88cb331e",
+      "bytes": 5444746,
+      "durationSec": 136.056,
+      "beatSeconds": 7.3,
+      "chordSeconds": 3.88,
+      "beatCount": 259,
+      "downbeatCount": 65,
+      "bpm": 120.0,
+      "meter": 4,
+      "beatTask": "complete",
+      "coverageValid": true,
+      "warnings": [
+        "129.04 秒之后未检出拍点，可能是尾音或漏检；没有自动补齐。",
+        "段落仅为声学变化候选，尚未识别主歌/副歌；强拍与每小节拍数也需回听确认。"
+      ],
+      "beatsValid": true,
+      "perMinute": [
+        {
+          "startSec": 0,
+          "beats": 120,
+          "medianBpm": 120.0
+        },
+        {
+          "startSec": 60,
+          "beats": 120,
+          "medianBpm": 120.0
+        },
+        {
+          "startSec": 120,
+          "beats": 19,
+          "medianBpm": 120.0
+        }
+      ],
+      "downbeatBeatCountHistogram": {
+        "4": 64
+      },
+      "quietEdges": {
+        "thresholdRms": 0.0012684707937073408,
+        "intervals": [
+          [
+            0,
+            2.0
+          ],
+          [
+            129.12,
+            136.056
+          ]
+        ],
+        "beatsInQuietEdges": [
+          0.04,
+          0.54,
+          1.04,
+          1.52
+        ],
+        "nonNSeconds": 0,
+        "sectionBoundariesInQuiet": [],
+        "fullyQuietSections": []
+      },
+      "structure": {
+        "meter": 4,
+        "bars": 65,
+        "endSec": 129.54,
+        "anomalies": [],
+        "conflicts": 0,
+        "stableAvailable": false,
+        "stableError": "小节候选无法解码，请保留原始时间轴。",
+        "raw": {
+          "unknownSeconds": 30.278809999999936,
+          "noChordSeconds": 9.089290000000005,
+          "shorterThan200ms": 64,
+          "events": 196
+        },
+        "stable": null,
+        "learning": {},
+        "rawXPercent": 22.25
+      },
+      "repair": {
+        "changes": [],
+        "unresolved": []
+      },
+      "repeat": {
+        "beatsExact": true,
+        "downbeatsExact": true,
+        "chordEventsExact": true,
+        "scoresMaxAbsDifference": 0.0
+      },
+      "status": "complete",
+      "totalAuditSeconds": 18.59,
+      "unknownPercent": 22.25,
+      "harmonicTransitionsPerMinute": 86.43
+    },
+    {
+      "file": "2019-05-03_-_Snap_Along_-_David_Fesliyan.mp3",
+      "sha256": "842a8d072a059d9d9e1280282e9ea24eda04b92c6fe2146f367e6b000ef01d81",
+      "bytes": 4684775,
+      "durationSec": 117.048,
+      "beatSeconds": 3.05,
+      "chordSeconds": 1.17,
+      "beatCount": 413,
+      "downbeatCount": 110,
+      "bpm": 230.77,
+      "meter": 4,
+      "beatTask": "complete",
+      "coverageValid": true,
+      "warnings": [
+        "拍间距变化较大，可能存在变速、漏拍或倍速/半速歧义，请先回听。",
+        "109.80 秒之后未检出拍点，可能是尾音或漏检；没有自动补齐。",
+        "段落仅为声学变化候选，尚未识别主歌/副歌；强拍与每小节拍数也需回听确认。"
+      ],
+      "beatsValid": true,
+      "perMinute": [
+        {
+          "startSec": 0,
+          "beats": 211,
+          "medianBpm": 230.76923076923254
+        },
+        {
+          "startSec": 60,
+          "beats": 202,
+          "medianBpm": 249.99999999999054
+        }
+      ],
+      "downbeatBeatCountHistogram": {
+        "1": 1,
+        "2": 6,
+        "3": 15,
+        "4": 83,
+        "5": 3,
+        "7": 1
+      },
+      "quietEdges": {
+        "thresholdRms": 0.0014180011433035115,
+        "intervals": [
+          [
+            111.02,
+            117.048
+          ]
+        ],
+        "beatsInQuietEdges": [],
+        "nonNSeconds": 0,
+        "sectionBoundariesInQuiet": [],
+        "fullyQuietSections": []
+      },
+      "structure": {
+        "meter": 4,
+        "bars": 104,
+        "endSec": 110.05999999999999,
+        "anomalies": [
+          {
+            "index": 2,
+            "startSec": 0.54,
+            "endSec": 1.04,
+            "ratio": 1.923076923076923
+          },
+          {
+            "index": 6,
+            "startSec": 1.8,
+            "endSec": 2.04,
+            "ratio": 0.48
+          },
+          {
+            "index": 9,
+            "startSec": 2.54,
+            "endSec": 3.04,
+            "ratio": 1.923076923076923
+          },
+          {
+            "index": 10,
+            "startSec": 3.04,
+            "endSec": 3.54,
+            "ratio": 1.923076923076923
+          },
+          {
+            "index": 11,
+            "startSec": 3.54,
+            "endSec": 4.04,
+            "ratio": 1.923076923076923
+          },
+          {
+            "index": 12,
+            "startSec": 4.04,
+            "endSec": 4.54,
+            "ratio": 1.923076923076923
+          },
+          {
+            "index": 13,
+            "startSec": 4.54,
+            "endSec": 5.04,
+            "ratio": 1.923076923076923
+          },
+          {
+            "index": 14,
+            "startSec": 5.04,
+            "endSec": 5.54,
+            "ratio": 1.9230769230769247
+          },
+          {
+            "index": 19,
+            "startSec": 6.54,
+            "endSec": 7.04,
+            "ratio": 1.9230769230769116
+          },
+          {
+            "index": 26,
+            "startSec": 8.54,
+            "endSec": 9.04,
+            "ratio": 1.9230769230769247
+          },
+          {
+            "index": 33,
+            "startSec": 10.54,
+            "endSec": 11.04,
+            "ratio": 1.9230769230769116
+          },
+          {
+            "index": 39,
+            "startSec": 12.32,
+            "endSec": 12.54,
+            "ratio": 0.45833333333333054
+          },
+          {
+            "index": 48,
+            "startSec": 16.54,
+            "endSec": 16.78,
+            "ratio": 0.480000000000004
+          },
+          {
+            "index": 49,
+            "startSec": 16.78,
+            "endSec": 17.04,
+            "ratio": 0.5416666666666621
+          },
+          {
+            "index": 50,
+            "startSec": 17.04,
+            "endSec": 17.54,
+            "ratio": 1.7857142857142785
+          },
+          {
+            "index": 51,
+            "startSec": 17.54,
+            "endSec": 18.04,
+            "ratio": 1.7857142857142785
+          },
+          {
+            "index": 62,
+            "startSec": 20.54,
+            "endSec": 21.04,
+            "ratio": 1.9230769230769116
+          },
+          {
+            "index": 65,
+            "startSec": 21.54,
+            "endSec": 22.04,
+            "ratio": 1.9230769230769116
+          },
+          {
+            "index": 66,
+            "startSec": 22.04,
+            "endSec": 22.54,
+            "ratio": 1.9230769230769116
+          },
+          {
+            "index": 67,
+            "startSec": 22.54,
+            "endSec": 23.04,
+            "ratio": 1.9230769230769116
+          },
+          {
+            "index": 72,
+            "startSec": 24.04,
+            "endSec": 24.54,
+            "ratio": 1.9230769230769116
+          },
+          {
+            "index": 77,
+            "startSec": 25.54,
+            "endSec": 26.04,
+            "ratio": 1.9230769230769116
+          },
+          {
+            "index": 78,
+            "startSec": 26.04,
+            "endSec": 26.54,
+            "ratio": 1.9230769230769116
+          },
+          {
+            "index": 83,
+            "startSec": 27.54,
+            "endSec": 28.04,
+            "ratio": 1.9230769230769116
+          },
+          {
+            "index": 84,
+            "startSec": 28.04,
+            "endSec": 28.54,
+            "ratio": 1.9230769230769116
+          },
+          {
+            "index": 360,
+            "startSec": 97.24,
+            "endSec": 97.32,
+            "ratio": 0.3333333333333136
+          },
+          {
+            "index": 375,
+            "startSec": 100.72,
+            "endSec": 100.8,
+            "ratio": 0.3333333333333136
+          }
+        ],
+        "conflicts": 34,
+        "stableAvailable": false,
+        "stableError": "先校正疑似漏拍/多拍，再生成小节稳定候选。",
+        "raw": {
+          "unknownSeconds": 18.85461999999997,
+          "noChordSeconds": 16.27341,
+          "shorterThan200ms": 33,
+          "events": 111
+        },
+        "stable": null,
+        "learning": {},
+        "rawXPercent": 16.11
+      },
+      "repair": {
+        "changes": [
+          {
+            "kind": "insert",
+            "timeSec": 0.78,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 3.3,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 3.77,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 4.28,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 5.28,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 6.77,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 8.78,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 10.78,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 20.77,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 24.28,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 25.78,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 26.28,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 27.78,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 28.3,
+            "reason": "local_interval_and_audio_onset"
+          }
+        ],
+        "unresolved": [
+          {
+            "startSec": 2.54,
+            "endSec": 3.04
+          },
+          {
+            "startSec": 4.54,
+            "endSec": 5.04
+          },
+          {
+            "startSec": 12.54,
+            "endSec": 13.04
+          },
+          {
+            "startSec": 13.04,
+            "endSec": 13.52
+          },
+          {
+            "startSec": 16.54,
+            "endSec": 16.78
+          },
+          {
+            "startSec": 16.78,
+            "endSec": 17.04
+          },
+          {
+            "startSec": 17.04,
+            "endSec": 17.54
+          },
+          {
+            "startSec": 17.54,
+            "endSec": 18.04
+          },
+          {
+            "startSec": 21.54,
+            "endSec": 22.04
+          },
+          {
+            "startSec": 22.04,
+            "endSec": 22.54
+          },
+          {
+            "startSec": 22.54,
+            "endSec": 23.04
+          },
+          {
+            "startSec": 97.24,
+            "endSec": 97.32
+          },
+          {
+            "startSec": 100.72,
+            "endSec": 100.8
+          }
+        ]
+      },
+      "repeat": {
+        "beatsExact": true,
+        "downbeatsExact": true,
+        "chordEventsExact": true,
+        "scoresMaxAbsDifference": 0.0
+      },
+      "status": "complete",
+      "totalAuditSeconds": 10.31,
+      "unknownPercent": 16.11,
+      "harmonicTransitionsPerMinute": 56.9
+    },
+    {
+      "file": "2019-05-10_-_Fireside_Date_-_www.fesliyanstudios.com.mp3",
+      "sha256": "2c6b0eafa85b83613259af076ee861fdc0b4f9bd574bbc82296d2067f49cec75",
+      "bytes": 6039034,
+      "durationSec": 150.912,
+      "beatSeconds": 4.39,
+      "chordSeconds": 1.48,
+      "beatCount": 158,
+      "downbeatCount": 47,
+      "bpm": 69.77,
+      "meter": 4,
+      "beatTask": "complete",
+      "coverageValid": true,
+      "warnings": [
+        "拍间距变化较大，可能存在变速、漏拍或倍速/半速歧义，请先回听。",
+        "141.82 秒之后未检出拍点，可能是尾音或漏检；没有自动补齐。",
+        "首个拍点在 2.94 秒；之前的音频未自动外推拍点。",
+        "段落仅为声学变化候选，尚未识别主歌/副歌；强拍与每小节拍数也需回听确认。"
+      ],
+      "beatsValid": true,
+      "perMinute": [
+        {
+          "startSec": 0,
+          "beats": 67,
+          "medianBpm": 69.76744186046517
+        },
+        {
+          "startSec": 60,
+          "beats": 70,
+          "medianBpm": 69.76744186046517
+        },
+        {
+          "startSec": 120,
+          "beats": 21,
+          "medianBpm": 69.76744186046517
+        }
+      ],
+      "downbeatBeatCountHistogram": {
+        "1": 4,
+        "2": 7,
+        "3": 1,
+        "4": 34
+      },
+      "quietEdges": {
+        "thresholdRms": 0.0008470162359822848,
+        "intervals": [
+          [
+            0,
+            2.8
+          ],
+          [
+            147.96,
+            150.912
+          ]
+        ],
+        "beatsInQuietEdges": [],
+        "nonNSeconds": 0,
+        "sectionBoundariesInQuiet": [],
+        "fullyQuietSections": []
+      },
+      "structure": {
+        "meter": 4,
+        "bars": 41,
+        "endSec": 142.7,
+        "anomalies": [
+          {
+            "index": 155,
+            "startSec": 135.82,
+            "endSec": 139.26,
+            "ratio": 3.999999999999934
+          },
+          {
+            "index": 156,
+            "startSec": 139.26,
+            "endSec": 141.82,
+            "ratio": 2.976744186046467
+          }
+        ],
+        "conflicts": 7,
+        "stableAvailable": false,
+        "stableError": "先校正疑似漏拍/多拍，再生成小节稳定候选。",
+        "raw": {
+          "unknownSeconds": 14.210619999999892,
+          "noChordSeconds": 5.926600000000008,
+          "shorterThan200ms": 35,
+          "events": 119
+        },
+        "stable": null,
+        "learning": {},
+        "rawXPercent": 9.42
+      },
+      "repair": {
+        "changes": [],
+        "unresolved": [
+          {
+            "startSec": 135.82,
+            "endSec": 139.26
+          },
+          {
+            "startSec": 139.26,
+            "endSec": 141.82
+          }
+        ]
+      },
+      "repeat": {
+        "beatsExact": true,
+        "downbeatsExact": true,
+        "chordEventsExact": true,
+        "scoresMaxAbsDifference": 0.0
+      },
+      "status": "complete",
+      "totalAuditSeconds": 13.73,
+      "unknownPercent": 9.42,
+      "harmonicTransitionsPerMinute": 47.31
+    },
+    {
+      "file": "2019-06-05_-_Big_Band_-_www.fesliyanstudios.com_-_David_Renda.mp3",
+      "sha256": "e49b1e0b55775a672200f0ebf029f828cae0382e6899a7a4951424b057480fee",
+      "bytes": 4716854,
+      "durationSec": 117.89061,
+      "beatSeconds": 2.89,
+      "chordSeconds": 1.19,
+      "beatCount": 202,
+      "downbeatCount": 75,
+      "bpm": 111.11,
+      "meter": null,
+      "beatTask": "complete",
+      "coverageValid": true,
+      "warnings": [
+        "112.44 秒之后未检出拍点，可能是尾音或漏检；没有自动补齐。",
+        "首个拍点在 2.24 秒；之前的音频未自动外推拍点。",
+        "段落仅为声学变化候选，尚未识别主歌/副歌；强拍与每小节拍数也需回听确认。"
+      ],
+      "beatsValid": true,
+      "perMinute": [
+        {
+          "startSec": 0,
+          "beats": 106,
+          "medianBpm": 111.11111111111092
+        },
+        {
+          "startSec": 60,
+          "beats": 96,
+          "medianBpm": 111.11111111110982
+        }
+      ],
+      "downbeatBeatCountHistogram": {
+        "1": 1,
+        "2": 46,
+        "4": 27
+      },
+      "quietEdges": {
+        "thresholdRms": 0.0018482666541317426,
+        "intervals": [
+          [
+            0,
+            2.22
+          ],
+          [
+            115.12,
+            117.89061
+          ]
+        ],
+        "beatsInQuietEdges": [],
+        "nonNSeconds": 0,
+        "sectionBoundariesInQuiet": [],
+        "fullyQuietSections": []
+      },
+      "structure": {
+        "meter": null,
+        "bars": 0,
+        "endSec": 112.99999999999999,
+        "anomalies": [
+          {
+            "index": 200,
+            "startSec": 111.3,
+            "endSec": 112.44,
+            "ratio": 2.1111111111110876
+          }
+        ],
+        "conflicts": 0,
+        "stableAvailable": false,
+        "stableError": "先设置每小节拍数与第一拍。",
+        "raw": {
+          "unknownSeconds": 12.26015000000001,
+          "noChordSeconds": 10.521540000000002,
+          "shorterThan200ms": 28,
+          "events": 108
+        },
+        "stable": null,
+        "learning": {},
+        "rawXPercent": 10.4
+      },
+      "repair": {
+        "changes": [],
+        "unresolved": [
+          {
+            "startSec": 111.3,
+            "endSec": 112.44
+          }
+        ]
+      },
+      "repeat": {
+        "beatsExact": true,
+        "downbeatsExact": true,
+        "chordEventsExact": true,
+        "scoresMaxAbsDifference": 0.0
+      },
+      "status": "complete",
+      "totalAuditSeconds": 9.73,
+      "unknownPercent": 10.4,
+      "harmonicTransitionsPerMinute": 54.97
+    },
+    {
+      "file": "2020-04-24_-_Fancy_Party_-_FesliyanStudios.com_-_Steve_Oaks.mp3",
+      "sha256": "a3c2c10cea58ee46c75a9c4bed1bb707866ee981f9513d80aa4987dc11c3ca5d",
+      "bytes": 3542681,
+      "durationSec": 88.47673,
+      "beatSeconds": 2.17,
+      "chordSeconds": 0.84,
+      "beatCount": 121,
+      "downbeatCount": 68,
+      "bpm": 93.75,
+      "meter": 2,
+      "beatTask": "complete",
+      "coverageValid": true,
+      "warnings": [
+        "拍间距变化较大，可能存在变速、漏拍或倍速/半速歧义，请先回听。",
+        "85.92 秒之后未检出拍点，可能是尾音或漏检；没有自动补齐。",
+        "段落仅为声学变化候选，尚未识别主歌/副歌；强拍与每小节拍数也需回听确认。"
+      ],
+      "beatsValid": true,
+      "perMinute": [
+        {
+          "startSec": 0,
+          "beats": 80,
+          "medianBpm": 93.74999999999991
+        },
+        {
+          "startSec": 60,
+          "beats": 41,
+          "medianBpm": 93.74999999999991
+        }
+      ],
+      "downbeatBeatCountHistogram": {
+        "1": 16,
+        "2": 51
+      },
+      "quietEdges": {
+        "thresholdRms": 0.000534501108939447,
+        "intervals": [
+          [
+            88.04,
+            88.47673
+          ]
+        ],
+        "beatsInQuietEdges": [],
+        "nonNSeconds": 0,
+        "sectionBoundariesInQuiet": [],
+        "fullyQuietSections": []
+      },
+      "structure": {
+        "meter": 2,
+        "bars": 61,
+        "endSec": 86.56,
+        "anomalies": [
+          {
+            "index": 7,
+            "startSec": 4.46,
+            "endSec": 5.72,
+            "ratio": 1.9687500000000007
+          },
+          {
+            "index": 12,
+            "startSec": 8.26,
+            "endSec": 9.52,
+            "ratio": 1.9687500000000007
+          },
+          {
+            "index": 13,
+            "startSec": 9.52,
+            "endSec": 10.78,
+            "ratio": 1.9687500000000007
+          },
+          {
+            "index": 14,
+            "startSec": 10.78,
+            "endSec": 12.04,
+            "ratio": 1.968749999999998
+          },
+          {
+            "index": 23,
+            "startSec": 17.1,
+            "endSec": 18.36,
+            "ratio": 1.9687499999999951
+          },
+          {
+            "index": 24,
+            "startSec": 18.36,
+            "endSec": 19.62,
+            "ratio": 1.9687500000000007
+          },
+          {
+            "index": 25,
+            "startSec": 19.62,
+            "endSec": 20.88,
+            "ratio": 1.9687499999999951
+          },
+          {
+            "index": 28,
+            "startSec": 22.16,
+            "endSec": 23.42,
+            "ratio": 1.9687500000000007
+          },
+          {
+            "index": 29,
+            "startSec": 23.42,
+            "endSec": 24.68,
+            "ratio": 1.9687499999999951
+          },
+          {
+            "index": 44,
+            "startSec": 33.52,
+            "endSec": 34.78,
+            "ratio": 1.9687499999999951
+          },
+          {
+            "index": 45,
+            "startSec": 34.78,
+            "endSec": 36.04,
+            "ratio": 1.9687499999999951
+          },
+          {
+            "index": 48,
+            "startSec": 37.32,
+            "endSec": 38.58,
+            "ratio": 1.9687499999999951
+          },
+          {
+            "index": 63,
+            "startSec": 47.42,
+            "endSec": 48.68,
+            "ratio": 1.9687499999999951
+          },
+          {
+            "index": 64,
+            "startSec": 48.68,
+            "endSec": 49.94,
+            "ratio": 1.9687499999999951
+          },
+          {
+            "index": 65,
+            "startSec": 49.94,
+            "endSec": 51.2,
+            "ratio": 1.9687500000000062
+          },
+          {
+            "index": 84,
+            "startSec": 62.58,
+            "endSec": 63.84,
+            "ratio": 1.9687500000000062
+          }
+        ],
+        "conflicts": 28,
+        "stableAvailable": false,
+        "stableError": "先校正疑似漏拍/多拍，再生成小节稳定候选。",
+        "raw": {
+          "unknownSeconds": 12.72453999999992,
+          "noChordSeconds": 0.8910600000000102,
+          "shorterThan200ms": 30,
+          "events": 114
+        },
+        "stable": null,
+        "learning": {},
+        "rawXPercent": 14.38
+      },
+      "repair": {
+        "changes": [
+          {
+            "kind": "insert",
+            "timeSec": 5.06,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 8.87,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 10.2,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 11.4,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 17.72,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 18.97,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 24.03,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 34.14,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 35.4,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 37.97,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 48.03,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 49.29,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 50.61,
+            "reason": "local_interval_and_audio_onset"
+          },
+          {
+            "kind": "insert",
+            "timeSec": 63.26,
+            "reason": "local_interval_and_audio_onset"
+          }
+        ],
+        "unresolved": [
+          {
+            "startSec": 19.62,
+            "endSec": 20.88
+          },
+          {
+            "startSec": 22.16,
+            "endSec": 23.42
+          }
+        ]
+      },
+      "repeat": {
+        "beatsExact": true,
+        "downbeatsExact": true,
+        "chordEventsExact": true,
+        "scoresMaxAbsDifference": 0.0
+      },
+      "status": "complete",
+      "totalAuditSeconds": 7.22,
+      "unknownPercent": 14.38,
+      "harmonicTransitionsPerMinute": 77.31
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "kind": "human-reviewed real-song evaluation",
+  "scoredSongs": 0,
+  "pendingIds": [
+    "in-space-user-regression"
+  ],
+  "rows": [],
+  "status": "awaiting_independent_annotations"
+}

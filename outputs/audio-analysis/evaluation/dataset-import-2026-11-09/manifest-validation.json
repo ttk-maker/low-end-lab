@@ -1,0 +1,20 @@
+{
+  "gtzan": {
+    "items": 1000,
+    "uniqueIds": 1000,
+    "groupsCrossingSplits": 0,
+    "missingSources": 0
+  },
+  "guitarset": {
+    "items": 360,
+    "uniqueIds": 360,
+    "groupsCrossingSplits": 0,
+    "missingSources": 0
+  },
+  "pop909": {
+    "items": 906,
+    "uniqueIds": 906,
+    "groupsCrossingSplits": 0,
+    "missingSources": 0
+  }
+}

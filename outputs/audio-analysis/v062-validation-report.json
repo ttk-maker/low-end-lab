@@ -1,0 +1,37 @@
+{
+  "version": "0.6.2",
+  "originalProjectUnchanged": true,
+  "audioModelChanged": false,
+  "pythonTestsPassed": 18,
+  "learningPolicyTests": "passed",
+  "ui": {
+    "passed": true,
+    "checks": [
+      "root practice without confirmation",
+      "uncertain quality root-only advice",
+      "technical details collapsed",
+      "raw comparison",
+      "candidate playback",
+      "390px no overflow"
+    ],
+    "pageErrors": []
+  },
+  "qwenTemperatureProbe": {
+    "accepted": true,
+    "temperature": 0.2,
+    "answer": "贝斯练根音能稳固和声与节奏基础，让音乐更扎实、与其他乐器配合更紧密。",
+    "usage": {
+      "prompt_tokens": 65,
+      "total_tokens": 147,
+      "completion_tokens": 82,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 65
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 54,
+        "text_tokens": 28
+      }
+    }
+  }
+}

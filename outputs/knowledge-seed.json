@@ -1,0 +1,644 @@
+{
+  "schemaVersion": "0.1",
+  "description": "原创中文释义与练习设计；非教材全文镜像，未接入检索服务。",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "The Role of the Bass",
+      "publisher": "StudyBass",
+      "url": "https://www.studybass.com/lessons/basics/the-role-of-the-bass/",
+      "status": 200,
+      "accessedAt": "2026-11-07",
+      "access": "public_page_read",
+      "rights": "Link and original paraphrase only; redistribution license not verified",
+      "evidenceScope": "Public lesson text; embedded media not audited"
+    },
+    {
+      "id": "S02",
+      "title": "Bass Performance 101",
+      "publisher": "Berklee Online",
+      "url": "https://online.berklee.edu/courses/bass-performance-101",
+      "status": 200,
+      "accessedAt": "2026-11-07",
+      "access": "public_page_read",
+      "rights": "Link and original paraphrase only; redistribution license not verified",
+      "evidenceScope": "Public syllabus and instructor information, not paid course content"
+    },
+    {
+      "id": "S03",
+      "title": "Chord Tones Are Primary",
+      "publisher": "StudyBass",
+      "url": "https://www.studybass.com/lessons/bass-chord-patterns/chord-tones-are-primary/",
+      "status": 200,
+      "accessedAt": "2026-11-07",
+      "access": "public_page_read",
+      "rights": "Link and original paraphrase only; redistribution license not verified",
+      "evidenceScope": "Public lesson text; embedded media not audited"
+    },
+    {
+      "id": "S04",
+      "title": "Chromatic Approach Notes",
+      "publisher": "StudyBass",
+      "url": "https://www.studybass.com/lessons/common-bass-patterns/chromatic-approach-notes/",
+      "status": 200,
+      "accessedAt": "2026-11-07",
+      "access": "public_page_read",
+      "rights": "Link and original paraphrase only; redistribution license not verified",
+      "evidenceScope": "Public lesson text; embedded media not audited"
+    },
+    {
+      "id": "S05",
+      "title": "Slash Chords",
+      "publisher": "StudyBass",
+      "url": "https://www.studybass.com/lessons/reading-music/slash-chords/",
+      "status": 200,
+      "accessedAt": "2026-11-07",
+      "access": "public_page_read",
+      "rights": "Link and original paraphrase only; redistribution license not verified",
+      "evidenceScope": "Public lesson text; embedded media not audited"
+    },
+    {
+      "id": "S06",
+      "title": "How to Tune Your Bass",
+      "publisher": "StudyBass",
+      "url": "https://www.studybass.com/lessons/basics/how-to-tune-your-bass/",
+      "status": 200,
+      "accessedAt": "2026-11-07",
+      "access": "public_page_read",
+      "rights": "Link and original paraphrase only; redistribution license not verified",
+      "evidenceScope": "Public lesson text; embedded media not audited"
+    },
+    {
+      "id": "S07",
+      "title": "Basic Intervals",
+      "publisher": "StudyBass",
+      "url": "https://www.studybass.com/lessons/intervals/basic-intervals/",
+      "status": 200,
+      "accessedAt": "2026-11-07",
+      "access": "public_page_read",
+      "rights": "Link and original paraphrase only; redistribution license not verified",
+      "evidenceScope": "Public lesson text; embedded media not audited"
+    },
+    {
+      "id": "S08",
+      "title": "Subdividing the Beat",
+      "publisher": "StudyBass",
+      "url": "https://www.studybass.com/lessons/rhythm/subdividing-the-beat/",
+      "status": 200,
+      "accessedAt": "2026-11-07",
+      "access": "public_page_read",
+      "rights": "Link and original paraphrase only; redistribution license not verified",
+      "evidenceScope": "Public lesson text; embedded media not audited"
+    },
+    {
+      "id": "S09",
+      "title": "The 12-Bar Blues Form",
+      "publisher": "StudyBass",
+      "url": "https://www.studybass.com/lessons/blues-bass/the-12-bar-blues-form/",
+      "status": 200,
+      "accessedAt": "2026-11-07",
+      "access": "public_page_read",
+      "rights": "Link and original paraphrase only; redistribution license not verified",
+      "evidenceScope": "Public lesson text; embedded media not audited"
+    },
+    {
+      "id": "S10",
+      "title": "One-Octave Minor 7th",
+      "publisher": "StudyBass",
+      "url": "https://www.studybass.com/lessons/bass-chord-patterns/one-octave-minor-7th/",
+      "status": 200,
+      "accessedAt": "2026-11-07",
+      "access": "public_page_read",
+      "rights": "Link and original paraphrase only; redistribution license not verified",
+      "evidenceScope": "Public lesson text; embedded media not audited"
+    },
+    {
+      "id": "S11",
+      "title": "Octaves",
+      "publisher": "StudyBass",
+      "url": "https://www.studybass.com/lessons/common-bass-patterns/octaves/",
+      "status": 200,
+      "accessedAt": "2026-11-07",
+      "access": "public_page_read",
+      "rights": "Link and original paraphrase only; redistribution license not verified",
+      "evidenceScope": "Public lesson text; embedded media not audited"
+    }
+  ],
+  "cards": [
+    {
+      "id": "K01",
+      "title": "节奏与和声的双重角色",
+      "language": "zh-CN",
+      "tags": [
+        "role"
+      ],
+      "level": "early-intermediate",
+      "prerequisites": [],
+      "sourceRefs": [
+        "S01",
+        "S02"
+      ],
+      "explanation": "贝斯常同时支撑节奏与和声；节奏不是只能依赖鼓手。",
+      "exercise": "同一个根音弹四分音符与带休止的八分节奏，比较它们与鼓点的关系。",
+      "caveat": "不能据此把所有乐器的乐理需求排成高低顺序。",
+      "evidenceType": "source_based_paraphrase",
+      "reviewStatus": "draft_needs_bass_teacher_review",
+      "version": "0.1",
+      "styleScope": [
+        "general_intro"
+      ],
+      "retrievalPrompts": [
+        "节奏与和声的双重角色",
+        "如何在歌曲中练习节奏与和声的双重角色"
+      ],
+      "assessment": {
+        "method": "demonstration_and_self_explanation",
+        "requiresRecording": false
+      }
+    },
+    {
+      "id": "K02",
+      "title": "节拍细分",
+      "language": "zh-CN",
+      "tags": [
+        "rhythm"
+      ],
+      "level": "early-intermediate",
+      "prerequisites": [
+        "K01"
+      ],
+      "sourceRefs": [
+        "S08"
+      ],
+      "explanation": "在 4/4 且四分音符为一拍时，一拍可等分为两个八分、四个十六分或三个八分三连音。",
+      "exercise": "先口数 1 & 2 & 3 & 4 &，再只弹每拍的 &。",
+      "caveat": "swing 与 straight 的时间比例不同，不能永远用平均格评分。",
+      "evidenceType": "source_based_paraphrase",
+      "reviewStatus": "draft_needs_bass_teacher_review",
+      "version": "0.1",
+      "styleScope": [
+        "general_intro"
+      ],
+      "retrievalPrompts": [
+        "节拍细分",
+        "如何在歌曲中练习节拍细分"
+      ],
+      "assessment": {
+        "method": "demonstration_and_self_explanation",
+        "requiresRecording": false
+      }
+    },
+    {
+      "id": "K03",
+      "title": "和弦音优先",
+      "language": "zh-CN",
+      "tags": [
+        "chord"
+      ],
+      "level": "early-intermediate",
+      "prerequisites": [
+        "K01"
+      ],
+      "sourceRefs": [
+        "S03"
+      ],
+      "explanation": "和弦音是组成和弦的音。学习贝斯线可以优先理解和弦轮廓，再学习音阶音如何连接这些落点。",
+      "exercise": "在 Am7 上分别只用 A，以及 A/C/E/G，保持相同节奏比较。",
+      "caveat": "这是教材的教学立场，不是要求每个音都属于和弦。",
+      "evidenceType": "source_based_paraphrase",
+      "reviewStatus": "draft_needs_bass_teacher_review",
+      "version": "0.1",
+      "styleScope": [
+        "general_intro"
+      ],
+      "retrievalPrompts": [
+        "和弦音优先",
+        "如何在歌曲中练习和弦音优先"
+      ],
+      "assessment": {
+        "method": "demonstration_and_self_explanation",
+        "requiresRecording": false
+      }
+    },
+    {
+      "id": "K04",
+      "title": "半音与全音",
+      "language": "zh-CN",
+      "tags": [
+        "interval"
+      ],
+      "level": "early-intermediate",
+      "prerequisites": [],
+      "sourceRefs": [
+        "S07"
+      ],
+      "explanation": "十二平均律中相邻品相差一个半音；两个半音为一个全音。",
+      "exercise": "同弦弹 5、6、7 品，听半音和全音距离。",
+      "caveat": "不同调弦影响跨弦形状，不改变同弦相邻品关系。",
+      "evidenceType": "source_based_paraphrase",
+      "reviewStatus": "draft_needs_bass_teacher_review",
+      "version": "0.1",
+      "styleScope": [
+        "general_intro"
+      ],
+      "retrievalPrompts": [
+        "半音与全音",
+        "如何在歌曲中练习半音与全音"
+      ],
+      "assessment": {
+        "method": "demonstration_and_self_explanation",
+        "requiresRecording": false
+      }
+    },
+    {
+      "id": "K05",
+      "title": "标准四度调弦",
+      "language": "zh-CN",
+      "tags": [
+        "fretboard"
+      ],
+      "level": "early-intermediate",
+      "prerequisites": [
+        "K04"
+      ],
+      "sourceRefs": [
+        "S07"
+      ],
+      "explanation": "四弦标准调弦从低到高为 E、A、D、G，相邻空弦为纯四度，间隔 5 半音。",
+      "exercise": "比较 E 弦 5 品与 A 空弦。",
+      "caveat": "调弦改变后，不能继续机械套用五半音跨弦公式。",
+      "evidenceType": "source_based_paraphrase",
+      "reviewStatus": "draft_needs_bass_teacher_review",
+      "version": "0.1",
+      "styleScope": [
+        "general_intro"
+      ],
+      "retrievalPrompts": [
+        "标准四度调弦",
+        "如何在歌曲中练习标准四度调弦"
+      ],
+      "assessment": {
+        "method": "demonstration_and_self_explanation",
+        "requiresRecording": false
+      }
+    },
+    {
+      "id": "K06",
+      "title": "八度与同音异位",
+      "language": "zh-CN",
+      "tags": [
+        "fretboard"
+      ],
+      "level": "early-intermediate",
+      "prerequisites": [
+        "K05"
+      ],
+      "sourceRefs": [
+        "S11"
+      ],
+      "explanation": "八度频率比为 2:1。标准调弦中，高两根弦并高两品常得到高八度；同弦高 12 品也是高八度。",
+      "exercise": "比较 E5、A0 与 G2，区分同一实音和高八度。",
+      "caveat": "必须检查弦数和品位边界。",
+      "evidenceType": "source_based_paraphrase",
+      "reviewStatus": "draft_needs_bass_teacher_review",
+      "version": "0.1",
+      "styleScope": [
+        "general_intro"
+      ],
+      "retrievalPrompts": [
+        "八度与同音异位",
+        "如何在歌曲中练习八度与同音异位"
+      ],
+      "assessment": {
+        "method": "demonstration_and_self_explanation",
+        "requiresRecording": false
+      }
+    },
+    {
+      "id": "K07",
+      "title": "三度改变和弦色彩",
+      "language": "zh-CN",
+      "tags": [
+        "chord"
+      ],
+      "level": "early-intermediate",
+      "prerequisites": [
+        "K04"
+      ],
+      "sourceRefs": [
+        "S07"
+      ],
+      "explanation": "小三度为 3 半音，大三度为 4 半音。辨认三度有助于理解大小和弦。",
+      "exercise": "以 A 为根，比较 C 与 C#，其他音与节奏不变。",
+      "caveat": "半音数不足以决定规范拼写，仍需字母级数。",
+      "evidenceType": "source_based_paraphrase",
+      "reviewStatus": "draft_needs_bass_teacher_review",
+      "version": "0.1",
+      "styleScope": [
+        "general_intro"
+      ],
+      "retrievalPrompts": [
+        "三度改变和弦色彩",
+        "如何在歌曲中练习三度改变和弦色彩"
+      ],
+      "assessment": {
+        "method": "demonstration_and_self_explanation",
+        "requiresRecording": false
+      }
+    },
+    {
+      "id": "K08",
+      "title": "小七和弦",
+      "language": "zh-CN",
+      "tags": [
+        "chord"
+      ],
+      "level": "early-intermediate",
+      "prerequisites": [
+        "K03",
+        "K07"
+      ],
+      "sourceRefs": [
+        "S10"
+      ],
+      "explanation": "小七和弦为 1、♭3、5、♭7；以 A 为根时是 A、C、E、G。",
+      "exercise": "在 E5、E8、A7、D5 逐音弹出 Am7 构成音。",
+      "caveat": "小七和弦的名称不同于小七度；二者相关但不相同。",
+      "evidenceType": "source_based_paraphrase",
+      "reviewStatus": "draft_needs_bass_teacher_review",
+      "version": "0.1",
+      "styleScope": [
+        "general_intro"
+      ],
+      "retrievalPrompts": [
+        "小七和弦",
+        "如何在歌曲中练习小七和弦"
+      ],
+      "assessment": {
+        "method": "demonstration_and_self_explanation",
+        "requiresRecording": false
+      }
+    },
+    {
+      "id": "K09",
+      "title": "半音趋近",
+      "language": "zh-CN",
+      "tags": [
+        "connection"
+      ],
+      "level": "early-intermediate",
+      "prerequisites": [
+        "K03",
+        "K04"
+      ],
+      "sourceRefs": [
+        "S04"
+      ],
+      "explanation": "目标音可以从上方或下方半音进入；趋近音的节拍位置、时值与解决非常重要。",
+      "exercise": "Am7 → Fmaj7：在前一小节 4& 弹 E1，下一小节落 F1。",
+      "caveat": "这例子中的 E 仍是 Am7 和弦音；不要一律称为调外音。",
+      "evidenceType": "source_based_paraphrase",
+      "reviewStatus": "draft_needs_bass_teacher_review",
+      "version": "0.1",
+      "styleScope": [
+        "general_intro"
+      ],
+      "retrievalPrompts": [
+        "半音趋近",
+        "如何在歌曲中练习半音趋近"
+      ],
+      "assessment": {
+        "method": "demonstration_and_self_explanation",
+        "requiresRecording": false
+      }
+    },
+    {
+      "id": "K10",
+      "title": "经过音",
+      "language": "zh-CN",
+      "tags": [
+        "connection"
+      ],
+      "level": "early-intermediate",
+      "prerequisites": [
+        "K09"
+      ],
+      "sourceRefs": [
+        "S04"
+      ],
+      "explanation": "连接两个主音时，中间的音可承担经过作用；应按运动方向与语境解释。",
+      "exercise": "C → D 之间加入短 C#，并与不加入时比较。",
+      "caveat": "经过音与趋近音可以有功能重叠，标签不是唯一判定。",
+      "evidenceType": "source_based_paraphrase",
+      "reviewStatus": "draft_needs_bass_teacher_review",
+      "version": "0.1",
+      "styleScope": [
+        "general_intro"
+      ],
+      "retrievalPrompts": [
+        "经过音",
+        "如何在歌曲中练习经过音"
+      ],
+      "assessment": {
+        "method": "demonstration_and_self_explanation",
+        "requiresRecording": false
+      }
+    },
+    {
+      "id": "K11",
+      "title": "斜线和弦",
+      "language": "zh-CN",
+      "tags": [
+        "harmony"
+      ],
+      "level": "early-intermediate",
+      "prerequisites": [
+        "K03"
+      ],
+      "sourceRefs": [
+        "S05"
+      ],
+      "explanation": "斜线和弦左侧是和弦，右侧是指定低音。G/B 表示 G 和弦配 B 低音。",
+      "exercise": "对比 G–G/B–C，低音走 G、B、C。",
+      "caveat": "斜线低音不一定是上方和弦的构成音。",
+      "evidenceType": "source_based_paraphrase",
+      "reviewStatus": "draft_needs_bass_teacher_review",
+      "version": "0.1",
+      "styleScope": [
+        "general_intro"
+      ],
+      "retrievalPrompts": [
+        "斜线和弦",
+        "如何在歌曲中练习斜线和弦"
+      ],
+      "assessment": {
+        "method": "demonstration_and_self_explanation",
+        "requiresRecording": false
+      }
+    },
+    {
+      "id": "K12",
+      "title": "十二小节布鲁斯",
+      "language": "zh-CN",
+      "tags": [
+        "form"
+      ],
+      "level": "early-intermediate",
+      "prerequisites": [
+        "K03"
+      ],
+      "sourceRefs": [
+        "S09"
+      ],
+      "explanation": "一种常见入门十二小节序列是 I I I I / IV IV I I / V IV I V，但布鲁斯存在许多变体。",
+      "exercise": "A 调先按 A A A A / D D A A / E D A E 弹根音。",
+      "caveat": "这是一个具体版本，不应强行套到所有布鲁斯歌曲。",
+      "evidenceType": "source_based_paraphrase",
+      "reviewStatus": "draft_needs_bass_teacher_review",
+      "version": "0.1",
+      "styleScope": [
+        "general_intro"
+      ],
+      "retrievalPrompts": [
+        "十二小节布鲁斯",
+        "如何在歌曲中练习十二小节布鲁斯"
+      ],
+      "assessment": {
+        "method": "demonstration_and_self_explanation",
+        "requiresRecording": false
+      }
+    },
+    {
+      "id": "K13",
+      "title": "调音先于听辨训练",
+      "language": "zh-CN",
+      "tags": [
+        "instrument"
+      ],
+      "level": "early-intermediate",
+      "prerequisites": [],
+      "sourceRefs": [
+        "S06"
+      ],
+      "explanation": "练习音高关系前应确认乐器与音源调音一致。弦张力变化会改变音高。",
+      "exercise": "使用调音器确认空弦，再对比同音异位。",
+      "caveat": "原型提供频率计算，不等于已经实现调音器。",
+      "evidenceType": "source_based_paraphrase",
+      "reviewStatus": "draft_needs_bass_teacher_review",
+      "version": "0.1",
+      "styleScope": [
+        "general_intro"
+      ],
+      "retrievalPrompts": [
+        "调音先于听辨训练",
+        "如何在歌曲中练习调音先于听辨训练"
+      ],
+      "assessment": {
+        "method": "demonstration_and_self_explanation",
+        "requiresRecording": false
+      }
+    },
+    {
+      "id": "K14",
+      "title": "从曲式到编配",
+      "language": "zh-CN",
+      "tags": [
+        "form",
+        "arrangement"
+      ],
+      "level": "early-intermediate",
+      "prerequisites": [
+        "K01",
+        "K12"
+      ],
+      "sourceRefs": [
+        "S02"
+      ],
+      "explanation": "Berklee 课程同时包含曲式、节奏 groove、三和弦/转位、固定音型和发音法，说明学习路径应覆盖这些互相关联的维度。",
+      "exercise": "同一进行走两轮，只在第二轮最后一小节改动。",
+      "caveat": "具体段落编配方式是本产品练习设计，不是课程大纲原句。",
+      "evidenceType": "product_synthesis",
+      "reviewStatus": "draft_needs_bass_teacher_review",
+      "version": "0.1",
+      "styleScope": [
+        "general_intro"
+      ],
+      "retrievalPrompts": [
+        "从曲式到编配",
+        "如何在歌曲中练习从曲式到编配"
+      ],
+      "assessment": {
+        "method": "demonstration_and_self_explanation",
+        "requiresRecording": false
+      }
+    },
+    {
+      "id": "K15",
+      "title": "音头、音尾与留白",
+      "language": "zh-CN",
+      "tags": [
+        "rhythm",
+        "articulation"
+      ],
+      "level": "early-intermediate",
+      "prerequisites": [
+        "K02"
+      ],
+      "sourceRefs": [
+        "S02",
+        "S08"
+      ],
+      "explanation": "节奏位置与发音法都影响贝斯线；产品应允许比较相同音高、不同音长和休止。",
+      "exercise": "在原型里只切换短音/长音/休止，描述听感变化。",
+      "caveat": "目前是教学建议，不能在未录音时声称判断了用户音尾。",
+      "evidenceType": "product_synthesis",
+      "reviewStatus": "draft_needs_bass_teacher_review",
+      "version": "0.1",
+      "styleScope": [
+        "general_intro"
+      ],
+      "retrievalPrompts": [
+        "音头、音尾与留白",
+        "如何在歌曲中练习音头、音尾与留白"
+      ],
+      "assessment": {
+        "method": "demonstration_and_self_explanation",
+        "requiresRecording": false
+      }
+    },
+    {
+      "id": "K16",
+      "title": "从目标倒推加花",
+      "language": "zh-CN",
+      "tags": [
+        "connection",
+        "arrangement"
+      ],
+      "level": "early-intermediate",
+      "prerequisites": [
+        "K09",
+        "K14"
+      ],
+      "sourceRefs": [
+        "S04"
+      ],
+      "explanation": "练习连接时可以先固定下一和弦目标，再在前一小节末尾尝试少量趋近音。",
+      "exercise": "先保证下一拍的 F，再加入 E；如果丢拍则删除 E 重练。",
+      "caveat": "这是由来源原则推导的教学流程，不是唯一正确加花策略。",
+      "evidenceType": "product_synthesis",
+      "reviewStatus": "draft_needs_bass_teacher_review",
+      "version": "0.1",
+      "styleScope": [
+        "general_intro"
+      ],
+      "retrievalPrompts": [
+        "从目标倒推加花",
+        "如何在歌曲中练习从目标倒推加花"
+      ],
+      "assessment": {
+        "method": "demonstration_and_self_explanation",
+        "requiresRecording": false
+      }
+    }
+  ]
+}

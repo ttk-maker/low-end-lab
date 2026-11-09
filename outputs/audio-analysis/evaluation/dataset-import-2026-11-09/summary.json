@@ -1,0 +1,342 @@
+{
+  "imports": {
+    "gtzan": {
+      "dataset": "gtzan",
+      "items": 1000,
+      "splitCounts": {
+        "diagnostic": 221,
+        "frozen_test": 779
+      },
+      "eligible": {
+        "beat": 997,
+        "downbeat": 991,
+        "chord": 0
+      },
+      "issueCounts": {
+        "implausibly_close_reference_beats": 1,
+        "beat_out_of_audio_bounds": 1,
+        "missing_reference": 1
+      },
+      "durationHours": 8.340020735701705,
+      "notes": [
+        "30-second excerpts do not validate long-song drift",
+        "Reference anomalies are excluded with reasons; source annotations are never rewritten",
+        "HF genre labels are not used as beat truth",
+        "Exact file hashes group duplicates; cross-recording/song-level duplicates not fully audited"
+      ]
+    },
+    "guitarset": {
+      "dataset": "guitarset",
+      "items": 360,
+      "splitCounts": {
+        "frozen_test": 288,
+        "diagnostic": 72
+      },
+      "eligible": {
+        "beat": 360,
+        "downbeat": 360,
+        "chord": 360
+      },
+      "issueCounts": {},
+      "durationHours": 3.0467878306878284,
+      "notes": [
+        "Microphone recordings only; no hexaphonic redundant audio download",
+        "Lead-sheet and performed/inferred labels remain separate",
+        "Inferred chords use leadsheet boundaries/root and are not fully independent manual truth",
+        "Same template across tempo/key/player/comp/solo shares split",
+        "BN3, Funk1 and SS2 remain diagnostic because their variants were used in initial smoke tests; no observed template is promoted to frozen_test",
+        "Beat This training overlap prevents claiming independent beat generalization",
+        "Chord smoke tests select comp; solo labels are harmonic context, not necessarily sounding chords",
+        "Beats exactly at or beyond audio end are omitted from scored events; original JAMS preserved"
+      ]
+    },
+    "pop909": {
+      "dataset": "pop909",
+      "items": 906,
+      "splitCounts": {
+        "frozen_test": 722,
+        "diagnostic": 184
+      },
+      "eligible": {
+        "beat": 896,
+        "downbeat": 896,
+        "chord": 896
+      },
+      "issueCounts": {
+        "upstream_flag": 10
+      },
+      "durationHours": 50.40662499999996,
+      "notes": [
+        "Synthetic score performance, not original commercial audio",
+        "CHORDS track removed before synthesis; melody/bridge/piano retained",
+        "Reference uses embedded markers and active CHORDS intervals; not every CSV N interval is imported",
+        "Tempo, PPQ, meter changes honored; 6/8 evaluated at dotted-quarter pulse",
+        "10 upstream flagged pieces excluded by default",
+        "Audio generated on demand to conserve disk; symbolic import is complete",
+        "Soundfont domain scores do not establish real mixed-audio accuracy"
+      ]
+    }
+  },
+  "diagnosticRuns": {
+    "gtzan-rhythm-diagnostic-report": {
+      "selected": 10,
+      "completed": 10,
+      "failed": 0,
+      "rowsWritten": 10,
+      "runComplete": true,
+      "rawBeat": {
+        "macroF1At70ms": 0.9255640073291461,
+        "macroCMLt": 0.8791555957031507,
+        "items": 10
+      },
+      "processedBeat": {
+        "macroF1At70ms": 0.9294132270727115,
+        "macroCMLt": 0.8927570293949071,
+        "items": 10
+      },
+      "rawDownbeat": {
+        "macroF1At70ms": 0.6901201309416319,
+        "macroCMLt": 0.5820647238939922,
+        "items": 10
+      },
+      "groupedDownbeat": {
+        "macroF1At70ms": 0.6083478811972459,
+        "macroCMLt": 0.510384024577573,
+        "items": 10
+      }
+    },
+    "guitarset-chord-diagnostic-report": {
+      "selected": 10,
+      "completed": 10,
+      "failed": 0,
+      "rowsWritten": 10,
+      "runComplete": true,
+      "raw": {
+        "root": {
+          "durationWeightedAccuracy": 0.7529177955154578,
+          "scoredSeconds": 310.8207519274377
+        },
+        "triads": {
+          "durationWeightedAccuracy": 0.6348441593889871,
+          "scoredSeconds": 310.8207519274377
+        },
+        "sevenths": {
+          "durationWeightedAccuracy": 0.5422202717682432,
+          "scoredSeconds": 294.4571155638013
+        },
+        "tetrads": {
+          "durationWeightedAccuracy": 0.5195150752151313,
+          "scoredSeconds": 310.8207519274377
+        },
+        "durationWeightedCoverage": 0.8686127299583878
+      },
+      "stableOracleGrid": {
+        "root": {
+          "durationWeightedAccuracy": 0.8182073603239617,
+          "scoredSeconds": 310.8207519274377
+        },
+        "triads": {
+          "durationWeightedAccuracy": 0.6915131498615961,
+          "scoredSeconds": 310.8207519274377
+        },
+        "sevenths": {
+          "durationWeightedAccuracy": 0.5845272220079498,
+          "scoredSeconds": 294.4571155638013
+        },
+        "tetrads": {
+          "durationWeightedAccuracy": 0.5625282989235869,
+          "scoredSeconds": 310.8207519274377
+        },
+        "durationWeightedCoverage": 0.922192228420858
+      },
+      "stablePredictedGrid": {
+        "root": {
+          "durationWeightedAccuracy": 0.6447205915863762,
+          "scoredSeconds": 310.8207519274377
+        },
+        "triads": {
+          "durationWeightedAccuracy": 0.5359680309229968,
+          "scoredSeconds": 310.8207519274377
+        },
+        "sevenths": {
+          "durationWeightedAccuracy": 0.4559205871279028,
+          "scoredSeconds": 294.4571155638013
+        },
+        "tetrads": {
+          "durationWeightedAccuracy": 0.44065727207357047,
+          "scoredSeconds": 310.8207519274377
+        },
+        "durationWeightedCoverage": 0.7401074427395838
+      },
+      "rawAgainstInferred": {
+        "root": {
+          "durationWeightedAccuracy": 0.7529177955154578,
+          "scoredSeconds": 310.8207519274377
+        },
+        "triads": {
+          "durationWeightedAccuracy": 0.5254347639545249,
+          "scoredSeconds": 310.8207519274377
+        },
+        "sevenths": {
+          "durationWeightedAccuracy": 0.7518415085116666,
+          "scoredSeconds": 190.5896118478014
+        },
+        "tetrads": {
+          "durationWeightedAccuracy": 0.466856313387625,
+          "scoredSeconds": 310.8207519274377
+        },
+        "durationWeightedCoverage": 0.8686127299583878
+      }
+    },
+    "pop909-chord-diagnostic-report": {
+      "selected": 3,
+      "completed": 3,
+      "failed": 0,
+      "rowsWritten": 3,
+      "runComplete": true,
+      "raw": {
+        "root": {
+          "durationWeightedAccuracy": 0.8589042286706353,
+          "scoredSeconds": 806.4
+        },
+        "triads": {
+          "durationWeightedAccuracy": 0.8315565600198418,
+          "scoredSeconds": 806.4
+        },
+        "sevenths": {
+          "durationWeightedAccuracy": 0.8420425509110397,
+          "scoredSeconds": 746.4000000000001
+        },
+        "tetrads": {
+          "durationWeightedAccuracy": 0.7832411706349208,
+          "scoredSeconds": 806.4
+        },
+        "durationWeightedCoverage": 0.9266313740079367
+      },
+      "stableOracleGrid": {
+        "root": {
+          "durationWeightedAccuracy": 0.9078455605158724,
+          "scoredSeconds": 806.4
+        },
+        "triads": {
+          "durationWeightedAccuracy": 0.8778754588293644,
+          "scoredSeconds": 806.4
+        },
+        "sevenths": {
+          "durationWeightedAccuracy": 0.8794450964630218,
+          "scoredSeconds": 746.4
+        },
+        "tetrads": {
+          "durationWeightedAccuracy": 0.8214506696428565,
+          "scoredSeconds": 806.4
+        },
+        "durationWeightedCoverage": 0.9731498387896825
+      },
+      "stablePredictedGrid": {
+        "root": {
+          "durationWeightedAccuracy": 0.3478187996031748,
+          "scoredSeconds": 806.4
+        },
+        "triads": {
+          "durationWeightedAccuracy": 0.3478187996031748,
+          "scoredSeconds": 806.4
+        },
+        "sevenths": {
+          "durationWeightedAccuracy": 0.37286244640943217,
+          "scoredSeconds": 746.4
+        },
+        "tetrads": {
+          "durationWeightedAccuracy": 0.3451197048611113,
+          "scoredSeconds": 806.4
+        },
+        "durationWeightedCoverage": 0.3509122023809522
+      },
+      "rawAgainstInferred": {
+        "root": {
+          "durationWeightedAccuracy": null,
+          "scoredSeconds": 0
+        },
+        "triads": {
+          "durationWeightedAccuracy": null,
+          "scoredSeconds": 0
+        },
+        "sevenths": {
+          "durationWeightedAccuracy": null,
+          "scoredSeconds": 0
+        },
+        "tetrads": {
+          "durationWeightedAccuracy": null,
+          "scoredSeconds": 0
+        },
+        "durationWeightedCoverage": null
+      }
+    },
+    "pop909-rhythm-diagnostic-report": {
+      "selected": 4,
+      "completed": 4,
+      "failed": 0,
+      "rowsWritten": 4,
+      "runComplete": true,
+      "rawBeat": {
+        "macroF1At70ms": 0.5498923603943093,
+        "macroCMLt": 0.06048958386496643,
+        "items": 4
+      },
+      "processedBeat": {
+        "macroF1At70ms": 0.5508452943887406,
+        "macroCMLt": 0.06048958386496643,
+        "items": 4
+      },
+      "rawDownbeat": {
+        "macroF1At70ms": 0.6862139329706312,
+        "macroCMLt": 0.3533228262355397,
+        "items": 4
+      },
+      "groupedDownbeat": {
+        "macroF1At70ms": 0.33302521167579036,
+        "macroCMLt": 0.2152387041773231,
+        "items": 4
+      }
+    }
+  },
+  "renderedPOP909Count": 4,
+  "frozenTestEvaluated": false,
+  "trainingPerformed": false,
+  "productionProjectPreserved": {
+    "outputs\\audio-analysis\\data\\167ac00e7ef0cc0669cb\\analysis.json": true,
+    "outputs\\audio-analysis\\data\\167ac00e7ef0cc0669cb\\chords.json": true
+  },
+  "codeAndModelSha256": {
+    "engine.py": "ff6adf695aea0289219c007789dd0a54d88c1d1902f97047f75393862cc1ef73",
+    "rhythm-grid.js": "31a7b7da269354243a96aadc8f785facec9995a8e8956a0e4b71191e103fb42d",
+    "chords.py": "c07a0fa53f5d1629b57e1ac82b02a3ecf64b5dde78747cb9c0cf6aeed8dafd95",
+    "harmony-structure.js": "81fdc59727dbcfaa473059a1b75f8ca4443b3d66c0a74f8abe4681b0d58b0561",
+    "models/small0.ckpt": "6074be2c4d490c5f6101fcc374a1ec72ae93456e23bb6019783b849f5dc7d47b",
+    "models/btc_model_large_voca.pt": "1673d23f8f9a55ae7f9e8b80a51da616debb22675b8d8b67ea6ce0ef37b0ab51"
+  },
+  "evaluationCodeSha256": {
+    "dataset_io.py": "cec6721b5b2cb1f1f035a409f6029a29ac5b82c75343bcad8b8dea83b070b78d",
+    "harmony_grid.py": "e870f8dd3f9117e30ddec7f0d9dfbf25638fe7cad0df31e312770b05e415ecd9",
+    "harmony_stability.py": "bb88a62622ed05d14faf405ef213826d8540776b2fa640e7d4ddb19c2f2f516f",
+    "import_datasets.py": "4131f31c15fe22d6725f1074d0884bea20d736a867cbcfde1054ce12585551da",
+    "jazz_audit.py": "2f2046efa633b073e1d371eeb1b3b24aa5d4bfc4e96953ecdb7d58cffe6312f3",
+    "jazz_controls.py": "38c300fe1fc1b38adc05cfbb068deaada582ebb6e1d126d5ba66b5d16253b814",
+    "jazz_fixes.py": "f320da0164589553849604191956fb44a37f2ab99644f6eaf83f1f2b5d0344cf",
+    "jazz_harmony_control.py": "80cbe5e29dfd0360c9146ead5bc5dbadd02cb9e8953227a4b77625eae194cb31",
+    "jazz_harmony_validation.py": "9c6bed696caa52256f41e867b700a0b7f6bdc535d67a09cf7ee596a6fd2e132f",
+    "pop909_adapter.py": "f6aff2a8d86c91a6178b3e54250ce92717dcba51b7b6456626c5fa7a7de4fe34",
+    "prepare_datasets.py": "42d655c13f4fe8b46126cb2ff9aea533e3d944aa183ace77a1d71aea96505848",
+    "render_pop909.py": "9cfc4a5bae86fcb65c1fabee3c3dc6511aaf936b561c55d0a25e541dd5248186",
+    "rhythm_long.py": "768244cd1c00df727b42cb826f3f67d1f5785701c04849fbbac7e397905dd168",
+    "run.py": "0d7d0a9bb31339e742506d5e63c4a4268ee30bd5234dc4523bd20fc6c4250c83",
+    "run_datasets.py": "6fde70c42180b405194b42d0cfe76f2ee55bc619b4d30391b4b41d27d822c132",
+    "run_real.py": "bf8c3074b90be57f0398e6aae703d639358aad571ba4717a5b3b51f304a6df44",
+    "summarize_datasets.py": "d5517399c7c77219992b533cbd8e8deece7372bd30d3bcb155bffdae84628a8d",
+    "test_dataset_adapters.py": "9c31eabd31431723e68662e7e9622964d7f1f75bd0909d0906fc223aec4fc882"
+  },
+  "python": "3.10.11",
+  "disk": {
+    "datasetBytes": 5905798687,
+    "freeBytes": 16750641152
+  }
+}

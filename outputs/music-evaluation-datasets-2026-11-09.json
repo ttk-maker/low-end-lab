@@ -1,0 +1,367 @@
+{
+  "checkedOn": "2026-11-09",
+  "purpose": "evaluation dataset research; no production changes or model benchmark run",
+  "datasets": [
+    {
+      "repo": "marsyas/gtzan",
+      "url": "https://huggingface.co/datasets/marsyas/gtzan",
+      "revision": "d2146561ecc7df707d9e6b8318885fe6a39668a2",
+      "gated": false,
+      "cardLicense": null,
+      "fileCount": 4,
+      "priority": "P0 rhythm",
+      "verifiedScope": "HF audio + external beat/downbeat annotations; 30 seconds, not long-form",
+      "trainingOverlap": "Beat This small0 explicitly excludes GTZAN; cross-dataset duplicate check still required",
+      "sampleFiles": [
+        ".gitattributes",
+        "README.md",
+        "data/genres.tar.gz",
+        "gtzan.py"
+      ]
+    },
+    {
+      "repo": "DynamicSuperb/MARBLEBeatTracking_GTZAN-Rhythm",
+      "url": "https://huggingface.co/datasets/DynamicSuperb/MARBLEBeatTracking_GTZAN-Rhythm",
+      "revision": "dbf6387d4fbdb93b0ea299f20b257b0a028b8338",
+      "gated": false,
+      "cardLicense": null,
+      "fileCount": 3,
+      "priority": "not_timestamp_benchmark",
+      "verifiedScope": "200 samples; inspected label contains beat and downbeat COUNTS only",
+      "trainingOverlap": "GTZAN derivative; not sufficient for drift metrics",
+      "sampleFiles": [
+        ".gitattributes",
+        "README.md",
+        "data/test-00000-of-00001.parquet"
+      ]
+    },
+    {
+      "repo": "jhartquist/guitarset",
+      "url": "https://huggingface.co/datasets/jhartquist/guitarset",
+      "revision": "4aca25487bef5cb0d2c4ec146218f9145402a776",
+      "gated": false,
+      "cardLicense": "cc-by-4.0",
+      "fileCount": 21,
+      "priority": "P0 chord_regression",
+      "verifiedScope": "360 short real guitar performances; upstream instructed vs inferred chord distinction must be retained",
+      "trainingOverlap": "GuitarSet is a Beat This training source; BTC README does not list it, not a guarantee of zero overlap",
+      "sampleFiles": [
+        ".gitattributes",
+        "LICENSE",
+        "README.md",
+        "data/train/0000.parquet",
+        "data/train/0001.parquet",
+        "data/train/0002.parquet",
+        "data/train/0003.parquet",
+        "data/train/0004.parquet"
+      ]
+    },
+    {
+      "repo": "taohu/guitarset",
+      "url": "https://huggingface.co/datasets/taohu/guitarset",
+      "revision": "f0eb62f128c93a7e64adba2a0f1d77a7edcac90c",
+      "gated": false,
+      "cardLicense": null,
+      "fileCount": 7,
+      "priority": "P0 chord_regression_import_candidate",
+      "verifiedScope": "360 rows; original jams field; first-rows request returned 501 scan size limit",
+      "trainingOverlap": "same upstream overlap as GuitarSet",
+      "sampleFiles": [
+        ".gitattributes",
+        "README.md",
+        "data/train-00000-of-00005.parquet",
+        "data/train-00001-of-00005.parquet",
+        "data/train-00002-of-00005.parquet",
+        "data/train-00003-of-00005.parquet",
+        "data/train-00004-of-00005.parquet"
+      ]
+    },
+    {
+      "repo": "Itsuki-music/POP909-CL-Dataset",
+      "url": "https://huggingface.co/datasets/Itsuki-music/POP909-CL-Dataset",
+      "revision": "6d2f91ae545f7ee78fdef903fe5d40992c1dc420",
+      "gated": false,
+      "cardLicense": null,
+      "fileCount": 2733,
+      "priority": "P0 controlled_long_harmony",
+      "verifiedScope": "906 released + 3 missing; expert-reviewed chord MIDI + corrected metadata; render without CHORDS track",
+      "trainingOverlap": "Not listed in BTC original training datasets; compositions may overlap older music corpora",
+      "sampleFiles": [
+        ".gitattributes",
+        ".gitignore",
+        "LICENSE",
+        "POP909_chord_annotated/.DS_Store",
+        "POP909_chord_annotated/001.mid",
+        "POP909_chord_annotated/002.mid",
+        "POP909_chord_annotated/003.mid",
+        "POP909_chord_annotated/004.mid"
+      ]
+    },
+    {
+      "repo": "xavriley/GAPS",
+      "url": "https://huggingface.co/datasets/xavriley/GAPS",
+      "revision": "b4c89a33a639c7ae903e74102dfbb3e147e1417f",
+      "gated": false,
+      "cardLicense": "mit",
+      "fileCount": 1717,
+      "priority": "P1 real_long_alignment",
+      "verifiedScope": "README 300/14h; actual tree 404 WAV, metadata 401 rows, only 300 with split; reconcile manifest first",
+      "trainingOverlap": "Not in examined Beat This dataset list; recording/composition overlap unverified",
+      "sampleFiles": [
+        ".gitattributes",
+        "README.md",
+        "audio/001_mvswc.wav",
+        "audio/002_XSswc.wav",
+        "audio/003_HSswc.wav",
+        "audio/004_JSswc.wav",
+        "audio/005_dSswc.wav",
+        "audio/006_ZSswc.wav"
+      ]
+    },
+    {
+      "repo": "Archit00/harmonix-mirror",
+      "url": "https://huggingface.co/datasets/Archit00/harmonix-mirror",
+      "revision": "39e2e2c04b85394d684b84bc53b623ade55a8819",
+      "gated": false,
+      "cardLicense": null,
+      "fileCount": 10068,
+      "priority": "P1 structure_regression",
+      "verifiedScope": "912 JAMS; actual tree has no wav/mp3/flac; original audio alignment needed",
+      "trainingOverlap": "Harmonix is a Beat This training source",
+      "sampleFiles": [
+        ".gitattributes",
+        ".gitignore",
+        "CHANGELOG.md",
+        "LICENSE",
+        "MIRROR_README.md",
+        "README.md",
+        "dataset/beats_and_downbeats/0001_12step.txt",
+        "dataset/beats_and_downbeats/0003_6foot7foot.txt"
+      ]
+    },
+    {
+      "repo": "m-a-p/harmonixset_bigvgan",
+      "url": "https://huggingface.co/datasets/m-a-p/harmonixset_bigvgan",
+      "revision": "28b5a52a19fe4e0e739405b84031928ebfc1eae3",
+      "gated": false,
+      "cardLicense": null,
+      "fileCount": 3,
+      "priority": "defer",
+      "verifiedScope": "No README; archive + corrected JSONL; rendition provenance and rights unverified",
+      "trainingOverlap": "Harmonix overlap; transformed audio does not make it independent",
+      "sampleFiles": [
+        ".gitattributes",
+        "harmonixset.corrected.20250821.jsonl",
+        "harmonixset_bigvgan.zip"
+      ]
+    },
+    {
+      "repo": "amaai-lab/MusicBench",
+      "url": "https://huggingface.co/datasets/amaai-lab/MusicBench",
+      "revision": "b141e962aacc19ffd51c15732738040377989203",
+      "gated": false,
+      "cardLicense": "cc-by-sa-3.0",
+      "fileCount": 7,
+      "priority": "not_gold",
+      "verifiedScope": "Machine-extracted beats/chords; audio-text generation dataset",
+      "trainingOverlap": "Do not score pseudo-label agreement as accuracy",
+      "sampleFiles": [
+        "FMACaps_eval_set.tar.gz",
+        "MusicBench.tar.gz",
+        "MusicBench_test_A.json",
+        "MusicBench_test_B.json",
+        "MusicBench_train.json",
+        "README.md",
+        "gitattributes"
+      ]
+    },
+    {
+      "repo": "ailsntua/Chordonomicon",
+      "url": "https://huggingface.co/datasets/ailsntua/Chordonomicon",
+      "revision": "f3a8b678bd65639c01caa342921733f1db01be23",
+      "gated": false,
+      "cardLicense": "cc-by-nc-4.0",
+      "fileCount": 3,
+      "priority": "symbolic_theory_only",
+      "verifiedScope": "666k+ progressions with structure metadata; no aligned audio ground truth",
+      "trainingOverlap": "May support theory evaluation, not acoustic recognition accuracy",
+      "sampleFiles": [
+        ".gitattributes",
+        "README.md",
+        "chordonomicon_v2.csv"
+      ]
+    },
+    {
+      "repo": "m-a-p/Chords1217",
+      "url": "https://huggingface.co/datasets/m-a-p/Chords1217",
+      "revision": "f3274aa5d018d054f43d2eb3c0505fb22426d48d",
+      "gated": "auto",
+      "cardLicense": "cc-by-nc-4.0",
+      "fileCount": 4876,
+      "priority": "gated_defer",
+      "verifiedScope": "Requires affiliation with recognized academic institution; noncommercial alone is insufficient",
+      "trainingOverlap": "Label generation and overlap not inspected behind gate",
+      "sampleFiles": [
+        ".gitattributes",
+        "Chords1217.test.jsonl",
+        "Chords1217.train.jsonl",
+        "Chords1217.val.jsonl",
+        "README.md",
+        "audio/TR6R91L11C8A40D710.flac",
+        "audio/TRACGVT149E3B9BE3F.flac",
+        "audio/TRACPPB149E33C10B9.flac"
+      ]
+    },
+    {
+      "repo": "DynamicSuperb/ChordClassification_AcousticGuitarAndPiano",
+      "url": "https://huggingface.co/datasets/DynamicSuperb/ChordClassification_AcousticGuitarAndPiano",
+      "revision": "79c74d0395067194ee200d8b163781b2aed04360",
+      "gated": false,
+      "cardLicense": null,
+      "fileCount": 3,
+      "priority": "smoke_only",
+      "verifiedScope": "200 samples; inspected target is major/minor, not chord root or timestamps",
+      "trainingOverlap": "Limited classification task",
+      "sampleFiles": [
+        ".gitattributes",
+        "README.md",
+        "data/test-00000-of-00001-2d759d66e3b29044.parquet"
+      ]
+    },
+    {
+      "repo": "Chord-Llama/chord_llama_dataset",
+      "url": "https://huggingface.co/datasets/Chord-Llama/chord_llama_dataset",
+      "revision": "cc3125ccc6c334c196d52fd58d465b64ceed9027",
+      "gated": false,
+      "cardLicense": "apache-2.0",
+      "fileCount": 4,
+      "priority": "not_audio_benchmark",
+      "verifiedScope": "Altered MusicXML/YAML completion data",
+      "trainingOverlap": "No acoustic recognition ground truth",
+      "sampleFiles": [
+        ".gitattributes",
+        "README.md",
+        "chord_llama_data.jsonl",
+        "music_xml_converter.ipynb"
+      ]
+    },
+    {
+      "repo": "DreamyWanderer/MAESTRO-v3.0-FLAC",
+      "url": "https://huggingface.co/datasets/DreamyWanderer/MAESTRO-v3.0-FLAC",
+      "revision": "8a8e7e58f71856958e473be7c4732a1307a03ae7",
+      "gated": false,
+      "cardLicense": null,
+      "fileCount": 2559,
+      "priority": "future_transcription",
+      "verifiedScope": "Real piano + aligned performance MIDI; MIDI note timing is not automatically a meter grid",
+      "trainingOverlap": "Check exact recording subset and Beat This ASAP-related overlap",
+      "sampleFiles": [
+        ".gitattributes",
+        "data/LICENSE",
+        "data/MAESTRO_FLAC.py",
+        "data/MAESTRO_split.py",
+        "data/README",
+        "data/maestro-v3.0.0.csv",
+        "data/maestro-v3.0.0.json",
+        "data/test/2004/MIDI-Unprocessed_SMF_02_R1_2004_01-05_ORIG_MID--AUDIO_02_R1_2004_08_Track08_wav.flac"
+      ]
+    },
+    {
+      "repo": "tvergho/slakh",
+      "url": "https://huggingface.co/datasets/tvergho/slakh",
+      "revision": "dc4e363d44b0ff311c428cb14c4a703e6cb7a2b4",
+      "gated": false,
+      "cardLicense": null,
+      "fileCount": 5,
+      "priority": "not_full_slakh",
+      "verifiedScope": "1539 rows with audio/stem/instrument fields, no MIDI field in inspected card",
+      "trainingOverlap": "Use upstream full/tiny release for aligned MIDI",
+      "sampleFiles": [
+        ".gitattributes",
+        "README.md",
+        "data/test-00000-of-00003-da97f089f38130df.parquet",
+        "data/test-00001-of-00003-481cc829dc280ee3.parquet",
+        "data/test-00002-of-00003-f011d4017de803d9.parquet"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Beat This official model/training disclosure",
+      "url": "https://github.com/CPJKU/beat_this#available-models",
+      "retrievedSnapshotSha256": "5cdc9e7bf758198d6fbd9b46abb9a3a421fa74f0bc86777c6bd89d3fd5c0819a"
+    },
+    {
+      "title": "Beat This annotation sources",
+      "url": "https://github.com/CPJKU/beat_this_annotations",
+      "retrievedSnapshotSha256": "1b16afb8c6d0e909406beb24f74b9ebc76e44fb0eb295d6574781efaedb5aa87"
+    },
+    {
+      "title": "Beat This annotations v1.1",
+      "url": "https://github.com/CPJKU/beat_this_annotations/tree/v1.1",
+      "retrievedSnapshotSha256": "858cbc63505d1843f7cc34b91bac1305a67c4e1e9bf74f2f745b3c470389684f"
+    },
+    {
+      "title": "BTC official training corpora",
+      "url": "https://github.com/jayg996/BTC-ISMIR19#data",
+      "retrievedSnapshotSha256": "ce703f7d98dde1f8284704e256a40d17762239da2f64989fb523f77de35edb33"
+    },
+    {
+      "title": "GuitarSet original release and license",
+      "url": "https://zenodo.org/records/3371780",
+      "retrievedSnapshotSha256": "2b0679e30c581bc7aab25c48ddc59672078188b8c8d9ef04a169e0c26f409be3"
+    },
+    {
+      "title": "GuitarSet reference loader and annotation provenance",
+      "url": "https://github.com/mir-dataset-loaders/mirdata/blob/master/mirdata/datasets/guitarset.py",
+      "retrievedSnapshotSha256": "3fe77cf7d11b33c3a801063613a254cbc47600f1e305836c0767a576ec627d5b"
+    },
+    {
+      "title": "POP909-CL original documentation",
+      "url": "https://github.com/AndyWeasley2004/POP909-CL-Dataset",
+      "retrievedSnapshotSha256": "369db90f62c374581de1a418ad9c80ebb05af9b45c195bce51b940ae19f185c3"
+    },
+    {
+      "title": "Harmonix original annotation description",
+      "url": "https://github.com/urinieto/harmonixset",
+      "retrievedSnapshotSha256": "592b2b277dc3e24aa673b69a5feeaa5a0c4a4cca00fc785058eb933118715b8e"
+    },
+    {
+      "title": "JAAH jazz annotation corpus",
+      "url": "https://mtg.github.io/JAAH/",
+      "retrievedSnapshotSha256": "8609d9be9fea196db8a1f4f1ad1980d8840bacfb8f013f74ae7bab07567a06eb"
+    },
+    {
+      "title": "Slakh official release and license",
+      "url": "http://www.slakh.com/",
+      "retrievedSnapshotSha256": "fdabc3d7506599a208f78d16dc5321f8e9e85b96e62914ac6c2891f6e1a87681"
+    },
+    {
+      "title": "BabySlakh small release",
+      "url": "https://zenodo.org/records/4603870",
+      "retrievedSnapshotSha256": "5947728467bb3011c072ea64ddf36a4168a968dc2b1e2517051d81c38743b03d"
+    }
+  ],
+  "verificationFindings": {
+    "gtzanAnnotationsV11Files": 999,
+    "gtzanAnnotationsV11Commit": "890407d158078527ab396b49fea3c8a83e5734ee",
+    "pop909CLMetadataRows": 909,
+    "pop909CLReleased": 906,
+    "pop909CLMissing": 3,
+    "gapsAudioFiles": 404,
+    "gapsMetadataRows": 401,
+    "gapsMetadataSplitCounts": {
+      "train": 270,
+      "test": 30,
+      "unspecified": 101
+    }
+  },
+  "notPerformed": [
+    "bulk audio download",
+    "audio-label alignment audit",
+    "benchmark model inference",
+    "training/fine-tuning",
+    "restricted dataset access",
+    "automatic mutation of current evaluation manifest"
+  ]
+}

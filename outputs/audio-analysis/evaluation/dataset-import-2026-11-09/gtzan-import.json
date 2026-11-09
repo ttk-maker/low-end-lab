@@ -1,0 +1,25 @@
+{
+  "dataset": "gtzan",
+  "items": 1000,
+  "splitCounts": {
+    "diagnostic": 221,
+    "frozen_test": 779
+  },
+  "eligible": {
+    "beat": 997,
+    "downbeat": 991,
+    "chord": 0
+  },
+  "issueCounts": {
+    "implausibly_close_reference_beats": 1,
+    "beat_out_of_audio_bounds": 1,
+    "missing_reference": 1
+  },
+  "durationHours": 8.340020735701705,
+  "notes": [
+    "30-second excerpts do not validate long-song drift",
+    "Reference anomalies are excluded with reasons; source annotations are never rewritten",
+    "HF genre labels are not used as beat truth",
+    "Exact file hashes group duplicates; cross-recording/song-level duplicates not fully audited"
+  ]
+}

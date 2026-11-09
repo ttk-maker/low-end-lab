@@ -1,0 +1,25 @@
+{
+  "dataset": "guitarset",
+  "items": 360,
+  "splitCounts": {
+    "frozen_test": 288,
+    "diagnostic": 72
+  },
+  "eligible": {
+    "beat": 360,
+    "downbeat": 360,
+    "chord": 360
+  },
+  "issueCounts": {},
+  "durationHours": 3.0467878306878284,
+  "notes": [
+    "Microphone recordings only; no hexaphonic redundant audio download",
+    "Lead-sheet and performed/inferred labels remain separate",
+    "Inferred chords use leadsheet boundaries/root and are not fully independent manual truth",
+    "Same template across tempo/key/player/comp/solo shares split",
+    "BN3, Funk1 and SS2 remain diagnostic because their variants were used in initial smoke tests; no observed template is promoted to frozen_test",
+    "Beat This training overlap prevents claiming independent beat generalization",
+    "Chord smoke tests select comp; solo labels are harmonic context, not necessarily sounding chords",
+    "Beats exactly at or beyond audio end are omitted from scored events; original JAMS preserved"
+  ]
+}

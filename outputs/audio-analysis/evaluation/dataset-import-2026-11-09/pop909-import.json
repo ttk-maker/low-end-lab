@@ -1,0 +1,26 @@
+{
+  "dataset": "pop909",
+  "items": 906,
+  "splitCounts": {
+    "frozen_test": 722,
+    "diagnostic": 184
+  },
+  "eligible": {
+    "beat": 896,
+    "downbeat": 896,
+    "chord": 896
+  },
+  "issueCounts": {
+    "upstream_flag": 10
+  },
+  "durationHours": 50.40662499999996,
+  "notes": [
+    "Synthetic score performance, not original commercial audio",
+    "CHORDS track removed before synthesis; melody/bridge/piano retained",
+    "Reference uses embedded markers and active CHORDS intervals; not every CSV N interval is imported",
+    "Tempo, PPQ, meter changes honored; 6/8 evaluated at dotted-quarter pulse",
+    "10 upstream flagged pieces excluded by default",
+    "Audio generated on demand to conserve disk; symbolic import is complete",
+    "Soundfont domain scores do not establish real mixed-audio accuracy"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "version": "0.5",
+  "date": "2026-11-08",
+  "btc": {
+    "engine": "btc-170-v2",
+    "weightsChanged": false,
+    "holdoutSynthetic": {
+      "v1": {
+        "weightedAccuracy": 0.7317089999999999,
+        "musicAccuracy": 0.6762005172413792,
+        "silenceAccuracy": 1.0,
+        "segments": 46
+      },
+      "v2": {
+        "weightedAccuracy": 0.8059791428571429,
+        "musicAccuracy": 0.7658368965517242,
+        "silenceAccuracy": 1.0,
+        "segments": 49
+      }
+    },
+    "realSongsScored": 0,
+    "originalSongEventsBefore": 25,
+    "originalSongEventsAfter": 18,
+    "tailNoChordStartSec": 18.8546
+  },
+  "coach": {
+    "configured": false,
+    "liveProviderCall": false,
+    "offlineUnitTests": 7,
+    "mode": "text_only",
+    "audioUploaded": false,
+    "credentialStorage": "outside outputs, work/private/qwen.json"
+  },
+  "api": {
+    "status": "passed",
+    "migrationPreservesAnnotation": true,
+    "beatProjectUnchanged": true,
+    "staleContext": 409,
+    "missingConfig": 503,
+    "realQwenCall": false
+  },
+  "ui": {
+    "status": "passed",
+    "realQwenCall": false,
+    "checks": [
+      "missing config disables paid request",
+      "saved chord optional context",
+      "dirty context excluded",
+      "general question available",
+      "model text rendered safely",
+      "desktop/mobile layout",
+      "evaluation report renders 8 frozen tests"
+    ],
+    "pageErrors": []
+  },
+  "priorAudioUI": {
+    "status": "passed",
+    "checks": [
+      "supplied audio metadata and original source playback",
+      "real audio clock and beat highlight",
+      "selected range loop wraps",
+      "tail abstention displayed",
+      "new WAV uploaded and genuinely inferred",
+      "half/double beat grids and undo",
+      "split, rename, and move section boundary",
+      "annotation persisted without rewriting raw result",
+      "reload recovery",
+      "manual tempo grid and undo",
+      "stale revision conflict 409",
+      "cross-origin mutation rejected",
+      "MP3 byte-range seeking",
+      "1440/834/390 responsive layouts",
+      "existing 21-fret workspace retained"
+    ],
+    "testProjectId": "6c16a3da7abce1fff780",
+    "pageErrors": []
+  },
+  "sync": {
+    "status": "passed",
+    "checks": [
+      "clicks queued before deadlines at normal and half speed",
+      "pause cancels queue",
+      "seek and rate change rebuild queue",
+      "no clicks over undetected tail",
+      "display offset survives reload and resets",
+      "waveform is cached rather than resized each frame",
+      "desktop/mobile no overflow"
+    ],
+    "normalLeadMs": [
+      137.188,
+      147.30199999999994,
+      126.43133333333334,
+      138.04899999999986
+    ],
+    "halfSpeedLeadMs": [
+      139.91000000000042,
+      127.70199999999932
+    ],
+    "canvasResizesDuringPlayback": 0,
+    "pageErrors": []
+  },
+  "evaluationMetricUnitTests": 3,
+  "fretboardAssertions": 100,
+  "theoryCombinations": 168,
+  "preservation": {
+    "beatProjectByteIdentical": true,
+    "oldChordBackupVerified": true,
+    "annotationPreserved": true,
+    "revisionIncremented": true
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "215",
+    "hashMatchesReceipt": true,
+    "framesMatch": true,
+    "sampleRate": 22050,
+    "channels": 1,
+    "noReferenceTrack": true,
+    "noAnswerMarkers": true,
+    "peak": 0.218231201171875
+  },
+  {
+    "id": "592",
+    "hashMatchesReceipt": true,
+    "framesMatch": true,
+    "sampleRate": 22050,
+    "channels": 1,
+    "noReferenceTrack": true,
+    "noAnswerMarkers": true,
+    "peak": 0.2510223388671875
+  },
+  {
+    "id": "641",
+    "hashMatchesReceipt": true,
+    "framesMatch": true,
+    "sampleRate": 22050,
+    "channels": 1,
+    "noReferenceTrack": true,
+    "noAnswerMarkers": true,
+    "peak": 0.1740570068359375
+  },
+  {
+    "id": "749",
+    "hashMatchesReceipt": true,
+    "framesMatch": true,
+    "sampleRate": 22050,
+    "channels": 1,
+    "noReferenceTrack": true,
+    "noAnswerMarkers": true,
+    "peak": 0.39666748046875
+  }
+]

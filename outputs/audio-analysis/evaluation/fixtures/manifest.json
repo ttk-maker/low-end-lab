@@ -1,0 +1,227 @@
+[
+  {
+    "id": "test-triads",
+    "split": "test",
+    "audio": "test-triads.wav",
+    "sha256": "2783bc980ded2221fd791346dbfd51319da168f34d150c8a5ca1d3d83182cc64",
+    "reference": [
+      {
+        "startSec": 0,
+        "endSec": 4,
+        "label": "F:maj"
+      },
+      {
+        "startSec": 4,
+        "endSec": 8,
+        "label": "G:min"
+      }
+    ],
+    "annotationOrigin": "known synthesis score, independent of model",
+    "seed": 700
+  },
+  {
+    "id": "test-sevenths",
+    "split": "test",
+    "audio": "test-sevenths.wav",
+    "sha256": "08110d4c3d3b23a1871ae8570fe36f8310a15b1bc4142f00b8e97c6fc8408a35",
+    "reference": [
+      {
+        "startSec": 0,
+        "endSec": 4,
+        "label": "D:min7"
+      },
+      {
+        "startSec": 4,
+        "endSec": 8,
+        "label": "C:7"
+      }
+    ],
+    "annotationOrigin": "known synthesis score, independent of model",
+    "seed": 701
+  },
+  {
+    "id": "test-window_boundary",
+    "split": "test",
+    "audio": "test-window_boundary.wav",
+    "sha256": "02f6c82952e4e47b95160a0b82bbc5dd9f1bd836b883510b08f405ab487de2cc",
+    "reference": [
+      {
+        "startSec": 0,
+        "endSec": 9.8,
+        "label": "A#:maj"
+      },
+      {
+        "startSec": 9.8,
+        "endSec": 14,
+        "label": "C:maj"
+      }
+    ],
+    "annotationOrigin": "known synthesis score, independent of model",
+    "seed": 702
+  },
+  {
+    "id": "test-fast_changes",
+    "split": "test",
+    "audio": "test-fast_changes.wav",
+    "sha256": "e65b38cc05165877fec90a7dba684631b65492a2125533444b7f349b3c1d5d08",
+    "reference": [
+      {
+        "startSec": 0.0,
+        "endSec": 0.5,
+        "label": "F:maj"
+      },
+      {
+        "startSec": 0.5,
+        "endSec": 1.0,
+        "label": "G:min"
+      },
+      {
+        "startSec": 1.0,
+        "endSec": 1.5,
+        "label": "A#:maj"
+      },
+      {
+        "startSec": 1.5,
+        "endSec": 2.0,
+        "label": "C:maj"
+      },
+      {
+        "startSec": 2.0,
+        "endSec": 2.5,
+        "label": "F:maj"
+      },
+      {
+        "startSec": 2.5,
+        "endSec": 3.0,
+        "label": "G:min"
+      },
+      {
+        "startSec": 3.0,
+        "endSec": 3.5,
+        "label": "A#:maj"
+      },
+      {
+        "startSec": 3.5,
+        "endSec": 4.0,
+        "label": "C:maj"
+      },
+      {
+        "startSec": 4.0,
+        "endSec": 4.5,
+        "label": "F:maj"
+      },
+      {
+        "startSec": 4.5,
+        "endSec": 5.0,
+        "label": "G:min"
+      },
+      {
+        "startSec": 5.0,
+        "endSec": 5.5,
+        "label": "A#:maj"
+      },
+      {
+        "startSec": 5.5,
+        "endSec": 6.0,
+        "label": "C:maj"
+      },
+      {
+        "startSec": 6.0,
+        "endSec": 6.5,
+        "label": "F:maj"
+      },
+      {
+        "startSec": 6.5,
+        "endSec": 7.0,
+        "label": "G:min"
+      },
+      {
+        "startSec": 7.0,
+        "endSec": 7.5,
+        "label": "A#:maj"
+      },
+      {
+        "startSec": 7.5,
+        "endSec": 8.0,
+        "label": "C:maj"
+      }
+    ],
+    "annotationOrigin": "known synthesis score, independent of model",
+    "seed": 703
+  },
+  {
+    "id": "test-quiet",
+    "split": "test",
+    "audio": "test-quiet.wav",
+    "sha256": "5dbdcb5a735d4f43f332610b9262ad633262e3e536c877695a70caf728826e1d",
+    "reference": [
+      {
+        "startSec": 0,
+        "endSec": 4,
+        "label": "F:maj"
+      },
+      {
+        "startSec": 4,
+        "endSec": 8,
+        "label": "D:min"
+      }
+    ],
+    "annotationOrigin": "known synthesis score, independent of model",
+    "seed": 704
+  },
+  {
+    "id": "test-tail",
+    "split": "test",
+    "audio": "test-tail.wav",
+    "sha256": "2e94bee3fd96917213c45eeb817fc8f85ed0148eb6db2b9a9609478096ff79fb",
+    "reference": [
+      {
+        "startSec": 0,
+        "endSec": 4,
+        "label": "F:maj"
+      },
+      {
+        "startSec": 4,
+        "endSec": 8,
+        "label": "N"
+      }
+    ],
+    "annotationOrigin": "known synthesis score, independent of model",
+    "seed": 705
+  },
+  {
+    "id": "test-silence",
+    "split": "test",
+    "audio": "test-silence.wav",
+    "sha256": "cebcc062867eb646892e40d4f3eeaa533fc150c7276585242411641eb8a8e159",
+    "reference": [
+      {
+        "startSec": 0,
+        "endSec": 8,
+        "label": "N"
+      }
+    ],
+    "annotationOrigin": "known synthesis score, independent of model",
+    "seed": 706
+  },
+  {
+    "id": "test-major7_sus",
+    "split": "test",
+    "audio": "test-major7_sus.wav",
+    "sha256": "5bd67e32f2afd5e7fab4b912585a65903c89c618e2b5270bfcf1aba452c16a7e",
+    "reference": [
+      {
+        "startSec": 0,
+        "endSec": 4,
+        "label": "F:maj7"
+      },
+      {
+        "startSec": 4,
+        "endSec": 8,
+        "label": "C:sus4"
+      }
+    ],
+    "annotationOrigin": "known synthesis score, independent of model",
+    "seed": 707
+  }
+]

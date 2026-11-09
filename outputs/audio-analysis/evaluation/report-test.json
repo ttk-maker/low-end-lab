@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "dataset": "generated-chord-suite-v1",
+  "kind": "synthetic regression, not real-song benchmark",
+  "trainingPerformed": false,
+  "fixedCandidate": "btc-170-v2",
+  "rows": [
+    {
+      "id": "test-triads",
+      "split": "test",
+      "v1": {
+        "durationSec": 8,
+        "correctSeconds": 7.90095,
+        "weightedAccuracy": 0.98761875,
+        "coverage": 0.98839,
+        "selectiveAccuracy": 0.9992196906079583,
+        "musicSeconds": 8,
+        "musicCorrectSeconds": 7.90095,
+        "silenceSeconds": 0,
+        "silenceCorrectSeconds": 0,
+        "segments": 3,
+        "boundaryToleranceSec": 0.2,
+        "boundaryPrecision": 0.5,
+        "boundaryRecall": 1.0,
+        "analysisSeconds": 5.08
+      },
+      "v2": {
+        "durationSec": 8,
+        "correctSeconds": 7.90095,
+        "weightedAccuracy": 0.98761875,
+        "coverage": 0.98839,
+        "selectiveAccuracy": 0.9992196906079583,
+        "musicSeconds": 8,
+        "musicCorrectSeconds": 7.90095,
+        "silenceSeconds": 0,
+        "silenceCorrectSeconds": 0,
+        "segments": 3,
+        "boundaryToleranceSec": 0.2,
+        "boundaryPrecision": 0.5,
+        "boundaryRecall": 1.0,
+        "analysisSeconds": 0.16
+      }
+    },
+    {
+      "id": "test-sevenths",
+      "split": "test",
+      "v1": {
+        "durationSec": 8,
+        "correctSeconds": 7.80807,
+        "weightedAccuracy": 0.97600875,
+        "coverage": 0.97678,
+        "selectiveAccuracy": 0.9992104158561805,
+        "musicSeconds": 8,
+        "musicCorrectSeconds": 7.80807,
+        "silenceSeconds": 0,
+        "silenceCorrectSeconds": 0,
+        "segments": 3,
+        "boundaryToleranceSec": 0.2,
+        "boundaryPrecision": 0.5,
+        "boundaryRecall": 1.0,
+        "analysisSeconds": 0.05
+      },
+      "v2": {
+        "durationSec": 8,
+        "correctSeconds": 7.80807,
+        "weightedAccuracy": 0.97600875,
+        "coverage": 0.97678,
+        "selectiveAccuracy": 0.9992104158561805,
+        "musicSeconds": 8,
+        "musicCorrectSeconds": 7.80807,
+        "silenceSeconds": 0,
+        "silenceCorrectSeconds": 0,
+        "segments": 3,
+        "boundaryToleranceSec": 0.2,
+        "boundaryPrecision": 0.5,
+        "boundaryRecall": 1.0,
+        "analysisSeconds": 0.08
+      }
+    },
+    {
+      "id": "test-window_boundary",
+      "split": "test",
+      "v1": {
+        "durationSec": 14.0,
+        "correctSeconds": 13.86186,
+        "weightedAccuracy": 0.9901328571428571,
+        "coverage": 0.9933657142857142,
+        "selectiveAccuracy": 0.9967455519187295,
+        "musicSeconds": 14.0,
+        "musicCorrectSeconds": 13.86186,
+        "silenceSeconds": 0,
+        "silenceCorrectSeconds": 0,
+        "segments": 3,
+        "boundaryToleranceSec": 0.2,
+        "boundaryPrecision": 0.5,
+        "boundaryRecall": 1.0,
+        "analysisSeconds": 0.12
+      },
+      "v2": {
+        "durationSec": 14.0,
+        "correctSeconds": 13.95238,
+        "weightedAccuracy": 0.9965985714285714,
+        "coverage": 1.0,
+        "selectiveAccuracy": 0.9965985714285714,
+        "musicSeconds": 14.0,
+        "musicCorrectSeconds": 13.95238,
+        "silenceSeconds": 0,
+        "silenceCorrectSeconds": 0,
+        "segments": 2,
+        "boundaryToleranceSec": 0.2,
+        "boundaryPrecision": 1.0,
+        "boundaryRecall": 1.0,
+        "analysisSeconds": 0.11
+      }
+    },
+    {
+      "id": "test-fast_changes",
+      "split": "test",
+      "v1": {
+        "durationSec": 8.0,
+        "correctSeconds": 6.9552299999999985,
+        "weightedAccuracy": 0.8694037499999998,
+        "coverage": 0.93034,
+        "selectiveAccuracy": 0.9345010963733688,
+        "musicSeconds": 8.0,
+        "musicCorrectSeconds": 6.9552299999999985,
+        "silenceSeconds": 0,
+        "silenceCorrectSeconds": 0,
+        "segments": 22,
+        "boundaryToleranceSec": 0.2,
+        "boundaryPrecision": 0.7142857142857143,
+        "boundaryRecall": 1.0,
+        "analysisSeconds": 0.06
+      },
+      "v2": {
+        "durationSec": 8.0,
+        "correctSeconds": 6.9552299999999985,
+        "weightedAccuracy": 0.8694037499999998,
+        "coverage": 0.93034,
+        "selectiveAccuracy": 0.9345010963733688,
+        "musicSeconds": 8.0,
+        "musicCorrectSeconds": 6.9552299999999985,
+        "silenceSeconds": 0,
+        "silenceCorrectSeconds": 0,
+        "segments": 22,
+        "boundaryToleranceSec": 0.2,
+        "boundaryPrecision": 0.7142857142857143,
+        "boundaryRecall": 1.0,
+        "analysisSeconds": 0.08
+      }
+    },
+    {
+      "id": "test-quiet",
+      "split": "test",
+      "v1": {
+        "durationSec": 8,
+        "correctSeconds": 0,
+        "weightedAccuracy": 0.0,
+        "coverage": 1.0,
+        "selectiveAccuracy": 0.0,
+        "musicSeconds": 8,
+        "musicCorrectSeconds": 0,
+        "silenceSeconds": 0,
+        "silenceCorrectSeconds": 0,
+        "segments": 1,
+        "boundaryToleranceSec": 0.2,
+        "boundaryPrecision": null,
+        "boundaryRecall": 0.0,
+        "analysisSeconds": 0.05
+      },
+      "v2": {
+        "durationSec": 8,
+        "correctSeconds": 5.10839,
+        "weightedAccuracy": 0.63854875,
+        "coverage": 0.7082087499999999,
+        "selectiveAccuracy": 0.9016391706541328,
+        "musicSeconds": 8,
+        "musicCorrectSeconds": 5.10839,
+        "silenceSeconds": 0,
+        "silenceCorrectSeconds": 0,
+        "segments": 5,
+        "boundaryToleranceSec": 0.2,
+        "boundaryPrecision": 0.25,
+        "boundaryRecall": 1.0,
+        "analysisSeconds": 0.08
+      }
+    },
+    {
+      "id": "test-tail",
+      "split": "test",
+      "v1": {
+        "durationSec": 8,
+        "correctSeconds": 5.95048,
+        "weightedAccuracy": 0.74381,
+        "coverage": 0.88390125,
+        "selectiveAccuracy": 0.8415080304502341,
+        "musicSeconds": 4,
+        "musicCorrectSeconds": 1.95048,
+        "silenceSeconds": 4,
+        "silenceCorrectSeconds": 4.0,
+        "segments": 4,
+        "boundaryToleranceSec": 0.2,
+        "boundaryPrecision": 0.0,
+        "boundaryRecall": 0.0,
+        "analysisSeconds": 0.06
+      },
+      "v2": {
+        "durationSec": 8,
+        "correctSeconds": 5.95048,
+        "weightedAccuracy": 0.74381,
+        "coverage": 0.88390125,
+        "selectiveAccuracy": 0.8415080304502341,
+        "musicSeconds": 4,
+        "musicCorrectSeconds": 1.95048,
+        "silenceSeconds": 4,
+        "silenceCorrectSeconds": 4.0,
+        "segments": 4,
+        "boundaryToleranceSec": 0.2,
+        "boundaryPrecision": 0.0,
+        "boundaryRecall": 0.0,
+        "analysisSeconds": 0.06
+      }
+    },
+    {
+      "id": "test-silence",
+      "split": "test",
+      "v1": {
+        "durationSec": 8,
+        "correctSeconds": 8,
+        "weightedAccuracy": 1.0,
+        "coverage": 1.0,
+        "selectiveAccuracy": 1.0,
+        "musicSeconds": 0,
+        "musicCorrectSeconds": 0,
+        "silenceSeconds": 8,
+        "silenceCorrectSeconds": 8,
+        "segments": 1,
+        "boundaryToleranceSec": 0.2,
+        "boundaryPrecision": null,
+        "boundaryRecall": null,
+        "analysisSeconds": 0.0
+      },
+      "v2": {
+        "durationSec": 8,
+        "correctSeconds": 8,
+        "weightedAccuracy": 1.0,
+        "coverage": 1.0,
+        "selectiveAccuracy": 1.0,
+        "musicSeconds": 0,
+        "musicCorrectSeconds": 0,
+        "silenceSeconds": 8,
+        "silenceCorrectSeconds": 8,
+        "segments": 1,
+        "boundaryToleranceSec": 0.2,
+        "boundaryPrecision": null,
+        "boundaryRecall": null,
+        "analysisSeconds": 0.03
+      }
+    },
+    {
+      "id": "test-major7_sus",
+      "split": "test",
+      "v1": {
+        "durationSec": 8,
+        "correctSeconds": 0.74304,
+        "weightedAccuracy": 0.09288,
+        "coverage": 0.64009,
+        "selectiveAccuracy": 0.14510459466637504,
+        "musicSeconds": 8,
+        "musicCorrectSeconds": 0.74304,
+        "silenceSeconds": 0,
+        "silenceCorrectSeconds": 0,
+        "segments": 9,
+        "boundaryToleranceSec": 0.2,
+        "boundaryPrecision": 0.125,
+        "boundaryRecall": 1.0,
+        "analysisSeconds": 0.06
+      },
+      "v2": {
+        "durationSec": 8,
+        "correctSeconds": 0.74304,
+        "weightedAccuracy": 0.09288,
+        "coverage": 0.64009,
+        "selectiveAccuracy": 0.14510459466637504,
+        "musicSeconds": 8,
+        "musicCorrectSeconds": 0.74304,
+        "silenceSeconds": 0,
+        "silenceCorrectSeconds": 0,
+        "segments": 9,
+        "boundaryToleranceSec": 0.2,
+        "boundaryPrecision": 0.125,
+        "boundaryRecall": 1.0,
+        "analysisSeconds": 0.06
+      }
+    }
+  ],
+  "summary": {
+    "test": {
+      "v1": {
+        "weightedAccuracy": 0.7317089999999999,
+        "musicAccuracy": 0.6762005172413792,
+        "silenceAccuracy": 1.0,
+        "segments": 46
+      },
+      "v2": {
+        "weightedAccuracy": 0.8059791428571429,
+        "musicAccuracy": 0.7658368965517242,
+        "silenceAccuracy": 1.0,
+        "segments": 49
+      }
+    }
+  },
+  "limitations": [
+    "Synthetic timbres do not establish real music accuracy.",
+    "Real-song teacher annotations are still needed."
+  ],
+  "frozenCandidateCodeSha256": "730547398fa007871dfb7d800a0f1c2d047b88bf5db67da49d75c5995e3bed2b",
+  "developmentChanges": [
+    "Added bounded low-gain feature normalization after dev quiet-audio failure; no tuning after test run"
+  ]
+}

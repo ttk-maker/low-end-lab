@@ -1,0 +1,399 @@
+{
+  "dataset": "pop909",
+  "task": "chord",
+  "split": "diagnostic",
+  "selectionIds": [
+    "pop909_592",
+    "pop909_215",
+    "pop909_641"
+  ],
+  "selectedBeforePredictions": true,
+  "trainingPerformed": false,
+  "rows": [
+    {
+      "id": "pop909_592",
+      "durationSec": 209.4,
+      "audioSha256": "d4ed690d8201fe66779c4b55e0698405fad2fc033f2c9605275e62301245e8ed",
+      "referenceProvenance": {
+        "path": "../../../../work/evaluation-datasets/pop909/source/POP909_processed/592.mid",
+        "sha256": "4872fa66da4eb366dd4c47e137b2b906c82503ce38f8979af2bee2efddbfdb51",
+        "type": "corrected_MIDI_meter_and_CHORDS_markers",
+        "revision": "6d2f91ae545f7ee78fdef903fe5d40992c1dc420"
+      },
+      "raw": {
+        "annotatedSeconds": 208.2,
+        "unknownReferenceSeconds": 0,
+        "predictionCoverage": 0.8907033141210375,
+        "root": {
+          "accuracy": 0.8006051873198856,
+          "scoredSeconds": 208.2,
+          "excludedSeconds": 0.0
+        },
+        "majmin": {
+          "accuracy": 0.8346450102880665,
+          "scoredSeconds": 194.40000000000003,
+          "excludedSeconds": 13.799999999999955
+        },
+        "triads": {
+          "accuracy": 0.7846760326609039,
+          "scoredSeconds": 208.2,
+          "excludedSeconds": 0.0
+        },
+        "sevenths": {
+          "accuracy": 0.685118209876544,
+          "scoredSeconds": 194.40000000000003,
+          "excludedSeconds": 13.799999999999955
+        },
+        "tetrads": {
+          "accuracy": 0.6450602305475512,
+          "scoredSeconds": 208.2,
+          "excludedSeconds": 0.0
+        },
+        "exactLabelDurationAccuracy": 0.5900075888568691,
+        "exactSelectiveAccuracy": 0.6624064146871391,
+        "boundariesAt200ms": {
+          "precision": 0.41379310344827586,
+          "recall": 0.7792207792207793,
+          "reference": 77,
+          "predicted": 145
+        }
+      },
+      "stableOracleGrid": {
+        "annotatedSeconds": 208.2,
+        "unknownReferenceSeconds": 0,
+        "predictionCoverage": 0.9711815561959656,
+        "root": {
+          "accuracy": 0.8793787704130642,
+          "scoredSeconds": 208.20000000000002,
+          "excludedSeconds": -2.842170943040401e-14
+        },
+        "majmin": {
+          "accuracy": 0.9039031378600821,
+          "scoredSeconds": 194.4,
+          "excludedSeconds": 13.799999999999983
+        },
+        "triads": {
+          "accuracy": 0.8583994716618636,
+          "scoredSeconds": 208.20000000000002,
+          "excludedSeconds": -2.842170943040401e-14
+        },
+        "sevenths": {
+          "accuracy": 0.7207706790123455,
+          "scoredSeconds": 194.4,
+          "excludedSeconds": 13.799999999999983
+        },
+        "tetrads": {
+          "accuracy": 0.6874054755043227,
+          "scoredSeconds": 208.20000000000002,
+          "excludedSeconds": -2.842170943040401e-14
+        },
+        "exactLabelDurationAccuracy": 0.6297685878962535,
+        "exactSelectiveAccuracy": 0.6484560830860532,
+        "boundariesAt200ms": {
+          "precision": 0.7590361445783133,
+          "recall": 0.8181818181818182,
+          "reference": 77,
+          "predicted": 83
+        }
+      },
+      "referenceGridGiven": true,
+      "stablePredictedGrid": {
+        "annotatedSeconds": 208.2,
+        "unknownReferenceSeconds": 0,
+        "predictionCoverage": 0.01390778097982705,
+        "root": {
+          "accuracy": 0.010514457252641649,
+          "scoredSeconds": 208.20000000000002,
+          "excludedSeconds": -2.842170943040401e-14
+        },
+        "majmin": {
+          "accuracy": 0.011260853909464977,
+          "scoredSeconds": 194.4,
+          "excludedSeconds": 13.799999999999983
+        },
+        "triads": {
+          "accuracy": 0.010514457252641649,
+          "scoredSeconds": 208.20000000000002,
+          "excludedSeconds": -2.842170943040401e-14
+        },
+        "sevenths": {
+          "accuracy": 6.46090534979419e-05,
+          "scoredSeconds": 194.4,
+          "excludedSeconds": 13.799999999999983
+        },
+        "tetrads": {
+          "accuracy": 6.032660902977859e-05,
+          "scoredSeconds": 208.20000000000002,
+          "excludedSeconds": -2.842170943040401e-14
+        },
+        "exactLabelDurationAccuracy": 6.0326609029778606e-05,
+        "exactSelectiveAccuracy": 0.004337615692775225,
+        "boundariesAt200ms": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "reference": 77,
+          "predicted": 5
+        }
+      },
+      "status": "complete",
+      "elapsedSeconds": 70.0
+    },
+    {
+      "id": "pop909_215",
+      "durationSec": 301.2,
+      "audioSha256": "cbeb73f77536d950567e5c2426fad0a492578103f0d533797e7663f395f47b1f",
+      "referenceProvenance": {
+        "path": "../../../../work/evaluation-datasets/pop909/source/POP909_processed/215.mid",
+        "sha256": "cec9d6acf2f3c25f57616bf4c04db0fb5658e3d605a2ce672eaa815a6ad7c4cd",
+        "type": "corrected_MIDI_meter_and_CHORDS_markers",
+        "revision": "6d2f91ae545f7ee78fdef903fe5d40992c1dc420"
+      },
+      "raw": {
+        "annotatedSeconds": 301.2,
+        "unknownReferenceSeconds": 0,
+        "predictionCoverage": 0.8979309096945554,
+        "root": {
+          "accuracy": 0.8001666666666671,
+          "scoredSeconds": 301.2,
+          "excludedSeconds": 0.0
+        },
+        "majmin": {
+          "accuracy": 0.8558000388500392,
+          "scoredSeconds": 257.4,
+          "excludedSeconds": 43.80000000000001
+        },
+        "triads": {
+          "accuracy": 0.7379597941567071,
+          "scoredSeconds": 301.2,
+          "excludedSeconds": 0.0
+        },
+        "sevenths": {
+          "accuracy": 0.8173636752136755,
+          "scoredSeconds": 257.4,
+          "excludedSeconds": 43.80000000000001
+        },
+        "tetrads": {
+          "accuracy": 0.7051127822045157,
+          "scoredSeconds": 301.2,
+          "excludedSeconds": 0.0
+        },
+        "exactLabelDurationAccuracy": 0.6170908366533868,
+        "exactSelectiveAccuracy": 0.6872364343302308,
+        "boundariesAt200ms": {
+          "precision": 0.47555555555555556,
+          "recall": 0.8045112781954887,
+          "reference": 133,
+          "predicted": 225
+        }
+      },
+      "stableOracleGrid": {
+        "annotatedSeconds": 301.2,
+        "unknownReferenceSeconds": 0,
+        "predictionCoverage": 0.9510226759628153,
+        "root": {
+          "accuracy": 0.8515936254980069,
+          "scoredSeconds": 301.2,
+          "excludedSeconds": 0.0
+        },
+        "majmin": {
+          "accuracy": 0.9079254079254064,
+          "scoredSeconds": 257.4,
+          "excludedSeconds": 43.80000000000001
+        },
+        "triads": {
+          "accuracy": 0.7858565737051781,
+          "scoredSeconds": 301.2,
+          "excludedSeconds": 0.0
+        },
+        "sevenths": {
+          "accuracy": 0.8694638694638678,
+          "scoredSeconds": 257.4,
+          "excludedSeconds": 43.80000000000001
+        },
+        "tetrads": {
+          "accuracy": 0.7529880478087637,
+          "scoredSeconds": 301.2,
+          "excludedSeconds": 0.0
+        },
+        "exactLabelDurationAccuracy": 0.649402390438246,
+        "exactSelectiveAccuracy": 0.6828463788003698,
+        "boundariesAt200ms": {
+          "precision": 0.8283582089552238,
+          "recall": 0.8345864661654135,
+          "reference": 133,
+          "predicted": 134
+        }
+      },
+      "referenceGridGiven": true,
+      "stablePredictedGrid": {
+        "annotatedSeconds": 301.2,
+        "unknownReferenceSeconds": 0,
+        "predictionCoverage": 0.19130146082337302,
+        "root": {
+          "accuracy": 0.188419555112882,
+          "scoredSeconds": 301.2,
+          "excludedSeconds": 0.0
+        },
+        "majmin": {
+          "accuracy": 0.22048162393162418,
+          "scoredSeconds": 257.4,
+          "excludedSeconds": 43.80000000000001
+        },
+        "triads": {
+          "accuracy": 0.188419555112882,
+          "scoredSeconds": 301.2,
+          "excludedSeconds": 0.0
+        },
+        "sevenths": {
+          "accuracy": 0.22048162393162418,
+          "scoredSeconds": 257.4,
+          "excludedSeconds": 43.80000000000001
+        },
+        "tetrads": {
+          "accuracy": 0.188419555112882,
+          "scoredSeconds": 301.2,
+          "excludedSeconds": 0.0
+        },
+        "exactLabelDurationAccuracy": 0.188419555112882,
+        "exactSelectiveAccuracy": 0.984935265532803,
+        "boundariesAt200ms": {
+          "precision": 0.8333333333333334,
+          "recall": 0.15037593984962405,
+          "reference": 133,
+          "predicted": 24
+        }
+      },
+      "status": "complete",
+      "elapsedSeconds": 73.406
+    },
+    {
+      "id": "pop909_641",
+      "durationSec": 297.0,
+      "audioSha256": "72cbd5fc44aba5bb3ef8e33adc3ffc579671c430de3a44e36468120ad02f7125",
+      "referenceProvenance": {
+        "path": "../../../../work/evaluation-datasets/pop909/source/POP909_processed/641.mid",
+        "sha256": "216ecb53d7ba2394ff22d34f59771a7b29f31b4233d62bb41820c1a8f92651ae",
+        "type": "corrected_MIDI_meter_and_CHORDS_markers",
+        "revision": "6d2f91ae545f7ee78fdef903fe5d40992c1dc420"
+      },
+      "raw": {
+        "annotatedSeconds": 297.0,
+        "unknownReferenceSeconds": 0,
+        "predictionCoverage": 0.9809236363636366,
+        "root": {
+          "accuracy": 0.9593406397306395,
+          "scoredSeconds": 297.0,
+          "excludedSeconds": 0.0
+        },
+        "majmin": {
+          "accuracy": 0.9671560420909707,
+          "scoredSeconds": 294.6,
+          "excludedSeconds": 2.3999999999999773
+        },
+        "triads": {
+          "accuracy": 0.9593406397306395,
+          "scoredSeconds": 297.0,
+          "excludedSeconds": 0.0
+        },
+        "sevenths": {
+          "accuracy": 0.9671560420909707,
+          "scoredSeconds": 294.6,
+          "excludedSeconds": 2.3999999999999773
+        },
+        "tetrads": {
+          "accuracy": 0.9593406397306395,
+          "scoredSeconds": 297.0,
+          "excludedSeconds": 0.0
+        },
+        "exactLabelDurationAccuracy": 0.8753076094276094,
+        "exactSelectiveAccuracy": 0.8923300213994697,
+        "boundariesAt200ms": {
+          "precision": 0.6590909090909091,
+          "recall": 0.7837837837837838,
+          "reference": 74,
+          "predicted": 88
+        }
+      },
+      "stableOracleGrid": {
+        "annotatedSeconds": 297.0,
+        "unknownReferenceSeconds": 0,
+        "predictionCoverage": 0.9969696969696971,
+        "root": {
+          "accuracy": 0.9848484848484841,
+          "scoredSeconds": 297.0,
+          "excludedSeconds": 0.0
+        },
+        "majmin": {
+          "accuracy": 0.992871690427698,
+          "scoredSeconds": 294.6,
+          "excludedSeconds": 2.3999999999999773
+        },
+        "triads": {
+          "accuracy": 0.9848484848484841,
+          "scoredSeconds": 297.0,
+          "excludedSeconds": 0.0
+        },
+        "sevenths": {
+          "accuracy": 0.992871690427698,
+          "scoredSeconds": 294.6,
+          "excludedSeconds": 2.3999999999999773
+        },
+        "tetrads": {
+          "accuracy": 0.9848484848484841,
+          "scoredSeconds": 297.0,
+          "excludedSeconds": 0.0
+        },
+        "exactLabelDurationAccuracy": 0.8999999999999992,
+        "exactSelectiveAccuracy": 0.9027355623100298,
+        "boundariesAt200ms": {
+          "precision": 0.9516129032258065,
+          "recall": 0.7972972972972973,
+          "reference": 74,
+          "predicted": 62
+        }
+      },
+      "referenceGridGiven": true,
+      "stablePredictedGrid": {
+        "annotatedSeconds": 297.0,
+        "unknownReferenceSeconds": 0,
+        "predictionCoverage": 0.7490235690235688,
+        "root": {
+          "accuracy": 0.7459259259259263,
+          "scoredSeconds": 297.0,
+          "excludedSeconds": 0.0
+        },
+        "majmin": {
+          "accuracy": 0.7520027155465041,
+          "scoredSeconds": 294.6,
+          "excludedSeconds": 2.3999999999999773
+        },
+        "triads": {
+          "accuracy": 0.7459259259259263,
+          "scoredSeconds": 297.0,
+          "excludedSeconds": 0.0
+        },
+        "sevenths": {
+          "accuracy": 0.7520027155465041,
+          "scoredSeconds": 294.6,
+          "excludedSeconds": 2.3999999999999773
+        },
+        "tetrads": {
+          "accuracy": 0.7459259259259263,
+          "scoredSeconds": 297.0,
+          "excludedSeconds": 0.0
+        },
+        "exactLabelDurationAccuracy": 0.6784511784511789,
+        "exactSelectiveAccuracy": 0.9057808145284553,
+        "boundariesAt200ms": {
+          "precision": 0.8064516129032258,
+          "recall": 0.6756756756756757,
+          "reference": 74,
+          "predicted": 62
+        }
+      },
+      "status": "complete",
+      "elapsedSeconds": 69.985
+    }
+  ],
+  "complete": true
+}

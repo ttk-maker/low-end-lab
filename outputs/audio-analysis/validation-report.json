@@ -1,0 +1,84 @@
+{
+  "engine": {
+    "status": "passed",
+    "engineVersion": "0.3.1",
+    "checks": [
+      "actual supplied MP3: decoded duration, neural beats, tail abstention, valid annotation",
+      "silence: no invented beats, tempo, or multiple sections",
+      "independent synthetic 120 BPM audio: different output, median onset alignment <70 ms",
+      "unsupported duration rejected",
+      "invalid audio rejected",
+      "cancelled jobs stop before compute",
+      "invalid annotations rejected: unordered beats and gapped sections"
+    ],
+    "sample": {
+      "durationSec": 23.69306,
+      "bpmCandidate": 130.43,
+      "beats": 37,
+      "downbeats": 10,
+      "sections": [
+        {
+          "id": "section-1",
+          "startSec": 0,
+          "endSec": 7.5,
+          "label": "段落 1",
+          "status": "candidate",
+          "source": "spectral-novelty-v1"
+        },
+        {
+          "id": "section-2",
+          "startSec": 7.5,
+          "endSec": 15.25,
+          "label": "段落 2",
+          "status": "candidate",
+          "source": "spectral-novelty-v1"
+        },
+        {
+          "id": "section-3",
+          "startSec": 15.25,
+          "endSec": 23.69306,
+          "label": "段落 3",
+          "status": "candidate",
+          "source": "spectral-novelty-v1"
+        }
+      ],
+      "analysisSeconds": 10.22
+    },
+    "clickTest": {
+      "detectedBeats": 28,
+      "bpmCandidate": 120.0,
+      "medianOnsetErrorSec": 0.0
+    }
+  },
+  "browser": {
+    "status": "passed",
+    "checks": [
+      "supplied audio metadata and original source playback",
+      "real audio clock and beat highlight",
+      "selected range loop wraps",
+      "tail abstention displayed",
+      "new WAV uploaded and genuinely inferred",
+      "half/double beat grids and undo",
+      "split, rename, and move section boundary",
+      "annotation persisted without rewriting raw result",
+      "reload recovery",
+      "manual tempo grid and undo",
+      "stale revision conflict 409",
+      "cross-origin mutation rejected",
+      "MP3 byte-range seeking",
+      "1440/834/390 responsive layouts",
+      "existing 21-fret workspace retained"
+    ],
+    "testProjectId": "6c16a3da7abce1fff780",
+    "pageErrors": []
+  },
+  "fretboard": {
+    "status": "passed",
+    "assertions": 91
+  },
+  "environment": {
+    "pipCheck": "No broken requirements found",
+    "audioUpload": "local_only",
+    "date": "2026-11-08"
+  }
+}

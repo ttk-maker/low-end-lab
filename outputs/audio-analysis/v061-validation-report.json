@@ -1,0 +1,23 @@
+{
+  "version": "0.6.1",
+  "originalProjectByteIdentical": true,
+  "neuralWeightsChanged": false,
+  "pythonTestsPassed": 18,
+  "structureTests": "passed",
+  "ui": {
+    "status": "passed",
+    "checks": [
+      "stable first bar Am",
+      "raw comparison retains three fragments",
+      "preview playback label",
+      "rhythm lock before adoption",
+      "adopt undo save reload",
+      "existing annotation preserved",
+      "390px layout"
+    ],
+    "pageErrors": []
+  },
+  "evaluation": "evaluation/harmony-stability-report.json",
+  "cloudCalls": false,
+  "productionSmoke": "passed: stable/raw clock consistency, unconfirmed meter preview rejection, original data unchanged"
+}

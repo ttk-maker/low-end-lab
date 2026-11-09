@@ -1,0 +1,932 @@
+{
+  "dataset": "gtzan",
+  "task": "rhythm",
+  "split": "diagnostic",
+  "selectionIds": [
+    "gtzan_blues_00046",
+    "gtzan_classical_00081",
+    "gtzan_country_00098",
+    "gtzan_disco_00077",
+    "gtzan_hiphop_00062",
+    "gtzan_jazz_00019",
+    "gtzan_metal_00053",
+    "gtzan_pop_00089",
+    "gtzan_reggae_00022",
+    "gtzan_rock_00074"
+  ],
+  "selectedBeforePredictions": true,
+  "trainingPerformed": false,
+  "rows": [
+    {
+      "id": "gtzan_blues_00046",
+      "durationSec": 30.013333333333332,
+      "audioSha256": "1f420f0180db093cdf4312fa20e659b0b64dfaede7b5ce6c5a9770015fd4bd92",
+      "referenceProvenance": {
+        "path": "../../../../work/evaluation-datasets/gtzan/reference-source/CPJKU-beat_this_annotations-890407d/gtzan/annotations/beats/gtzan_blues_00046.beats",
+        "sha256": "07e395fa5c39e65b260caa8c3d79ef0dc62c738a17ed14922e891d0c5608ae6a",
+        "type": "published_beat_annotations",
+        "revision": "890407d158078527ab396b49fea3c8a83e5734ee"
+      },
+      "rawBeat": {
+        "f1At70ms": 1.0,
+        "f1At30ms": 0.9672131147540983,
+        "CMLc": 1.0,
+        "CMLt": 1.0,
+        "AMLc": 1.0,
+        "AMLt": 1.0,
+        "referenceCount": 61,
+        "predictedCount": 61,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 25.00000000000213,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 61,
+            "medianSignedErrorMs": 5.000000000002558
+          }
+        ]
+      },
+      "processedBeat": {
+        "f1At70ms": 1.0,
+        "f1At30ms": 0.9672131147540983,
+        "CMLc": 1.0,
+        "CMLt": 1.0,
+        "AMLc": 1.0,
+        "AMLt": 1.0,
+        "referenceCount": 61,
+        "predictedCount": 61,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 25.00000000000213,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 61,
+            "medianSignedErrorMs": 5.000000000002558
+          }
+        ]
+      },
+      "rawDownbeat": {
+        "f1At70ms": 1.0,
+        "f1At30ms": 0.9333333333333333,
+        "CMLc": 1.0,
+        "CMLt": 1.0,
+        "AMLc": 1.0,
+        "AMLt": 1.0,
+        "referenceCount": 15,
+        "predictedCount": 15,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 27.09999999999963,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 15,
+            "medianSignedErrorMs": 1.9999999999997797
+          }
+        ]
+      },
+      "groupedDownbeat": {
+        "f1At70ms": 1.0,
+        "f1At30ms": 0.9333333333333333,
+        "CMLc": 1.0,
+        "CMLt": 1.0,
+        "AMLc": 1.0,
+        "AMLt": 1.0,
+        "referenceCount": 15,
+        "predictedCount": 15,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 27.09999999999963,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 15,
+            "medianSignedErrorMs": 1.9999999999997797
+          }
+        ]
+      },
+      "inserted": 0,
+      "removed": 0,
+      "status": "complete",
+      "elapsedSeconds": 5.328
+    },
+    {
+      "id": "gtzan_classical_00081",
+      "durationSec": 30.013333333333332,
+      "audioSha256": "787e04f4aa529c6672c16dc17e0f8296193bed2bf27bc14a2ca20da5cdbbce00",
+      "referenceProvenance": {
+        "path": "../../../../work/evaluation-datasets/gtzan/reference-source/CPJKU-beat_this_annotations-890407d/gtzan/annotations/beats/gtzan_classical_00081.beats",
+        "sha256": "a809c7f6476a26444df6a98dbd5a7d808bb7859f00be44756c20953d51de208e",
+        "type": "published_beat_annotations",
+        "revision": "890407d158078527ab396b49fea3c8a83e5734ee"
+      },
+      "rawBeat": {
+        "f1At70ms": 0.9343065693430657,
+        "f1At30ms": 0.6715328467153284,
+        "CMLc": 0.2777777777777778,
+        "CMLt": 0.7777777777777778,
+        "AMLc": 0.2777777777777778,
+        "AMLt": 0.7777777777777778,
+        "referenceCount": 72,
+        "predictedCount": 65,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 47.00000000000046,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 64,
+            "medianSignedErrorMs": -6.500000000000838
+          }
+        ]
+      },
+      "processedBeat": {
+        "f1At70ms": 0.9645390070921985,
+        "f1At30ms": 0.6666666666666667,
+        "CMLc": 0.6388888888888888,
+        "CMLt": 0.8888888888888888,
+        "AMLc": 0.6388888888888888,
+        "AMLt": 0.8888888888888888,
+        "referenceCount": 72,
+        "predictedCount": 69,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 55.89999999999974,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 68,
+            "medianSignedErrorMs": -6.500000000000838
+          }
+        ]
+      },
+      "rawDownbeat": {
+        "f1At70ms": 0.23529411764705885,
+        "f1At30ms": 0.11764705882352942,
+        "CMLc": 0.0,
+        "CMLt": 0.0,
+        "AMLc": 0.0,
+        "AMLt": 0.0,
+        "referenceCount": 14,
+        "predictedCount": 37,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 55.25000000000002,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 6,
+            "medianSignedErrorMs": -26.499999999998636
+          }
+        ]
+      },
+      "groupedDownbeat": {
+        "f1At70ms": 0.10526315789473682,
+        "f1At30ms": 0.10526315789473682,
+        "CMLc": 0.0,
+        "CMLt": 0.0,
+        "AMLc": 0.0,
+        "AMLt": 0.0,
+        "referenceCount": 14,
+        "predictedCount": 5,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 9.999999999999787,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 1,
+            "medianSignedErrorMs": -9.999999999999787
+          }
+        ]
+      },
+      "inserted": 4,
+      "removed": 0,
+      "status": "complete",
+      "elapsedSeconds": 1.297
+    },
+    {
+      "id": "gtzan_country_00098",
+      "durationSec": 30.013333333333332,
+      "audioSha256": "512dda34935c914ebc26b9ea1b2629fab6ec48bc51d939d1e1ccf9b2afe3da8e",
+      "referenceProvenance": {
+        "path": "../../../../work/evaluation-datasets/gtzan/reference-source/CPJKU-beat_this_annotations-890407d/gtzan/annotations/beats/gtzan_country_00098.beats",
+        "sha256": "bc1b3df8d78f618653e44cbc656d7110254671436b8a3b6bb6088216c46088ef",
+        "type": "published_beat_annotations",
+        "revision": "890407d158078527ab396b49fea3c8a83e5734ee"
+      },
+      "rawBeat": {
+        "f1At70ms": 1.0,
+        "f1At30ms": 0.9666666666666667,
+        "CMLc": 1.0,
+        "CMLt": 1.0,
+        "AMLc": 1.0,
+        "AMLt": 1.0,
+        "referenceCount": 60,
+        "predictedCount": 60,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 21.09999999999989,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 60,
+            "medianSignedErrorMs": -6.999999999999673
+          }
+        ]
+      },
+      "processedBeat": {
+        "f1At70ms": 1.0,
+        "f1At30ms": 0.9666666666666667,
+        "CMLc": 1.0,
+        "CMLt": 1.0,
+        "AMLc": 1.0,
+        "AMLt": 1.0,
+        "referenceCount": 60,
+        "predictedCount": 60,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 21.09999999999989,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 60,
+            "medianSignedErrorMs": -6.999999999999673
+          }
+        ]
+      },
+      "rawDownbeat": {
+        "f1At70ms": 1.0,
+        "f1At30ms": 1.0,
+        "CMLc": 1.0,
+        "CMLt": 1.0,
+        "AMLc": 1.0,
+        "AMLt": 1.0,
+        "referenceCount": 15,
+        "predictedCount": 15,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 15.600000000000234,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 15,
+            "medianSignedErrorMs": -3.0000000000001137
+          }
+        ]
+      },
+      "groupedDownbeat": {
+        "f1At70ms": 1.0,
+        "f1At30ms": 1.0,
+        "CMLc": 1.0,
+        "CMLt": 1.0,
+        "AMLc": 1.0,
+        "AMLt": 1.0,
+        "referenceCount": 15,
+        "predictedCount": 15,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 15.600000000000234,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 15,
+            "medianSignedErrorMs": -3.0000000000001137
+          }
+        ]
+      },
+      "inserted": 0,
+      "removed": 0,
+      "status": "complete",
+      "elapsedSeconds": 1.297
+    },
+    {
+      "id": "gtzan_disco_00077",
+      "durationSec": 30.00018140589569,
+      "audioSha256": "65edeab98aa43e26ca4b3cce855c5ccc7d13216de801f6352967f18163459874",
+      "referenceProvenance": {
+        "path": "../../../../work/evaluation-datasets/gtzan/reference-source/CPJKU-beat_this_annotations-890407d/gtzan/annotations/beats/gtzan_disco_00077.beats",
+        "sha256": "4ff211c1af8666b706249b6133506c0a49b659a0cea7d6827c48595b1eab7972",
+        "type": "published_beat_annotations",
+        "revision": "890407d158078527ab396b49fea3c8a83e5734ee"
+      },
+      "rawBeat": {
+        "f1At70ms": 0.9827586206896551,
+        "f1At30ms": 0.9827586206896551,
+        "CMLc": 0.9661016949152542,
+        "CMLt": 0.9661016949152542,
+        "AMLc": 0.9661016949152542,
+        "AMLt": 0.9661016949152542,
+        "referenceCount": 57,
+        "predictedCount": 59,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 21.400000000000567,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 57,
+            "medianSignedErrorMs": -9.000000000000341
+          }
+        ]
+      },
+      "processedBeat": {
+        "f1At70ms": 0.9827586206896551,
+        "f1At30ms": 0.9827586206896551,
+        "CMLc": 0.9661016949152542,
+        "CMLt": 0.9661016949152542,
+        "AMLc": 0.9661016949152542,
+        "AMLt": 0.9661016949152542,
+        "referenceCount": 57,
+        "predictedCount": 59,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 21.400000000000567,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 57,
+            "medianSignedErrorMs": -9.000000000000341
+          }
+        ]
+      },
+      "rawDownbeat": {
+        "f1At70ms": 0.9655172413793104,
+        "f1At30ms": 0.9655172413793104,
+        "CMLc": 0.9333333333333333,
+        "CMLt": 0.9333333333333333,
+        "AMLc": 0.9333333333333333,
+        "AMLt": 0.9333333333333333,
+        "referenceCount": 14,
+        "predictedCount": 15,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 21.0499999999999,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 14,
+            "medianSignedErrorMs": -10.500000000000398
+          }
+        ]
+      },
+      "groupedDownbeat": {
+        "f1At70ms": 0.9655172413793104,
+        "f1At30ms": 0.9655172413793104,
+        "CMLc": 0.9333333333333333,
+        "CMLt": 0.9333333333333333,
+        "AMLc": 0.9333333333333333,
+        "AMLt": 0.9333333333333333,
+        "referenceCount": 14,
+        "predictedCount": 15,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 21.0499999999999,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 14,
+            "medianSignedErrorMs": -10.500000000000398
+          }
+        ]
+      },
+      "inserted": 0,
+      "removed": 0,
+      "status": "complete",
+      "elapsedSeconds": 1.656
+    },
+    {
+      "id": "gtzan_hiphop_00062",
+      "durationSec": 30.013333333333332,
+      "audioSha256": "1e875ee99628655d1673497f8176644c06f3f9bf83dd4de181e78228de0cdf65",
+      "referenceProvenance": {
+        "path": "../../../../work/evaluation-datasets/gtzan/reference-source/CPJKU-beat_this_annotations-890407d/gtzan/annotations/beats/gtzan_hiphop_00062.beats",
+        "sha256": "4317b3561b652aed24c1235fe161b2eeb3aafef81639f8e58a51921857d83260",
+        "type": "published_beat_annotations",
+        "revision": "890407d158078527ab396b49fea3c8a83e5734ee"
+      },
+      "rawBeat": {
+        "f1At70ms": 1.0,
+        "f1At30ms": 0.9782608695652174,
+        "CMLc": 1.0,
+        "CMLt": 1.0,
+        "AMLc": 1.0,
+        "AMLt": 1.0,
+        "referenceCount": 46,
+        "predictedCount": 46,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 22.749999999999773,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 46,
+            "medianSignedErrorMs": -12.500000000000178
+          }
+        ]
+      },
+      "processedBeat": {
+        "f1At70ms": 1.0,
+        "f1At30ms": 0.9782608695652174,
+        "CMLc": 1.0,
+        "CMLt": 1.0,
+        "AMLc": 1.0,
+        "AMLt": 1.0,
+        "referenceCount": 46,
+        "predictedCount": 46,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 22.749999999999773,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 46,
+            "medianSignedErrorMs": -12.500000000000178
+          }
+        ]
+      },
+      "rawDownbeat": {
+        "f1At70ms": 0.35714285714285715,
+        "f1At30ms": 0.2857142857142857,
+        "CMLc": 0.0,
+        "CMLt": 0.0,
+        "AMLc": 0.2857142857142857,
+        "AMLt": 0.47619047619047616,
+        "referenceCount": 11,
+        "predictedCount": 17,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 34.59999999999965,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 5,
+            "medianSignedErrorMs": -13.999999999999346
+          }
+        ]
+      },
+      "groupedDownbeat": {
+        "f1At70ms": 0.3703703703703703,
+        "f1At30ms": 0.2962962962962963,
+        "CMLc": 0.0,
+        "CMLt": 0.0,
+        "AMLc": 0.2857142857142857,
+        "AMLt": 0.47619047619047616,
+        "referenceCount": 11,
+        "predictedCount": 16,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 34.59999999999965,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 5,
+            "medianSignedErrorMs": -13.999999999999346
+          }
+        ]
+      },
+      "inserted": 0,
+      "removed": 0,
+      "status": "complete",
+      "elapsedSeconds": 1.391
+    },
+    {
+      "id": "gtzan_jazz_00019",
+      "durationSec": 30.013333333333332,
+      "audioSha256": "653eb1c2fb9ddd5bd063f599f0b097bd8072cf39c4051500863ddca18aff3d4b",
+      "referenceProvenance": {
+        "path": "../../../../work/evaluation-datasets/gtzan/reference-source/CPJKU-beat_this_annotations-890407d/gtzan/annotations/beats/gtzan_jazz_00019.beats",
+        "sha256": "43f1cd2f05d00bbb23338728573c437790ceb12d3e92e41c9ef5018b7a63b506",
+        "type": "published_beat_annotations",
+        "revision": "890407d158078527ab396b49fea3c8a83e5734ee"
+      },
+      "rawBeat": {
+        "f1At70ms": 0.37362637362637363,
+        "f1At30ms": 0.15384615384615385,
+        "CMLc": 0.08695652173913043,
+        "CMLt": 0.17391304347826086,
+        "AMLc": 0.08695652173913043,
+        "AMLt": 0.17391304347826086,
+        "referenceCount": 46,
+        "predictedCount": 45,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 64.2000000000003,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 17,
+            "medianSignedErrorMs": -33.00000000000125
+          }
+        ]
+      },
+      "processedBeat": {
+        "f1At70ms": 0.37362637362637363,
+        "f1At30ms": 0.15384615384615385,
+        "CMLc": 0.08695652173913043,
+        "CMLt": 0.17391304347826086,
+        "AMLc": 0.08695652173913043,
+        "AMLt": 0.17391304347826086,
+        "referenceCount": 46,
+        "predictedCount": 45,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 64.2000000000003,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 17,
+            "medianSignedErrorMs": -33.00000000000125
+          }
+        ]
+      },
+      "rawDownbeat": {
+        "f1At70ms": 0.5405405405405405,
+        "f1At30ms": 0.3243243243243243,
+        "CMLc": 0.22727272727272727,
+        "CMLt": 0.4090909090909091,
+        "AMLc": 0.22727272727272727,
+        "AMLt": 0.4090909090909091,
+        "referenceCount": 15,
+        "predictedCount": 22,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 64.55000000000072,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 10,
+            "medianSignedErrorMs": -27.500000000001634
+          }
+        ]
+      },
+      "groupedDownbeat": {
+        "f1At70ms": 0.19047619047619044,
+        "f1At30ms": 0.09523809523809522,
+        "CMLc": 0.0,
+        "CMLt": 0.0,
+        "AMLc": 0.1724137931034483,
+        "AMLt": 0.1724137931034483,
+        "referenceCount": 15,
+        "predictedCount": 6,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 37.80000000000143,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 2,
+            "medianSignedErrorMs": -12.000000000000455
+          }
+        ]
+      },
+      "inserted": 0,
+      "removed": 0,
+      "status": "complete",
+      "elapsedSeconds": 1.312
+    },
+    {
+      "id": "gtzan_metal_00053",
+      "durationSec": 30.013333333333332,
+      "audioSha256": "0a956c77a6a27f9e1a1857bc0e94818094cbbb78b702baf2a580395bc66a0b9e",
+      "referenceProvenance": {
+        "path": "../../../../work/evaluation-datasets/gtzan/reference-source/CPJKU-beat_this_annotations-890407d/gtzan/annotations/beats/gtzan_metal_00053.beats",
+        "sha256": "f1076467639867b5a67e407e45017c18d13e984ba0e0c76b3d7e49b74b7bfb19",
+        "type": "published_beat_annotations",
+        "revision": "890407d158078527ab396b49fea3c8a83e5734ee"
+      },
+      "rawBeat": {
+        "f1At70ms": 0.97165991902834,
+        "f1At30ms": 0.8502024291497976,
+        "CMLc": 0.20967741935483872,
+        "CMLt": 0.8870967741935484,
+        "AMLc": 0.20967741935483872,
+        "AMLt": 0.8870967741935484,
+        "referenceCount": 124,
+        "predictedCount": 123,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 39.39999999999804,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 120,
+            "medianSignedErrorMs": 7.0000000000014495
+          }
+        ]
+      },
+      "processedBeat": {
+        "f1At70ms": 0.9799196787148594,
+        "f1At30ms": 0.8514056224899599,
+        "CMLc": 0.432,
+        "CMLt": 0.912,
+        "AMLc": 0.432,
+        "AMLt": 0.912,
+        "referenceCount": 124,
+        "predictedCount": 125,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 38.99999999999961,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 122,
+            "medianSignedErrorMs": 7.000000000000728
+          }
+        ]
+      },
+      "rawDownbeat": {
+        "f1At70ms": 0.8055555555555556,
+        "f1At30ms": 0.7222222222222222,
+        "CMLc": 0.3902439024390244,
+        "CMLt": 0.5853658536585366,
+        "AMLc": 0.3902439024390244,
+        "AMLt": 0.5853658536585366,
+        "referenceCount": 31,
+        "predictedCount": 41,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 37.20000000000034,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 29,
+            "medianSignedErrorMs": -1.0000000000012221
+          }
+        ]
+      },
+      "groupedDownbeat": {
+        "f1At70ms": 0.8518518518518519,
+        "f1At30ms": 0.7777777777777777,
+        "CMLc": 0.7419354838709677,
+        "CMLt": 0.7419354838709677,
+        "AMLc": 0.7419354838709677,
+        "AMLt": 0.7419354838709677,
+        "referenceCount": 31,
+        "predictedCount": 23,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 35.100000000000165,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 23,
+            "medianSignedErrorMs": -1.0000000000012221
+          }
+        ]
+      },
+      "inserted": 2,
+      "removed": 0,
+      "status": "complete",
+      "elapsedSeconds": 1.391
+    },
+    {
+      "id": "gtzan_pop_00089",
+      "durationSec": 30.00018140589569,
+      "audioSha256": "8f750366d074509c249ec98f511fbb61e51aa066f5edb45f4dff2dba0e940f10",
+      "referenceProvenance": {
+        "path": "../../../../work/evaluation-datasets/gtzan/reference-source/CPJKU-beat_this_annotations-890407d/gtzan/annotations/beats/gtzan_pop_00089.beats",
+        "sha256": "9b51c426b1437d357f981110e8d38f87c229bd33c2d09441d053a751b162259a",
+        "type": "published_beat_annotations",
+        "revision": "890407d158078527ab396b49fea3c8a83e5734ee"
+      },
+      "rawBeat": {
+        "f1At70ms": 1.0,
+        "f1At30ms": 1.0,
+        "CMLc": 1.0,
+        "CMLt": 1.0,
+        "AMLc": 1.0,
+        "AMLt": 1.0,
+        "referenceCount": 50,
+        "predictedCount": 50,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 18.650000000000315,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 50,
+            "medianSignedErrorMs": -8.000000000000895
+          }
+        ]
+      },
+      "processedBeat": {
+        "f1At70ms": 1.0,
+        "f1At30ms": 1.0,
+        "CMLc": 1.0,
+        "CMLt": 1.0,
+        "AMLc": 1.0,
+        "AMLt": 1.0,
+        "referenceCount": 50,
+        "predictedCount": 50,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 18.650000000000315,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 50,
+            "medianSignedErrorMs": -8.000000000000895
+          }
+        ]
+      },
+      "rawDownbeat": {
+        "f1At70ms": 1.0,
+        "f1At30ms": 1.0,
+        "CMLc": 1.0,
+        "CMLt": 1.0,
+        "AMLc": 1.0,
+        "AMLt": 1.0,
+        "referenceCount": 13,
+        "predictedCount": 13,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 14.599999999999719,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 13,
+            "medianSignedErrorMs": -3.0000000000001137
+          }
+        ]
+      },
+      "groupedDownbeat": {
+        "f1At70ms": 1.0,
+        "f1At30ms": 1.0,
+        "CMLc": 1.0,
+        "CMLt": 1.0,
+        "AMLc": 1.0,
+        "AMLt": 1.0,
+        "referenceCount": 13,
+        "predictedCount": 13,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 14.599999999999719,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 13,
+            "medianSignedErrorMs": -3.0000000000001137
+          }
+        ]
+      },
+      "inserted": 0,
+      "removed": 0,
+      "status": "complete",
+      "elapsedSeconds": 1.5
+    },
+    {
+      "id": "gtzan_reggae_00022",
+      "durationSec": 30.013333333333332,
+      "audioSha256": "1fad5cf143947c45bb551c35555bf74aebb6e78e28d04fb3cefdefe5edcc383f",
+      "referenceProvenance": {
+        "path": "../../../../work/evaluation-datasets/gtzan/reference-source/CPJKU-beat_this_annotations-890407d/gtzan/annotations/beats/gtzan_reggae_00022.beats",
+        "sha256": "30ee62c41db8d699c9c05e6ddfb301299870f021e737fcec9fe91d2214dc3fef",
+        "type": "published_beat_annotations",
+        "revision": "890407d158078527ab396b49fea3c8a83e5734ee"
+      },
+      "rawBeat": {
+        "f1At70ms": 0.9932885906040269,
+        "f1At30ms": 0.9932885906040269,
+        "CMLc": 0.9866666666666667,
+        "CMLt": 0.9866666666666667,
+        "AMLc": 0.9866666666666667,
+        "AMLt": 0.9866666666666667,
+        "referenceCount": 74,
+        "predictedCount": 75,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 22.699999999998067,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 74,
+            "medianSignedErrorMs": -9.499999999999176
+          }
+        ]
+      },
+      "processedBeat": {
+        "f1At70ms": 0.9932885906040269,
+        "f1At30ms": 0.9932885906040269,
+        "CMLc": 0.9866666666666667,
+        "CMLt": 0.9866666666666667,
+        "AMLc": 0.9866666666666667,
+        "AMLt": 0.9866666666666667,
+        "referenceCount": 74,
+        "predictedCount": 75,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 22.699999999998067,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 74,
+            "medianSignedErrorMs": -9.499999999999176
+          }
+        ]
+      },
+      "rawDownbeat": {
+        "f1At70ms": 0.25641025641025644,
+        "f1At30ms": 0.25641025641025644,
+        "CMLc": 0.25,
+        "CMLt": 0.25,
+        "AMLc": 0.25,
+        "AMLt": 0.25,
+        "referenceCount": 19,
+        "predictedCount": 20,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 13.60000000000001,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 5,
+            "medianSignedErrorMs": 3.0000000000000027
+          }
+        ]
+      },
+      "groupedDownbeat": {
+        "f1At70ms": 0.0,
+        "f1At30ms": 0.0,
+        "CMLc": 0.0,
+        "CMLt": 0.0,
+        "AMLc": 0.0,
+        "AMLt": 0.0,
+        "referenceCount": 19,
+        "predictedCount": 19,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": null,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 0,
+            "medianSignedErrorMs": null
+          }
+        ]
+      },
+      "inserted": 0,
+      "removed": 0,
+      "status": "complete",
+      "elapsedSeconds": 1.359
+    },
+    {
+      "id": "gtzan_rock_00074",
+      "durationSec": 30.013333333333332,
+      "audioSha256": "c8317a74f1d125a0b0eeec2f26534d23a5da492dbd168c94f894e4ce54204253",
+      "referenceProvenance": {
+        "path": "../../../../work/evaluation-datasets/gtzan/reference-source/CPJKU-beat_this_annotations-890407d/gtzan/annotations/beats/gtzan_rock_00074.beats",
+        "sha256": "704a3b2603398b6a07c0c4efad082917bf7f12f753cdbc12c756048173384844",
+        "type": "published_beat_annotations",
+        "revision": "890407d158078527ab396b49fea3c8a83e5734ee"
+      },
+      "rawBeat": {
+        "f1At70ms": 1.0,
+        "f1At30ms": 1.0,
+        "CMLc": 1.0,
+        "CMLt": 1.0,
+        "AMLc": 1.0,
+        "AMLt": 1.0,
+        "referenceCount": 56,
+        "predictedCount": 56,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 16.250000000000764,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 56,
+            "medianSignedErrorMs": -4.500000000000615
+          }
+        ]
+      },
+      "processedBeat": {
+        "f1At70ms": 1.0,
+        "f1At30ms": 1.0,
+        "CMLc": 1.0,
+        "CMLt": 1.0,
+        "AMLc": 1.0,
+        "AMLt": 1.0,
+        "referenceCount": 56,
+        "predictedCount": 56,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 16.250000000000764,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 56,
+            "medianSignedErrorMs": -4.500000000000615
+          }
+        ]
+      },
+      "rawDownbeat": {
+        "f1At70ms": 0.7407407407407408,
+        "f1At30ms": 0.7407407407407408,
+        "CMLc": 0.42857142857142855,
+        "CMLt": 0.6428571428571429,
+        "AMLc": 0.42857142857142855,
+        "AMLt": 0.6428571428571429,
+        "referenceCount": 14,
+        "predictedCount": 13,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 14.000000000000323,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 10,
+            "medianSignedErrorMs": -5.50000000000006
+          }
+        ]
+      },
+      "groupedDownbeat": {
+        "f1At70ms": 0.6,
+        "f1At30ms": 0.6,
+        "CMLc": 0.42857142857142855,
+        "CMLt": 0.42857142857142855,
+        "AMLc": 0.42857142857142855,
+        "AMLt": 0.42857142857142855,
+        "referenceCount": 14,
+        "predictedCount": 6,
+        "trimStartSeconds": 0,
+        "p95AbsoluteErrorMs": 13.000000000000789,
+        "perMinute": [
+          {
+            "startSec": 0,
+            "matched": 6,
+            "medianSignedErrorMs": -6.499999999999506
+          }
+        ]
+      },
+      "inserted": 0,
+      "removed": 0,
+      "status": "complete",
+      "elapsedSeconds": 1.375
+    }
+  ],
+  "complete": true
+}
